@@ -1,0 +1,25 @@
+@import '../../../style/variables';
+
+.mfk-card-wrapper {
+  width: 100%;
+  max-width: 400px;
+  padding: 10px 20px;
+  border-radius: 34px;
+  &.mfk-type-text {
+    background-color: #E7E7E7;
+    color: $gray;
+  }
+  &.mfk-type-img {
+    background-color: #416CAC;
+    color: #ffffff;
+  }
+}
+
+.mfk-timeline--content {
+}
+
+@media screen and (max-width: $mobile) {
+  .mfk-card-wrapper {
+    max-width: 100%;
+  }
+}

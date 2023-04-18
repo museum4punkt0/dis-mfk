@@ -1,0 +1,18 @@
+$bold: 700;
+
+.mfk-text {
+  &--title {
+    font-size: 24px;
+    font-weight: $bold;
+  }
+  &--subtitle {
+    font-size: 16px;
+  }
+  &--body {
+    font-size: 12px;
+  }
+  &--caption {
+    font-size: 12px;
+    font-weight: $bold;
+  }
+}

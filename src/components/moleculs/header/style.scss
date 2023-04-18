@@ -1,0 +1,15 @@
+$borderRadius: 30px;
+
+.mfk-header {
+  background-color: #0B4395;
+  color: #ffffff;
+  border-bottom-left-radius: $borderRadius;
+  border-bottom-right-radius: $borderRadius;
+  &--content {
+    padding: 0 20px 10px;
+    text-align: center;
+    p {
+      padding-bottom: 10px;
+    }
+  }
+}
