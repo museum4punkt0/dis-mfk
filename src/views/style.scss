@@ -2,6 +2,15 @@
 
 $marker-small: 16px;
 
+%timeline {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 50%;
+  margin-left: -1px;
+  width: 2px;
+}
+
 .mfk-wrapper {
   height: 100%;
   padding: 20px;
@@ -10,55 +19,19 @@ $marker-small: 16px;
 .mfk-timeline--container {
   position: relative;
   margin: 0 auto;
-  padding: 20px 0;
   overflow: hidden;
   &:before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 50%;
-    margin-left: -1px;
-    width: 2px;
+    @extend %timeline;
     height: 100%;
     background: $gray;
     z-index: 1
-  }
-  &:after {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    margin-left: -1px;
-    width: 0;
-    height: 30px;
-    border-left: 2px dashed $gray;
-    background: #ffffff;
-    z-index: 2;
   }
 }
 
 .mfk-timeline--block {
   position: relative;
   width: calc(50% + #{$marker-small / 2});
-  display: flex;
   clear: both;
-  &:first-child {
-    .mfk-timeline--marker {
-      position: relative;
-      &:before {
-        content: '';
-        position: absolute;
-        top: -33px;
-        left: 50%;
-        margin-left: -1px;
-        width: 0;
-        height: 35px;
-        border-left: 2px dashed $gray;
-        background: #ffffff;
-        z-index: 2;
-      }
-    }
-  }
   &:not(:last-child) {
     margin-bottom: 30px;
   }
@@ -71,13 +44,22 @@ $marker-small: 16px;
   }
 }
 
+.mfk-timeline--item {
+  width: 100%;
+  display: flex;
+  &:hover {
+    .mfk-timeline--marker {
+      transform: scale(1.3);
+    }
+  }
+}
+
 .mfk-timeline--marker {
   width: $marker-small;
   height: $marker-small;
   border-radius: 50%;
   border: 2px solid #F5F7FA;
   background: $gray;
-  margin-top: 10px;
   z-index: 9999;
 }
 
@@ -88,8 +70,7 @@ $marker-small: 16px;
   .mfk-timeline {
     &--container {
       overflow: visible;
-      &:before,
-      &:after {
+      &:before {
         left: $marker-small / 2;
         width: 2px;
      }

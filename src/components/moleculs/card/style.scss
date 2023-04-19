@@ -5,6 +5,7 @@
   max-width: 400px;
   padding: 10px 20px;
   border-radius: 34px;
+  cursor: pointer;
   &.mfk-type-text {
     background-color: #E7E7E7;
     color: $gray;
@@ -15,7 +16,22 @@
   }
 }
 
-.mfk-timeline--content {
+.mfk-card-title {
+  display: flex;
+  align-items: center;
+}
+
+.mfk-card--description {
+  transform: scale(0);
+  font-size: 0;
+  opacity: 0;
+  transition: all .2s ease-in-out;
+  &.mfk-show--description {
+    font-size: 12px;
+    transform: scale(1);
+    opacity: 1;
+    transition: all .2s ease-in-out;
+  }
 }
 
 @media screen and (max-width: $mobile) {
