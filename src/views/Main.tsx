@@ -16,13 +16,15 @@ export default function Main() {
                 idx % 2 === 0 ? "right" : "left"
               }`}
             >
-              <div className="mfk-timeline--marker"></div>
-              <Card
-                type={item.type}
-                date={item.date}
-                title={item.title}
-                description={item.description}
-              />
+              <div className="mfk-timeline--item">
+                <div className="mfk-timeline--marker"></div>
+                <Card
+                  type={item.type}
+                  date={item.date}
+                  title={item.title}
+                  description={item.description}
+                />
+              </div>
             </div>
           ))}
         </div>

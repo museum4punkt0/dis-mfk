@@ -36,4 +36,41 @@ export const mockData = [
     nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
     reprehenderit in voluptate.`,
   },
+  {
+    type: 1,
+    date: "1960",
+    title: "First title",
+    description: `Lorem ipsum `,
+  },
+  {
+    type: 1,
+    date: "1970",
+    title: "First title",
+    description: `Lorem ipsum `,
+  },
+  {
+    type: 2,
+    date: "1980",
+    title: "First title",
+    description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+    enim ad minim veniam, quis nostrud exercitation ullamco laboris
+    nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+    reprehenderit in voluptate.`,
+  },
+  {
+    type: 1,
+    date: "1990",
+    title: "First title",
+    description: `Lorem ipsum `,
+  },
+  {
+    type: 1,
+    date: "2000",
+    title: "First title",
+    description: `Lorem ipsum Lorem igna aliqua. Ut
+    enim ad minim veniam, quis nostrud exercitation ullamco laboris
+    nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+    reprehenderit in voluptate. `,
+  },
 ];
