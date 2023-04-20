@@ -2,10 +2,11 @@ import { useState } from "react";
 import { Text, Avatar } from "components/atoms";
 import { CardType } from "./type";
 
+import emptyImage from "assets/empty.jpeg";
 import "./style.scss";
 
 export const Card = (props: CardType) => {
-  const { date, title, description, type = 1 } = props;
+  const { title, description, type = 1 } = props;
   const cardWrapperClass = type === 1 ? "mfk-type-text" : "mfk-type-img";
 
   const [hideDescription, setHideDescription] = useState<boolean>(true);
@@ -26,9 +27,6 @@ export const Card = (props: CardType) => {
       }
     >
       <div className="mfk-timeline--content">
-        <Text type="caption" additionalClass="mfk-timeline--date">
-          {date}
-        </Text>
         <div className="mfk-card-title">
           {type === 1 && <Avatar />}
           <Text type="subtitle">{title}</Text>
@@ -36,21 +34,22 @@ export const Card = (props: CardType) => {
         {type === 1 ? (
           <Text
             additionalClass={`mfk-card--description ${
-              !hideDescription ? "mfk-show--description" : ""
+              hideDescription ? "mfk-hide--description" : ""
             }`}
           >
             {description}
           </Text>
         ) : (
           //TODO: move to scss
-          <div
-            style={{
-              height: "200px",
-              background: `url('https://bit.ly/3hLadSX') no-repeat  center/cover`,
-              borderRadius: 34,
-              margin: "0 -20px -10px",
-            }}
-          ></div>
+          <>
+            <Text additionalClass={`mfk-card--description`}>{description}</Text>
+            <div
+              style={{
+                background: `url(${emptyImage}) no-repeat  center/cover`,
+              }}
+              className="mfk-card--description-img"
+            ></div>
+          </>
         )}
       </div>
     </div>

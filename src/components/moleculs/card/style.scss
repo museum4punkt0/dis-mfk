@@ -1,18 +1,27 @@
-@import '../../../style/variables';
+@use '../../../style/variables' as var;
 
 .mfk-card-wrapper {
   width: 100%;
   max-width: 400px;
-  padding: 10px 20px;
   border-radius: 34px;
   cursor: pointer;
   &.mfk-type-text {
-    background-color: #E7E7E7;
-    color: $gray;
+    background-color: var.$grayLight;
+    color: var.$gray;
+    .mfk-card-title {
+      p {
+        margin: 0 var.$spacing * 2.5;
+        max-width: calc(100% - 88px);// 88px = 68px Avatar + 20px margin
+      }
+    }
   }
   &.mfk-type-img {
-    background-color: #416CAC;
+    background-color: var.$blueLight;
     color: #ffffff;
+    padding-top: var.$spacing * 2.5;
+    .mfk-card-title {
+      padding: 0 var.$spacing * 5;
+    }
   }
 }
 
@@ -22,19 +31,25 @@
 }
 
 .mfk-card--description {
-  transform: scale(0);
-  font-size: 0;
-  opacity: 0;
+  font-size: var.$fontBody;
+  transform: scale(1);
+  opacity: 1;
   transition: all .2s ease-in-out;
-  &.mfk-show--description {
-    font-size: 12px;
-    transform: scale(1);
-    opacity: 1;
+  margin: var.$spacing * 2.5 var.$spacing * 5 var.$spacing * 5;
+  &.mfk-hide--description {
+    transform: scale(0);
+    font-size: 0;
+    opacity: 0;
     transition: all .2s ease-in-out;
+    margin: 0;
+  }
+  &-img {
+    height: 200px;
+    border-radius: 34px;
   }
 }
 
-@media screen and (max-width: $mobile) {
+@media screen and (max-width: var.$mobile) {
   .mfk-card-wrapper {
     max-width: 100%;
   }

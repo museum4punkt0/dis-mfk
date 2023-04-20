@@ -1,12 +1,19 @@
 import "./style.scss";
 
-export const Avatar = () => {
+type Props = {
+  /**
+   * Avatar image
+   */
+  url?: string;
+};
+
+export const Avatar = (props: Props) => {
+  const { url = "https://bit.ly/3hLadSX" } = props;
   return (
     <div
       className="mfk-avatar"
       style={{
-        background:
-          'url("https://bit.ly/3hLadSX") no-repeat right center/cover',
+        background: `url(${url}) no-repeat right center/cover`,
       }}
     ></div>
   );

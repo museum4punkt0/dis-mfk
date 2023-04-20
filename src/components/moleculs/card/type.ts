@@ -4,10 +4,6 @@ export type CardType = {
    */
   type: number;
   /**
-   * Date value
-   */
-  date: string;
-  /**
    * Title value
    */
   title: string;

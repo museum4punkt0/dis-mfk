@@ -1,3 +1,4 @@
+import { Text } from "components/atoms";
 import { Header, Card } from "components/moleculs";
 import { mockData } from "api/mockData";
 
@@ -16,15 +17,21 @@ export default function Main() {
                 idx % 2 === 0 ? "right" : "left"
               }`}
             >
-              <div className="mfk-timeline--item">
-                <div className="mfk-timeline--marker"></div>
-                <Card
-                  type={item.type}
-                  date={item.date}
-                  title={item.title}
-                  description={item.description}
-                />
-              </div>
+              <Text type="caption" additionalClass="mfk-timeline--date">
+                {item.date}
+              </Text>
+              <div
+                className={`mfk-timeline--marker ${
+                  item.type === 1
+                    ? "mfk-timeline--marker-light"
+                    : "mfk-timeline--marker-dark"
+                }`}
+              ></div>
+              <Card
+                type={item.type}
+                title={item.title}
+                description={item.description}
+              />
             </div>
           ))}
         </div>
