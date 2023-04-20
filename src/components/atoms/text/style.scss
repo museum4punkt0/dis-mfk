@@ -1,18 +1,18 @@
-$bold: 700;
+@use '../../../style/variables' as var;
 
 .mfk-text {
   &--title {
-    font-size: 24px;
-    font-weight: $bold;
+    font-size: var.$fontTitle;
+    font-weight: var.$fontBold;
   }
   &--subtitle {
-    font-size: 16px;
+    font-size: var.$fontSubtitle;
   }
   &--body {
-    font-size: 12px;
+    font-size: var.$fontBody;
   }
   &--caption {
-    font-size: 12px;
-    font-weight: $bold;
+    font-size: var.$fontBody;
+    font-weight: var.$fontBold;
   }
 }
