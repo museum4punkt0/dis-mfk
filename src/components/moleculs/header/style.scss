@@ -5,11 +5,29 @@
   color: #ffffff;
   border-bottom-left-radius: var.$borderRadius;
   border-bottom-right-radius: var.$borderRadius;
+  padding: var.$spacing * 2.5 var.$spacing * 5;
   &--content {
-    padding: 0 var.$spacing * 5 var.$spacing * 2.5;
     text-align: center;
     p {
       padding-bottom: var.$spacing * 2.5;
+    }
+  }
+  &--menu {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-bottom: var.$spacing * 2.5;
+    &-item {
+      &:not(:last-child) {
+        margin-right: 10px;
+      }
+      cursor: pointer;
+      &.mfk-menu--active {
+        p {
+          font-weight: bold;
+          text-decoration: underline;
+        }
+      }
     }
   }
 }
