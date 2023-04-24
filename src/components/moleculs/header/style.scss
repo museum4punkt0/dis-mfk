@@ -31,3 +31,17 @@
     }
   }
 }
+
+//hide dropdown on desktop
+.mfk-select {
+  display: none;
+}
+
+@media screen and (max-width: var.$mobile) {
+  .mfk-header--menu-item {
+    display: none;
+  }
+  .mfk-select {
+    display: flex;
+  }
+}

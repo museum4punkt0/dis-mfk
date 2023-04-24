@@ -1,24 +1,20 @@
+import { useState } from "react";
 import { useTranslation } from "react-i18next";
 import i18n from "i18next";
-import { Text } from "components/atoms";
+import { Text, Dropdown } from "components/atoms";
 import { langType } from "types";
+import { langsData, dropdownLangOptions } from "./helpers";
 
 import "./style.scss";
-import { useState } from "react";
 
 export const Header = () => {
   const [currentLang, setCurrentLang] = useState(
     localStorage.getItem("lang") || "en"
   );
-  //TODO: { [key in langType]: string }
-  const langsData: any = {
-    en: "English",
-    de: "Deutsch",
-  };
 
   const { t } = useTranslation();
-  //TODO: Need to pu type langType
-  const changeLang = (lang: string): void => {
+
+  const changeLang = (lang: langType): void => {
     i18n.changeLanguage(lang);
     localStorage.setItem("lang", lang);
     setCurrentLang(lang);
@@ -33,11 +29,18 @@ export const Header = () => {
             className={`mfk-header--menu-item ${
               currentLang === item ? "mfk-menu--active" : ""
             }`}
-            onClick={() => changeLang(item)}
+            onClick={() => changeLang(item as langType)}
           >
-            <Text type="subtitle">{langsData[item]}</Text>
+            <Text type="subtitle">
+              {langsData[item as keyof typeof langsData]}
+            </Text>
           </div>
         ))}
+        <Dropdown
+          data={dropdownLangOptions}
+          value={currentLang}
+          handleChange={(e) => changeLang(e.target.value as langType)}
+        />
       </div>
       <div className="mfk-header--content">
         <Text type="title">{t("title")}</Text>
