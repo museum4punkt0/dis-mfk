@@ -1,0 +1,27 @@
+/* Custom Select wrapper */
+.mfk-select {
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  /* Arrow */
+  &:after {
+    content: '\25BC';
+    font-size: 10px;
+  }
+  select {
+    /* Reset Select */
+    appearance: none;
+    outline: 0;
+    border: 0;
+    box-shadow: none;
+    /* Personalize */
+    color: #fff;
+    background-color: transparent;
+    background-image: none;
+    cursor: pointer;
+    /* Remove IE arrow */
+    &:-ms-expand {
+      display: none;
+    }
+  }
+}
