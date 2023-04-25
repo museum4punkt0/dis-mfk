@@ -1,12 +1,20 @@
+import { useState } from "react";
 import { Text } from "components/atoms";
-import { Header, Card } from "components/moleculs";
+import { Header, Card, Modal } from "components/moleculs";
 import { mockData } from "api/mockData";
 
 import "./style.scss";
 
 export default function Main() {
+  const [showModal, setShowModal] = useState<boolean>(false);
+  const [modalContent, setModalContent] = useState<string | null>(null);
+
+  const showHideModal = (show: boolean, content?: string): void => {
+    setShowModal(show);
+    if (content) setModalContent(content);
+  };
   return (
-    <div>
+    <>
       <Header />
       <div className="mfk-wrapper">
         <div className="mfk-timeline--container">
@@ -31,11 +39,17 @@ export default function Main() {
                 type={item.type}
                 title={item.title}
                 description={item.description}
+                onClick={() => {
+                  showHideModal(true, item.title);
+                }}
               />
             </div>
           ))}
         </div>
       </div>
-    </div>
+      {showModal && (
+        <Modal content={modalContent} onClose={() => showHideModal(false)} />
+      )}
+    </>
   );
 }

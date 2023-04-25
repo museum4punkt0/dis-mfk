@@ -6,7 +6,7 @@ import emptyImage from "assets/empty.jpeg";
 import "./style.scss";
 
 export const Card = (props: CardType) => {
-  const { title, description, type = 1 } = props;
+  const { title, description, type = 1, onClick } = props;
   const cardWrapperClass = type === 1 ? "mfk-type-text" : "mfk-type-img";
 
   const [hideDescription, setHideDescription] = useState<boolean>(true);
@@ -18,13 +18,7 @@ export const Card = (props: CardType) => {
   return (
     <div
       className={`mfk-card-wrapper ${cardWrapperClass}`}
-      onClick={
-        type === 1
-          ? showHideDescription
-          : () => {
-              alert(title);
-            }
-      }
+      onClick={type === 1 ? showHideDescription : onClick}
     >
       <div className="mfk-timeline--content">
         <div className="mfk-card-title">
@@ -40,7 +34,6 @@ export const Card = (props: CardType) => {
             {description}
           </Text>
         ) : (
-          //TODO: move to scss
           <>
             <Text additionalClass={`mfk-card--description`}>{description}</Text>
             <div

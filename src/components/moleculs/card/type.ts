@@ -1,3 +1,5 @@
+import { MouseEventHandler } from "react";
+
 export type CardType = {
   /**
    * Type should be 1 or 2
@@ -11,4 +13,8 @@ export type CardType = {
    * Description value
    */
   description: string;
+  /**
+   * Click action
+   */
+  onClick: MouseEventHandler;
 };
