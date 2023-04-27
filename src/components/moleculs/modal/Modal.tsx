@@ -1,11 +1,12 @@
 import { MouseEventHandler } from "react";
+import { Image3D } from "components/atoms";
 import "./style.scss";
 
 type Props = {
   /**
    * Modal content
    */
-  content: string | null;
+  content: string;
   /**
    * Modal close action
    */
@@ -20,7 +21,8 @@ export const Modal = (props: Props) => {
         <span className="mfk-modal-close" onClick={onClose}>
           Close
         </span>
-        {content}
+        {/* <div>{content}</div> */}
+        <Image3D src={content} />
       </div>
     </div>
   );

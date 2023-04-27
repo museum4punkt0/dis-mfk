@@ -7,12 +7,21 @@ import "./style.scss";
 
 export default function Main() {
   const [showModal, setShowModal] = useState<boolean>(false);
-  const [modalContent, setModalContent] = useState<string | null>(null);
+  const [modalContent, setModalContent] = useState<string>("");
 
   const showHideModal = (show: boolean, content?: string): void => {
     setShowModal(show);
     if (content) setModalContent(content);
   };
+
+  //TODO: Move to helper. Need just for testing
+  // if (window.history.pushState) {
+  //   const newURL = new URL(window.location.href);
+  //   newURL.search = "?myNewUrlQuery=1";
+  //   window.history.pushState({ path: newURL.href }, "", newURL.href);
+  // }
+
+  // console.log(window.location);
   return (
     <>
       <Header />
@@ -40,7 +49,7 @@ export default function Main() {
                 title={item.title}
                 description={item.description}
                 onClick={() => {
-                  showHideModal(true, item.title);
+                  showHideModal(true, item.sketchfab);
                 }}
               />
             </div>

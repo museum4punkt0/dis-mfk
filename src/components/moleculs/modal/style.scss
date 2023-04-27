@@ -27,6 +27,7 @@
     background: #ffffff;
     border-radius: var.$borderRadius;
     box-shadow: 0 0 10px 10px rgba(0,0,0,.1);
+    overflow: hidden;
     //TODO: Remove after implement 3D Canvas 
     display: flex;
     align-items: center;
