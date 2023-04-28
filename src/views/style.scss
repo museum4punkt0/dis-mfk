@@ -81,8 +81,13 @@ $marker-small: 16px;
 
 .mfk-timeline--date {
   position: absolute;
-  top: 0;
   color: var.$gray;
+  &-light {
+    top: 0;
+  }
+  &-dark {
+    top: 10px;
+  }
 }
 
 .mfk-timeline--marker {

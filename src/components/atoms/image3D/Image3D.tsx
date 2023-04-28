@@ -1,3 +1,5 @@
+import "./style.scss";
+
 type Props = {
   /**
    * Modal content
@@ -8,13 +10,9 @@ type Props = {
 export const Image3D = (props: Props) => {
   const { src } = props;
   return (
-    <div
-      //TODO: Move to scss
-      style={{ width: "100%", height: "100%" }}
-    >
+    <div className="mfk-image3D-wrapper">
       <iframe
-        //TODO: add dynamic title from mockData
-        title="Walkman WM-F35 SONY"
+        title="3D visualisation of an item"
         frameBorder="0"
         allow="autoplay; fullscreen; xr-spatial-tracking"
         allowFullScreen
