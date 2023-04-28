@@ -1,11 +1,4 @@
-type mockDataType = {
-  id: string;
-  type: number;
-  date: string;
-  title: string;
-  description: string;
-  sketchfab?: string;
-}[];
+import { mockDataType } from "types";
 
 export const mockData: mockDataType = [
   {

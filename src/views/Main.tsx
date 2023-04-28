@@ -1,61 +1,87 @@
-import { useState } from "react";
-import { Text } from "components/atoms";
+import { useState, useRef, useEffect } from "react";
+import { Text, Loader } from "components/atoms";
 import { Header, Card, Modal } from "components/moleculs";
 import { mockData } from "api/mockData";
+import { mockDataType } from "types";
 
 import "./style.scss";
 
 export default function Main() {
+  const refContainer = useRef<HTMLDivElement | null>(null);
+
+  const [exhiditsData, setExhiditsData] = useState<mockDataType | null>(null);
   const [showModal, setShowModal] = useState<boolean>(false);
   const [modalContent, setModalContent] = useState<string>("");
+
+  useEffect(() => {
+    if (exhiditsData === null) {
+      //TODO: Need to emulate receive data from request
+      setTimeout(() => {
+        setExhiditsData(mockData);
+      }, 1000);
+    } else if (refContainer.current) {
+      refContainer.current.scrollIntoView({
+        behavior: "smooth",
+      });
+    }
+  }, [exhiditsData]);
 
   const showHideModal = (show: boolean, content?: string): void => {
     setShowModal(show);
     if (content) setModalContent(content);
   };
 
-  //TODO: Move to helper. Need just for testing
-  // if (window.history.pushState) {
-  //   const newURL = new URL(window.location.href);
-  //   newURL.search = "?myNewUrlQuery=1";
-  //   window.history.pushState({ path: newURL.href }, "", newURL.href);
-  // }
-
-  // console.log(window.location);
   return (
     <>
       <Header />
-      <div className="mfk-wrapper">
-        <div className="mfk-timeline--container">
-          {mockData.map((item, idx) => (
-            <div
-              key={`${item.date}-idx`}
-              className={`mfk-timeline--block mfk-timeline--block-${
-                idx % 2 === 0 ? "right" : "left"
-              }`}
-            >
-              <Text type="caption" additionalClass="mfk-timeline--date">
-                {item.date}
-              </Text>
+      {exhiditsData ? (
+        <div className="mfk-wrapper">
+          <div className="mfk-timeline--container">
+            {exhiditsData.map((item, idx) => (
               <div
-                className={`mfk-timeline--marker ${
-                  item.type === 1
-                    ? "mfk-timeline--marker-light"
-                    : "mfk-timeline--marker-dark"
+                key={`${item.date}-idx`}
+                ref={
+                  window.location.search === `?id=${item.id}`
+                    ? refContainer
+                    : null
+                }
+                className={`mfk-timeline--block mfk-timeline--block-${
+                  idx % 2 === 0 ? "right" : "left"
                 }`}
-              ></div>
-              <Card
-                type={item.type}
-                title={item.title}
-                description={item.description}
-                onClick={() => {
-                  showHideModal(true, item.sketchfab);
-                }}
-              />
-            </div>
-          ))}
+              >
+                <Text
+                  type="caption"
+                  additionalClass={`mfk-timeline--date ${
+                    item.type === 1
+                      ? "mfk-timeline--date-light"
+                      : "mfk-timeline--date-dark"
+                  }`}
+                >
+                  {item.date}
+                </Text>
+                <div
+                  className={`mfk-timeline--marker ${
+                    item.type === 1
+                      ? "mfk-timeline--marker-light"
+                      : "mfk-timeline--marker-dark"
+                  }`}
+                ></div>
+                <Card
+                  type={item.type}
+                  title={item.title}
+                  description={item.description}
+                  onClick={() => {
+                    showHideModal(true, item.sketchfab);
+                  }}
+                />
+              </div>
+            ))}
+          </div>
         </div>
-      </div>
+      ) : (
+        <Loader />
+      )}
+
       {showModal && (
         <Modal content={modalContent} onClose={() => showHideModal(false)} />
       )}

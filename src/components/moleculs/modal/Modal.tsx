@@ -19,9 +19,8 @@ export const Modal = (props: Props) => {
     <div className="mfk-modal">
       <div className="mfk-modal-content">
         <span className="mfk-modal-close" onClick={onClose}>
-          Close
+          &#x2716;
         </span>
-        {/* <div>{content}</div> */}
         <Image3D src={content} />
       </div>
     </div>
