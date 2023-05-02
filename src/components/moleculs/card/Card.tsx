@@ -2,11 +2,10 @@ import { useState } from "react";
 import { Text, Avatar } from "components/atoms";
 import { CardType } from "./type";
 
-import emptyImage from "assets/empty.jpeg";
 import "./style.scss";
 
 export const Card = (props: CardType) => {
-  const { title, description, type = 1, onClick } = props;
+  const { id, title, description, type = 1, onClick } = props;
   const cardWrapperClass = type === 1 ? "mfk-type-text" : "mfk-type-img";
 
   const [hideDescription, setHideDescription] = useState<boolean>(true);
@@ -38,7 +37,9 @@ export const Card = (props: CardType) => {
             <Text additionalClass={`mfk-card--description`}>{description}</Text>
             <div
               style={{
-                background: `url(${emptyImage}) no-repeat  center/cover`,
+                background: `url(${require("assets/" +
+                  id +
+                  ".png")}) no-repeat  center/cover`,
               }}
               className="mfk-card--description-img"
             ></div>
