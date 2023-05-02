@@ -2,20 +2,22 @@ import { useState, useRef, useEffect } from "react";
 import { Text, Loader } from "components/atoms";
 import { Header, Card, Modal } from "components/moleculs";
 import { mockData } from "api/mockData";
-import { mockDataType } from "types";
+import { mockDataType, langType } from "types";
+import i18n from "i18next";
 
 import "./style.scss";
 
 export default function Main() {
   const refContainer = useRef<HTMLDivElement | null>(null);
 
+  const [currentLang, setCurrentLang] = useState(i18n.language as langType);
   const [exhiditsData, setExhiditsData] = useState<mockDataType | null>(null);
   const [showModal, setShowModal] = useState<boolean>(false);
   const [modalContent, setModalContent] = useState<string>("");
 
   useEffect(() => {
     if (exhiditsData === null) {
-      //TODO: Need to emulate receive data from request
+      //FIXME: Need to emulate receive data from request
       setTimeout(() => {
         setExhiditsData(mockData);
       }, 1000);
@@ -33,7 +35,7 @@ export default function Main() {
 
   return (
     <>
-      <Header />
+      <Header onChangeLang={setCurrentLang} lang={currentLang as langType} />
       {exhiditsData ? (
         <div className="mfk-wrapper">
           <div className="mfk-timeline--container">
@@ -68,8 +70,8 @@ export default function Main() {
                 ></div>
                 <Card
                   type={item.type}
-                  title={item.title}
-                  description={item.description}
+                  title={item.title[currentLang as langType]}
+                  description={item.description[currentLang as langType]}
                   onClick={() => {
                     showHideModal(true, item.sketchfab);
                   }}
