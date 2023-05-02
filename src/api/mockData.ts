@@ -28,7 +28,7 @@ export const mockData: mockDataType = [
       de: `Sotzmann-Globus und die Vervollständigung des europäischen Weltbilds durch Schifffahrten`,
     },
     sketchfab:
-      "https://sketchfab.com/3d-models/sotzmann-globus-4fe4787427554879a197a7e8ad904262/embed?autostart=1",
+      "https://sketchfab.com/3d-models/sotzmann-globus-2715570423754e1eac8926051a51d768/embed?autostart=1",
   },
   {
     id: "3",
@@ -84,7 +84,7 @@ export const mockData: mockDataType = [
       de: `Telegrafenstation mit Stiftschreiber und Morsetaste`,
     },
     sketchfab:
-      "https://sketchfab.com/3d-models/telegraphenstation-d64174f117274edbaf025616df1756d5/embed?autostart=1",
+      "https://sketchfab.com/3d-models/telegraphenstation-c1aef782d03b4d39a3984feefd4fae04/embed?autostart=1",
   },
   {
     id: "7",
@@ -99,7 +99,7 @@ export const mockData: mockDataType = [
       de: `Telefon von Philipp Reis`,
     },
     sketchfab:
-      "https://sketchfab.com/3d-models/philip-reis-telefon-e1e668b28182437cace998ff1e7b0161/embed?autostart=1",
+      "https://sketchfab.com/3d-models/philip-reis-telefon-f9f2ddc7f14b439ebf6122e0288ea98f/embed?autostart=1",
   },
   {
     id: "8",
@@ -168,7 +168,7 @@ export const mockData: mockDataType = [
       de: `Klappenschrank für 100 Telefonanschlüsse`,
     },
     sketchfab:
-      "https://sketchfab.com/3d-models/klappenschrank-345ae718a8744dd19566d39d34376231/embed?autostart=1",
+      "https://sketchfab.com/3d-models/klappenschrank-anim-v01-bcc1aab0afa04a20a894a8980eecf799/embed?autostart=1",
   },
   {
     id: "13",
@@ -196,7 +196,7 @@ export const mockData: mockDataType = [
       de: `Zinnfolienphonograph nach Thomas Alva Edison`,
     },
     sketchfab:
-      "https://sketchfab.com/3d-models/zinnfolien-phonograph-bebef83274054cf185bd1870c8c42f0a/embed?autostart=1",
+      "https://sketchfab.com/3d-models/zinnfolienphonograph-50b95f2960be4248a01aa84430d93b65/embed?autostart=1",
   },
   {
     id: "15",
@@ -226,7 +226,7 @@ export const mockData: mockDataType = [
       de: `Fernsehempfänger mit Nipkow-Scheibe „Telehor“`,
     },
     sketchfab:
-      "https://sketchfab.com/3d-models/nipkow-fernseher-2ea2b0352e02482b8802773b6e6d7c79/embed?autostart=1",
+      "https://sketchfab.com/3d-models/nipkow-fernseher-anim-8d16f026a3b049e4805a3c2283fc24e4/embed?autostart=1",
   },
   {
     id: "17",
@@ -267,7 +267,7 @@ export const mockData: mockDataType = [
       de: `Rotor-Chiffriermaschine Enigma M4`,
     },
     sketchfab:
-      "https://sketchfab.com/3d-models/enigma-3af8b14567ae4d77942c439ef592af17/embed?autostart=1",
+      "https://sketchfab.com/3d-models/enigma-anim-fbx-4cb134e8ee2f4f1f8dd1f1dd18666df4/embed?autostart=1",
   },
   {
     id: "20",
