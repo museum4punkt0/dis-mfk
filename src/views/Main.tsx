@@ -69,6 +69,7 @@ export default function Main() {
                   }`}
                 ></div>
                 <Card
+                  id={item.id}
                   type={item.type}
                   title={item.title[currentLang as langType]}
                   description={item.description[currentLang as langType]}

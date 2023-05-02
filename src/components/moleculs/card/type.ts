@@ -2,6 +2,10 @@ import { MouseEventHandler } from "react";
 
 export type CardType = {
   /**
+   * unique id
+   */
+  id: string;
+  /**
    * Type should be 1 or 2
    */
   type: number;
