@@ -2,6 +2,8 @@
 @use 'sass:math';
 
 $marker-small: 16px;
+$date-size: 70px;
+$date-spacing: -$date-size - 10px;
 
 %timeline {
   content: '';
@@ -56,7 +58,9 @@ $marker-small: 16px;
   &-right {
     float: right;
     .mfk-timeline--date {
-      left: -40px;
+      left: $date-spacing;
+      width: $date-size;
+      text-align: right;
     }
     .mfk-card-wrapper {
       margin-left: -8px;
@@ -66,7 +70,9 @@ $marker-small: 16px;
     float: left;
     direction: rtl;
     .mfk-timeline--date {
-      right: -40px;
+      right: $date-spacing;
+      width: $date-size;
+      text-align: left;
     }
     .mfk-card-wrapper {
       margin-right: -8px;
@@ -108,7 +114,7 @@ $marker-small: 16px;
 
 @media screen and (max-width: var.$mobile) {
   .mfk-wrapper {
-    padding-left: var.$spacing * 15;
+    padding-left: var.$spacing * 20;
   }
   .mfk-timeline {
     &--container {
@@ -126,7 +132,8 @@ $marker-small: 16px;
         float: none;
         direction: ltr;
         .mfk-timeline--date {
-          left: -40px;
+          left: $date-spacing;
+          text-align: right;
         }
         .mfk-card-wrapper {
           margin-left: -8px;
