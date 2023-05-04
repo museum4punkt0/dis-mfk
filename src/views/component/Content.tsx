@@ -1,7 +1,11 @@
 import { useRef, useEffect } from "react";
+
 import { Text } from "components/atoms";
 import { Card } from "components/moleculs";
+
 import { mockDataType, langType } from "types";
+
+import { setDate } from "./helper";
 
 type Props = {
   /**
@@ -36,7 +40,7 @@ export const Content = (props: Props) => {
       <div className="mfk-timeline--container">
         {data.map((item, idx) => (
           <div
-            key={`${item.date}-idx`}
+            key={`${item.id}-idx`}
             ref={
               window.location.search === `?id=${item.id}` ? refContainer : null
             }
@@ -52,7 +56,7 @@ export const Content = (props: Props) => {
                   : "mfk-timeline--date-dark"
               }`}
             >
-              {item.date}
+              {setDate(item.startDate, item.endDate)}
             </Text>
             <div
               className={`mfk-timeline--marker ${

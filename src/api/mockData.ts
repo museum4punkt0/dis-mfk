@@ -4,7 +4,7 @@ export const mockData: mockDataType = [
   {
     id: "1",
     type: 1,
-    date: "1800",
+    startDate: "1800",
     title: {
       en: "Voltaic Pile",
       de: "Voltasche Säule",
@@ -17,7 +17,7 @@ export const mockData: mockDataType = [
   {
     id: "2",
     type: 2,
-    date: "1808",
+    startDate: "1808",
     title: {
       en: "Sotzmann Globe",
       de: "Sotzmann-Globus",
@@ -33,7 +33,7 @@ export const mockData: mockDataType = [
   {
     id: "3",
     type: 1,
-    date: "1831",
+    startDate: "1831",
     title: {
       en: "Electromagnetic Induction",
       de: "Elektromagnetische Induktion",
@@ -46,7 +46,7 @@ export const mockData: mockDataType = [
   {
     id: "4",
     type: 1,
-    date: "1836",
+    startDate: "1836",
     title: {
       en: "Copper-Zinc Battery",
       de: "Kupfer-Zink-Batterie",
@@ -61,7 +61,7 @@ export const mockData: mockDataType = [
   {
     id: "5",
     type: 1,
-    date: "1846",
+    startDate: "1846",
     title: {
       en: "Werner von Siemens develops the first insulated cable, allowing submarine and underground cables to be laid.",
       de: "Werner von Siemens isoliert erstmals Kabel und ermöglicht deren Verlegung in der Erde und unter Wasser.",
@@ -74,7 +74,8 @@ export const mockData: mockDataType = [
   {
     id: "6",
     type: 2,
-    date: "1850-1852",
+    startDate: "1850",
+    endDate: "1852",
     title: {
       en: "Telegraph station with Morse key and ink writer",
       de: "Telegrafenstation mit Stiftschreiber und Morsetaste",
@@ -89,7 +90,7 @@ export const mockData: mockDataType = [
   {
     id: "7",
     type: 2,
-    date: "1863",
+    startDate: "1863",
     title: {
       en: "Philipp Reis’s telephone",
       de: "Telefon von Philipp Reis",
@@ -104,7 +105,7 @@ export const mockData: mockDataType = [
   {
     id: "8",
     type: 2,
-    date: "1877",
+    startDate: "1877",
     title: {
       en: "Alexander Graham Bell’s telephone",
       de: "Telefon von Alexander Graham Bell",
@@ -119,7 +120,7 @@ export const mockData: mockDataType = [
   {
     id: "9",
     type: 1,
-    date: "1879",
+    startDate: "1879",
     title: {
       en: "Thomas Alva Edison builds his first electric light bulb.",
       de: "Thomas Alva Edison führt die Glühlampe ein.",
@@ -132,7 +133,7 @@ export const mockData: mockDataType = [
   {
     id: "10",
     type: 1,
-    date: "1882",
+    startDate: "1882",
     title: {
       en: "Thomas Alva Edison opens his first electric power station.",
       de: "Erstes elektrisches Kraftwerk von Thomas Alva Edison",
@@ -145,7 +146,7 @@ export const mockData: mockDataType = [
   {
     id: "11",
     type: 1,
-    date: "1884",
+    startDate: "1884",
     title: {
       en: "Invention of the ‘electric telescope’ system with a Nipkow disc.",
       de: "Erfindung des elektrischen Teleskops mit Nipkow-Scheibe",
@@ -158,7 +159,7 @@ export const mockData: mockDataType = [
   {
     id: "12",
     type: 2,
-    date: "1886",
+    startDate: "1886",
     title: {
       en: "Switchboard for 100 telephone lines",
       de: "Klappenschrank für 100 Telefonanschlüsse",
@@ -173,7 +174,7 @@ export const mockData: mockDataType = [
   {
     id: "13",
     type: 1,
-    date: "1887",
+    startDate: "1887",
     title: {
       en: "Emil Berliner invents the gramophone record.",
       de: "Emil Berliner erfindet die Schallplatte.",
@@ -186,7 +187,7 @@ export const mockData: mockDataType = [
   {
     id: "14",
     type: 2,
-    date: "1890",
+    startDate: "1890",
     title: {
       en: "Tinfoil phonograph after Thomas Alva Edison",
       de: "Zinnfolienphonograph nach Thomas Alva Edison",
@@ -201,7 +202,7 @@ export const mockData: mockDataType = [
   {
     id: "15",
     type: 2,
-    date: "1904",
+    startDate: "1904",
     title: {
       en: "The Cable Steamship Stephan",
       de: "Kabeldampfer „Stephan“",
@@ -216,7 +217,7 @@ export const mockData: mockDataType = [
   {
     id: "16",
     type: 2,
-    date: "1928",
+    startDate: "1928",
     title: {
       en: "Telehor television receiver with a Nipkow disc",
       de: "Fernsehempfänger mit Nipkow-Scheibe „Telehor“",
@@ -231,7 +232,7 @@ export const mockData: mockDataType = [
   {
     id: "17",
     type: 1,
-    date: "1940",
+    startDate: "1940",
     title: {
       en: "Peter Goldmark develops a prototype colour television.",
       de: "Peter Goldmark entwickelt einen Prototyp eines Farbfernsehers.",
@@ -244,7 +245,7 @@ export const mockData: mockDataType = [
   {
     id: "18",
     type: 1,
-    date: "1941",
+    startDate: "1941",
     title: {
       en: "Konrad Zuse builds the first computer.",
       de: "Konrad Zuse baut den ersten Computer.",
@@ -257,7 +258,7 @@ export const mockData: mockDataType = [
   {
     id: "19",
     type: 2,
-    date: "1944",
+    startDate: "1944",
     title: {
       en: "Enigma M4 rotor cipher machine",
       de: "Rotor-Chiffriermaschine Enigma M4",
@@ -272,7 +273,7 @@ export const mockData: mockDataType = [
   {
     id: "20",
     type: 1,
-    date: "1962",
+    startDate: "1962",
     title: {
       en: "Communications satellites",
       de: "Kommunikationssatteliten",
@@ -287,7 +288,7 @@ export const mockData: mockDataType = [
   {
     id: "21",
     type: 1,
-    date: "1963",
+    startDate: "1963",
     title: {
       en: "Digital Camera",
       de: "Digitalkamera",
@@ -300,7 +301,7 @@ export const mockData: mockDataType = [
   {
     id: "22",
     type: 1,
-    date: "1970",
+    startDate: "1970",
     title: {
       en: "The first commercial pocket calculator appears on the market.",
       de: "Der erste Taschenrechner kommt auf den Markt.",
@@ -313,7 +314,7 @@ export const mockData: mockDataType = [
   {
     id: "23",
     type: 1,
-    date: "1971",
+    startDate: "1971",
     title: {
       en: "Ray Tomlinson sends the first email.",
       de: "Ray Tomlinson versendet die erste E-Mail.",
@@ -326,7 +327,7 @@ export const mockData: mockDataType = [
   {
     id: "24",
     type: 1,
-    date: "1973",
+    startDate: "1973",
     title: {
       en: "The Handheld Cellular",
       de: "Das Handy",
