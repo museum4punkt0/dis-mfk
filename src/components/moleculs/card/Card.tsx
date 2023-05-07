@@ -37,9 +37,7 @@ export const Card = (props: CardType) => {
             <Text additionalClass={`mfk-card--description`}>{description}</Text>
             <div
               style={{
-                background: `url(${require("assets/" +
-                  id +
-                  ".png")}) no-repeat  center/cover`,
+                background: `url(assets/${id}.png) no-repeat  center/cover`,
               }}
               className="mfk-card--description-img"
             ></div>
