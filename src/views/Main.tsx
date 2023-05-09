@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { Loader } from "components/atoms";
 import { Header, Modal } from "components/moleculs";
 import { Content } from "./component";
-import { mockData } from "api/mockData";
+import { getData } from "api/mockData";
 import { mockDataType, langType } from "types";
 import i18n from "i18next";
 
@@ -16,10 +16,15 @@ export default function Main() {
 
   useEffect(() => {
     if (exhiditsData === null) {
-      //FIXME: Need to emulate receive data from request
-      setTimeout(() => {
-        setExhiditsData(mockData);
-      }, 1000);
+      const setData = async () => {
+        try {
+          const result = await getData();
+          setExhiditsData(result);
+        } catch (e: any) {
+          console.log(e.message);
+        }
+      };
+      setData();
     }
   }, [exhiditsData]);
 
@@ -29,21 +34,26 @@ export default function Main() {
   };
 
   return (
-    <>
-      <Header onChangeLang={setCurrentLang} lang={currentLang as langType} />
+    <div data-testid="main">
+      <Header
+        onChangeLang={setCurrentLang}
+        lang={currentLang as langType}
+        identifier="header"
+      />
       {exhiditsData ? (
         <Content
           data={exhiditsData}
           currentLang={currentLang}
           onClickAction={showHideModal}
+          identifier="content"
         />
       ) : (
-        <Loader />
+        <Loader identifier="loader" />
       )}
 
       {showModal && (
         <Modal content={modalContent} onClose={() => showHideModal(false)} />
       )}
-    </>
+    </div>
   );
 }

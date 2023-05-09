@@ -13,3 +13,10 @@ export type mockDataType = {
   };
   sketchfab?: string;
 }[];
+
+export type ComponentProps = {
+  /**
+   * Optional element identifier, use e.g. for data-testid attribute
+   */
+  identifier?: string;
+};

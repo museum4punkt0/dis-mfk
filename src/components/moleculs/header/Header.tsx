@@ -1,7 +1,7 @@
 import { useTranslation } from "react-i18next";
 import i18n from "i18next";
 import { Text, Dropdown } from "components/atoms";
-import { langType } from "types";
+import { langType, ComponentProps } from "types";
 import { langsData, dropdownLangOptions } from "./helpers";
 
 import "./style.scss";
@@ -15,10 +15,10 @@ type Props = {
    * Selected language
    */
   lang: langType;
-};
+} & ComponentProps;
 
 export const Header = (props: Props) => {
-  const { lang, onChangeLang } = props;
+  const { lang, onChangeLang, identifier } = props;
 
   const { t } = useTranslation();
 
@@ -29,7 +29,7 @@ export const Header = (props: Props) => {
   };
 
   return (
-    <div className="mfk-header">
+    <div className="mfk-header" data-testid={identifier}>
       <div className="mfk-header--menu">
         {Object.keys(langsData).map((item, idx) => (
           <div
