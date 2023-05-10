@@ -14,14 +14,16 @@ type Props = {
 };
 
 export const Modal = (props: Props) => {
-  const { content, onClose } = props;
+  const { content = "test_lights.gltf", onClose } = props;
   return (
     <div className="mfk-modal">
       <div className="mfk-modal-content">
         <span className="mfk-modal-close" onClick={onClose}>
           &#x2716;
         </span>
-        <Image3D src={content} />
+        {/* TODO: Leave as alternative solution with sketchfab */}
+        {/* <Image3D src={content} /> */}
+        <Image3D fileName={content} />
       </div>
     </div>
   );
