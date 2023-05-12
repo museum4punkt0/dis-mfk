@@ -45,7 +45,7 @@ export const Image3D = (props: Props) => {
 
   const modelData = {
     modelFile: {
-      url: `assets/test_lights.gltf`,
+      url: `assets/glb/klappenschrank_GLB_2k.glb`,
     },
   };
 
