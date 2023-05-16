@@ -43,16 +43,12 @@ type Props = {
 export const Image3D = (props: Props) => {
   const { fileName } = props;
 
-  const modelData = {
-    modelFile: {
-      url: `assets/glb/klappenschrank_GLB_2k.glb`,
-    },
-  };
+  const modelData = `assets/glb/klappenschrank_GLB_2k.glb`;
 
   return (
     <div
       className="mfk-image3D-wrapper"
-      ref={(ref) => createScene(ref!, modelData)}
+      ref={(ref) => createScene(ref!, modelData, "")}
     />
   );
 };
