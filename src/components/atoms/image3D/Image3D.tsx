@@ -41,10 +41,10 @@ type Props = {
 };
 
 export const Image3D = (props: Props) => {
-  const { fileName = "codemart3.glb.json`" } = props;
+  const { fileName } = props;
 
   const render3D = (ref: Element) =>
-    ref ? createScene(ref, fileName, "assets") : null;
+    ref ? createScene(ref, "codemart3.glb.json", "") : null;
 
   return (
     <div
