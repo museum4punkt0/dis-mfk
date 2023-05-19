@@ -44,7 +44,7 @@ export const Image3D = (props: Props) => {
   const { fileName } = props;
 
   const render3D = (ref: Element) =>
-    ref ? createScene(ref, "codemart3.glb.json", "") : null;
+    ref ? createScene(ref, `assets/glb/${fileName}`) : null;
 
   return (
     <div

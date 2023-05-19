@@ -71,7 +71,7 @@ export const Content = (props: Props) => {
               title={item.title[currentLang as langType]}
               description={item.description[currentLang as langType]}
               onClick={() => {
-                onClickAction(true, item.sketchfab);
+                onClickAction(true, item.glbJson);
               }}
             />
           </div>
