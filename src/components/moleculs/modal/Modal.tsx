@@ -21,7 +21,9 @@ export const Modal = (props: Props) => {
         <span className="mfk-modal-close" onClick={onClose}>
           &#x2716;
         </span>
-        <Image3D src={content} />
+        {/* TODO: Leave as alternative solution with sketchfab */}
+        {/* <Image3D src={content} /> */}
+        <Image3D fileName={content} />
       </div>
     </div>
   );
