@@ -14,7 +14,7 @@ type Props = {
 };
 
 export const Modal = (props: Props) => {
-  const { content = "test_lights.gltf", onClose } = props;
+  const { content, onClose } = props;
   return (
     <div className="mfk-modal">
       <div className="mfk-modal-content">
