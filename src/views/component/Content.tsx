@@ -71,7 +71,14 @@ export const Content = (props: Props) => {
               title={item.title[currentLang as langType]}
               description={item.description[currentLang as langType]}
               onClick={() => {
-                onClickAction(true, item.glbJson);
+                onClickAction(
+                  true,
+                  item.glbJson
+                    ? //each .glb file with information in related json should be located in separate folder.
+                      //folder name is the id of current object from mockData
+                      `${item.id}/${item.glbJson[currentLang as langType]}`
+                    : undefined
+                );
               }}
             />
           </div>

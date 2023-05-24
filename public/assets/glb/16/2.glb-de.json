@@ -2,7 +2,7 @@
   "title": "Story title",
   "content": [
     {
-      "title": "Title for camera Camera_animated_baked",
+      "title": "Deutsche Version id-16",
       "html": "<p> some fancy description html </p>",
       "camera": "Camera_animated_baked"
     },
@@ -32,5 +32,5 @@
       "camera": "Camera"
     }
   ],
-  "gltfUrl": "assets/glb/1.glb"
+  "gltfUrl": "assets/glb/16/2.glb"
 }

@@ -367,7 +367,10 @@ export const mockData: mockDataType = [
         world.`,
       de: `Sotzmann-Globus und die Vervollständigung des europäischen Weltbilds durch Schifffahrten`,
     },
-    glbJson: "1.glb.json",
+    glbJson: {
+      en: "2.glb-en.json",
+      de: "2.glb-de.json",
+    },
   },
   {
     id: "3",
@@ -423,7 +426,10 @@ export const mockData: mockDataType = [
       en: `Telegraph station with Morse key and ink writer`,
       de: `Telegrafenstation mit Stiftschreiber und Morsetaste`,
     },
-    glbJson: "1.glb.json",
+    glbJson: {
+      en: "2.glb-en.json",
+      de: "2.glb-de.json",
+    },
   },
   {
     id: "7",
@@ -437,7 +443,10 @@ export const mockData: mockDataType = [
       en: `Philipp Reis’s telephone`,
       de: `Telefon von Philipp Reis`,
     },
-    glbJson: "1.glb.json",
+    glbJson: {
+      en: "2.glb-en.json",
+      de: "2.glb-de.json",
+    },
   },
   {
     id: "8",
@@ -451,7 +460,10 @@ export const mockData: mockDataType = [
       en: `Alexander Graham Bell’s telephone`,
       de: `Telefon von Alexander Graham Bell`,
     },
-    glbJson: "1.glb.json",
+    glbJson: {
+      en: "2.glb-en.json",
+      de: "2.glb-de.json",
+    },
   },
   {
     id: "9",
@@ -504,7 +516,10 @@ export const mockData: mockDataType = [
       en: `Switchboard for 100 telephone lines`,
       de: `Klappenschrank für 100 Telefonanschlüsse`,
     },
-    glbJson: "1.glb.json",
+    glbJson: {
+      en: "2.glb-en.json",
+      de: "2.glb-de.json",
+    },
   },
   {
     id: "13",
@@ -531,7 +546,10 @@ export const mockData: mockDataType = [
       en: `Tinfoil phonograph after Thomas Alva Edison`,
       de: `Zinnfolienphonograph nach Thomas Alva Edison`,
     },
-    glbJson: "1.glb.json",
+    glbJson: {
+      en: "2.glb-en.json",
+      de: "2.glb-de.json",
+    },
   },
   {
     id: "15",
@@ -545,7 +563,10 @@ export const mockData: mockDataType = [
       en: `The Cable Steamship Stephan`,
       de: `Kabeldampfer „Stephan“`,
     },
-    glbJson: "1.glb.json",
+    glbJson: {
+      en: "2.glb-en.json",
+      de: "2.glb-de.json",
+    },
   },
   {
     id: "16",
@@ -559,7 +580,10 @@ export const mockData: mockDataType = [
       en: `Telehor television receiver with a Nipkow disc`,
       de: `Fernsehempfänger mit Nipkow-Scheibe „Telehor“`,
     },
-    glbJson: "1.glb.json",
+    glbJson: {
+      en: "2.glb-en.json",
+      de: "2.glb-de.json",
+    },
   },
   {
     id: "17",
@@ -599,7 +623,10 @@ export const mockData: mockDataType = [
       en: `Enigma M4 rotor cipher machine`,
       de: `Rotor-Chiffriermaschine Enigma M4`,
     },
-    glbJson: "1.glb.json",
+    glbJson: {
+      en: "2.glb-en.json",
+      de: "2.glb-de.json",
+    },
   },
   {
     id: "20",
