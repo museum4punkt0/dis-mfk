@@ -3,7 +3,7 @@ import { useRef, useEffect } from "react";
 import { Text } from "components/atoms";
 import { Card } from "components/moleculs";
 
-import { mockDataType, langType } from "types";
+import { mockDataType, langType, ComponentProps } from "types";
 
 import { setDate } from "./helper";
 
@@ -20,10 +20,10 @@ type Props = {
    * Action to show/hide modal window or toggle content
    */
   onClickAction: (show: boolean, link: string | undefined) => void;
-};
+} & ComponentProps;
 
 export const Content = (props: Props) => {
-  const { data, currentLang, onClickAction } = props;
+  const { data, currentLang, onClickAction, identifier } = props;
 
   const refContainer = useRef<HTMLDivElement | null>(null);
 
@@ -36,7 +36,7 @@ export const Content = (props: Props) => {
   }, []);
 
   return (
-    <div className="mfk-wrapper">
+    <div className="mfk-wrapper" data-testid={identifier}>
       <div className="mfk-timeline--container">
         {data.map((item, idx) => (
           <div

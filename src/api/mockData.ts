@@ -340,7 +340,7 @@ import { mockDataType } from "types";
 //   },
 // ];
 
-export const mockData: mockDataType = [
+const mockData: mockDataType = [
   {
     id: "1",
     type: 1,
@@ -696,3 +696,15 @@ export const mockData: mockDataType = [
     },
   },
 ];
+
+export const getData = (): Promise<mockDataType> => {
+  return new Promise((resolve, reject) => {
+    setTimeout(() => {
+      if (mockData) {
+        resolve(mockData);
+      } else {
+        reject({ message: "Error" });
+      }
+    }, 1000);
+  });
+};
