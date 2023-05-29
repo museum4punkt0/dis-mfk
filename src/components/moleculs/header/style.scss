@@ -1,10 +1,12 @@
 @use '../../../style/variables' as var;
 
+$borderRadius: 34px;
+
 .mfk-header {
   background-color: var.$blue;
   color: #ffffff;
-  border-bottom-left-radius: var.$borderRadius;
-  border-bottom-right-radius: var.$borderRadius;
+  border-bottom-left-radius: $borderRadius;
+  border-bottom-right-radius: $borderRadius;
   padding: var.$spacing * 2.5 var.$spacing * 5;
   &--content {
     text-align: center;

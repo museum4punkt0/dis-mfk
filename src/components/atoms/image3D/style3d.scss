@@ -1,0 +1,54 @@
+@use '../../../style/variables' as var;
+
+.Viewport,
+.View3dContent {
+  height: calc(100vh - #{var.$modalHeader});
+}
+
+@media screen and (max-width: var.$mobile) {
+  .View3dContent {
+    position: absolute;
+    bottom: 0;
+    height: 150px;
+    width: 100%;
+    background-color: transparent;
+    z-index: 2;
+    //TODO: Should improve after @smb/display provide latest solution
+    padding: 0 var.$spacing * 4;
+    overflow-y: hidden;
+    img {
+      max-width: 100%;
+    }
+    section {
+      //TODO: Should remove after @smb/display make slide on their side
+      &:not(:first-child) {
+        display: none;
+      }
+      height: 100%;
+      background-color: #ffffff;
+      border-radius: 20px 20px 0 0;
+      padding: var.$spacing * 5;
+    }
+    .title {
+      font-size: var.$fontSubtitle;
+      text-align: center;
+      padding-bottom: var.$spacing * 5;
+      border: none;
+      & + p {
+        height: calc(100% - #{var.$spacing * 10});
+        font-size: var.$fontBody;
+        text-align: center;
+        overflow-y: auto;
+      }
+    }
+  }
+  .Viewport {
+    .Controls.mainControls {
+      top: 30px;
+      left: 10px;
+      right: auto;
+      bottom: auto;
+      font-size: 30px;
+    }
+  }
+}
