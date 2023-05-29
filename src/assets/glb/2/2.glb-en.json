@@ -1,0 +1,36 @@
+{
+  "title": "Story title",
+  "content": [
+    {
+      "title": "English version id-2",
+      "html": "<p> Description with image </p> <img src=\"assets/2.png\">",
+      "camera": "Camera_animated_baked"
+    },
+    {
+      "title": "Title for camera Camera_front",
+      "html": "<p> Description with gif</p> <img src=\"https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/5eeea355389655.59822ff824b72.gif\">",
+      "camera": "Camera_front"
+    },
+    {
+      "title": "Title for camera Camera_top",
+      "html": "<div><p> Description with video from external resource(youtube) </p> <iframe width=\"100%\" height=\"300px\" src=\"https://www.youtube.com/embed/tgbNymZ7vqY?autoplay=1&mute=1\"></iframe></div>",
+      "camera": "Camera_top"
+    },
+    {
+      "title": "Title for camera Camerabehindlamp",
+      "html": "<div><p> Description with local video </p> <video style=\"position: relative\" width=\"100%\" height=\"240\" controls><source src=\"video.mp4\" type=\"video/mp4\">Your browser does not support the video tag.</video></div>",
+      "camera": "Camerabehindlamp"
+    },
+    {
+      "title": "Title for camera Camera_far",
+      "html": "<p> some fancy description html </p>",
+      "camera": "Camera_far"
+    },
+    {
+      "title": "Title for camera Camera",
+      "html": "<p> some fancy description html </p>",
+      "camera": "Camera"
+    }
+  ],
+  "gltfUrl": "assets/glb/2/2.glb"
+}
