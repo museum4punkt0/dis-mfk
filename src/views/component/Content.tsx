@@ -1,6 +1,5 @@
 import { useRef, useEffect } from "react";
 
-import { Text } from "components/atoms";
 import { Card } from "components/moleculs";
 
 import { mockDataType, langType, ComponentProps } from "types";
@@ -48,16 +47,6 @@ export const Content = (props: Props) => {
               idx % 2 === 0 ? "right" : "left"
             }`}
           >
-            <Text
-              type="caption"
-              additionalClass={`mfk-timeline--date ${
-                item.type === 1
-                  ? "mfk-timeline--date-light"
-                  : "mfk-timeline--date-dark"
-              }`}
-            >
-              {setDate(item.startDate, item.endDate)}
-            </Text>
             <div
               className={`mfk-timeline--marker ${
                 item.type === 1
@@ -68,6 +57,7 @@ export const Content = (props: Props) => {
             <Card
               id={item.id}
               type={item.type}
+              date={setDate(item.startDate, item.endDate)}
               title={item.title[currentLang as langType]}
               description={item.description[currentLang as langType]}
               onClick={() => {

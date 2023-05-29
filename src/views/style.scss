@@ -53,15 +53,10 @@ $date-spacing: -$date-size - 10px;
     }
   }
   &:not(:last-child) {
-    margin-bottom: var.$spacing * 10;
+    margin-bottom: var.$spacing * 5;
   }
   &-right {
     float: right;
-    .mfk-timeline--date {
-      left: $date-spacing;
-      width: $date-size;
-      text-align: right;
-    }
     .mfk-card-wrapper {
       margin-left: -8px;
     }
@@ -69,11 +64,6 @@ $date-spacing: -$date-size - 10px;
   &-left {
     float: left;
     direction: rtl;
-    .mfk-timeline--date {
-      right: $date-spacing;
-      width: $date-size;
-      text-align: left;
-    }
     .mfk-card-wrapper {
       margin-right: -8px;
     }
@@ -82,17 +72,6 @@ $date-spacing: -$date-size - 10px;
     .mfk-timeline--marker {
       transform: scale(1.3);
     }
-  }
-}
-
-.mfk-timeline--date {
-  position: absolute;
-  color: var.$gray;
-  &-light {
-    top: 0;
-  }
-  &-dark {
-    top: 10px;
   }
 }
 
@@ -113,9 +92,6 @@ $date-spacing: -$date-size - 10px;
 }
 
 @media screen and (max-width: var.$mobile) {
-  .mfk-wrapper {
-    padding-left: var.$spacing * 20;
-  }
   .mfk-timeline {
     &--container {
       overflow: visible;
@@ -131,10 +107,6 @@ $date-spacing: -$date-size - 10px;
       &-left {
         float: none;
         direction: ltr;
-        .mfk-timeline--date {
-          left: $date-spacing;
-          text-align: right;
-        }
         .mfk-card-wrapper {
           margin-left: -8px;
           margin-right: 0;

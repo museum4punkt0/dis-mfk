@@ -5,7 +5,7 @@ import { CardType } from "./type";
 import "./style.scss";
 
 export const Card = (props: CardType) => {
-  const { id, title, description, type = 1, onClick } = props;
+  const { id, date, title, description, type = 1, onClick } = props;
   const cardWrapperClass = type === 1 ? "mfk-type-text" : "mfk-type-img";
 
   const [hideDescription, setHideDescription] = useState<boolean>(true);
@@ -19,30 +19,35 @@ export const Card = (props: CardType) => {
       className={`mfk-card-wrapper ${cardWrapperClass}`}
       onClick={type === 1 ? showHideDescription : onClick}
     >
-      <div className="mfk-timeline--content">
-        <div className="mfk-card-title">
-          {type === 1 && <Avatar />}
-          <Text type="subtitle">{title}</Text>
-        </div>
-        {type === 1 ? (
-          <Text
-            additionalClass={`mfk-card--description ${
-              hideDescription ? "mfk-hide--description" : ""
-            }`}
-          >
-            {description}
+      <div className="mfk-card--content">
+        <div style={{ flex: 1 }}>
+          <Text type="caption">{date}</Text>
+          <Text type="subtitle" additionalClass="mfk-card-title">
+            {title}
           </Text>
-        ) : (
-          <>
-            <Text additionalClass={`mfk-card--description`}>{description}</Text>
-            <div
-              style={{
-                background: `url(assets/${id}.png) no-repeat  center/cover`,
-              }}
-              className="mfk-card--description-img"
-            ></div>
-          </>
-        )}
+          {type === 1 ? (
+            <Text
+              additionalClass={`mfk-card--description ${
+                hideDescription ? "mfk-hide--description" : ""
+              }`}
+            >
+              {description}
+            </Text>
+          ) : (
+            <>
+              <Text additionalClass={`mfk-card--description`}>
+                {description}
+              </Text>
+              <div
+                style={{
+                  background: `url(assets/${id}.png) no-repeat  center/cover`,
+                }}
+                className="mfk-card--description-img"
+              ></div>
+            </>
+          )}
+        </div>
+        {type === 1 && <Avatar />}
       </div>
     </div>
   );
