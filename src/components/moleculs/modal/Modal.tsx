@@ -32,7 +32,6 @@ export const Modal = (props: Props) => {
       setJsonData(require(`assets/glb/${content}`));
     }
   }, [content, jsonData]);
-  console.warn(jsonData, content);
   return (
     <div className="mfk-modal">
       <div className="mfk-modal--header">
