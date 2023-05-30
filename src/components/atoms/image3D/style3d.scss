@@ -44,11 +44,13 @@
   }
   .Viewport {
     .Controls.mainControls {
-      top: 30px;
-      left: 10px;
+      top: 53px;
+      left: 30px;
       right: auto;
       bottom: auto;
-      font-size: 30px;
+      font-size: 24px;
+      z-index: 0;
+      opacity: 0;
     }
   }
 }

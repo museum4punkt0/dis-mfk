@@ -1,5 +1,7 @@
 @use '../../../style/variables' as var;
 
+$titleHeight: 40px;
+
 .mfk-modal {
   position: fixed;
   top: 0;
@@ -17,23 +19,6 @@
       margin-left: 10px;
     }
   }
-
-  // &-close {
-  //   position: absolute;
-  //   top: 10px;
-  //   right: 10px;
-  //   height: 30px;
-  //   width: 30px;
-  //   border-radius: 50%;
-  //   background-color: #ffffff;
-  //   display: flex;
-  //   justify-content: center;
-  //   align-items: center;
-  //   cursor: pointer;
-  //   &:hover {
-  //     box-shadow: 0 0 5px 5px rgba(0,0,0,.3);
-  //   }
-  // }
 
   &--header {
     display: flex;
@@ -58,13 +43,49 @@
     top: 0;
     left: 0;
     right: 0;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: $titleHeight;
     background-color: rgba(0,0,0,0.3);
     color: #fff;
+    padding: 0 var.$spacing * 5;
     white-space: nowrap;
     text-overflow: ellipsis;
     overflow: hidden;
-    width: 100%;
-    padding: var.$spacing * 2.5 var.$spacing * 5;
     z-index: 1;
+  }
+
+  &--settings {
+    position: absolute;
+    top: $titleHeight + 10px;
+    left: 0;
+    height: 40px;
+    width: 40px;
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 0 10px 10px 0;
+    box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.3);
+    transition: width 0.3s ease-in-out;
+    z-index: 1;
+    &-item {
+      display: flex;
+      font-size: 20px;
+    }
+  }
+}
+
+//Settings animation
+.mfk-settings-open {
+  .mfk-modal--settings {
+    width: 140px;
+  }
+  .Viewport {
+    .Controls {
+      &.mainControls {
+        opacity: 1;
+        z-index: 2;
+      }
+    }
   }
 }
