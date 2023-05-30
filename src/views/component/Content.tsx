@@ -6,6 +6,8 @@ import { mockDataType, langType, ComponentProps } from "types";
 
 import { setDate } from "./helper";
 
+import "./style.scss";
+
 type Props = {
   /**
    * data for timeline items

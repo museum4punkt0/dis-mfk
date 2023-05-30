@@ -1,5 +1,7 @@
 import { MouseEventHandler, useEffect, useState } from "react";
-import { Image3D } from "components/atoms";
+import { Image3D, Text } from "components/atoms";
+
+import { FaArrowLeft } from "react-icons/fa";
 import "./style.scss";
 
 type Props = {
@@ -27,7 +29,10 @@ export const Modal = (props: Props) => {
   return (
     <div className="mfk-modal">
       <div className="mfk-modal--header">
-        <span onClick={onClose}>Timeline</span>
+        <div className="mfk-modal--back" onClick={onClose}>
+          <FaArrowLeft />
+          <Text type="subtitle">Back to timeline</Text>
+        </div>
       </div>
       <div className="mfk-modal--content">
         {/* <span className="mfk-modal-close" onClick={onClose}>

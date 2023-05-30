@@ -1,5 +1,7 @@
 import { useState, useEffect } from "react";
-import { Loader } from "components/atoms";
+import { useTranslation } from "react-i18next";
+
+import { Loader, Text } from "components/atoms";
 import { Header, Modal } from "components/moleculs";
 import { Content } from "./component";
 import { getData } from "api/mockData";
@@ -9,6 +11,8 @@ import i18n from "i18next";
 import "./style.scss";
 
 export default function Main() {
+  const { t } = useTranslation();
+
   const [currentLang, setCurrentLang] = useState(i18n.language as langType);
   const [exhiditsData, setExhiditsData] = useState<mockDataType | null>(null);
   const [showModal, setShowModal] = useState<boolean>(false);
@@ -40,6 +44,10 @@ export default function Main() {
         lang={currentLang as langType}
         identifier="header"
       />
+      <div className="mfk-timeline--header">
+        <Text type="title">{t("title")}</Text>
+        <Text type="subtitle">{t("description")}</Text>
+      </div>
       {exhiditsData ? (
         <Content
           data={exhiditsData}

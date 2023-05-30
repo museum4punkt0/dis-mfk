@@ -30,6 +30,7 @@ export const Header = (props: Props) => {
 
   return (
     <div className="mfk-header" data-testid={identifier}>
+      <Text type="subtitle">{t("logo")}</Text>
       <div className="mfk-header--menu">
         {Object.keys(langsData).map((item, idx) => (
           <div
@@ -49,10 +50,6 @@ export const Header = (props: Props) => {
           value={lang}
           handleChange={(e) => changeLang(e.target.value as langType)}
         />
-      </div>
-      <div className="mfk-header--content">
-        <Text type="title">{t("title")}</Text>
-        <Text>{t("description")}</Text>
       </div>
     </div>
   );

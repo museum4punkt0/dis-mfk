@@ -2,7 +2,7 @@
 
 .Viewport,
 .View3dContent {
-  height: calc(100vh - #{var.$modalHeader});
+  height: calc(100vh - #{var.$headerHeight});
 }
 
 @media screen and (max-width: var.$mobile) {

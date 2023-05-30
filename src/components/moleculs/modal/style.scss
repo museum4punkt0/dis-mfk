@@ -9,6 +9,15 @@
   background: rgba(255,255,255, 1);
   z-index: 9999;
 
+  &--back {
+    display: flex;
+    align-items: self-end;
+    cursor: pointer;
+    p {
+      margin-left: 10px;
+    }
+  }
+
   // &-close {
   //   position: absolute;
   //   top: 10px;
@@ -30,15 +39,15 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: var.$modalHeader;
-    background-color: var.$blue;
+    height: var.$headerHeight;
+    background-color: var.$primary;
     color: #fff;
     padding: 0 var.$spacing * 5;
   }
 
   &--content {
     position: relative;
-    height: calc(100% - #{var.$modalHeader});
+    height: calc(100% - #{var.$headerHeight});
     width: 100%;
     background: transparent;
     overflow: hidden;

@@ -1,24 +1,23 @@
 @use '../../../style/variables' as var;
 
-$borderRadius: 34px;
 
 .mfk-header {
-  background-color: var.$blue;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 3;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: var.$headerHeight;
+  background-color: var.$primary;
   color: #ffffff;
-  border-bottom-left-radius: $borderRadius;
-  border-bottom-right-radius: $borderRadius;
-  padding: var.$spacing * 2.5 var.$spacing * 5;
-  &--content {
-    text-align: center;
-    p {
-      padding-bottom: var.$spacing * 2.5;
-    }
-  }
+  padding: 0 var.$spacing * 5;
   &--menu {
     display: flex;
     align-items: center;
-    justify-content: flex-end;
-    margin-bottom: var.$spacing * 2.5;
+    justify-content: space-between;
     &-item {
       &:not(:last-child) {
         margin-right: 10px;
@@ -40,8 +39,10 @@ $borderRadius: 34px;
 }
 
 @media screen and (max-width: var.$mobile) {
-  .mfk-header--menu-item {
-    display: none;
+  .mfk-header {
+    &--menu-item {
+      display: none;
+    }
   }
   .mfk-select {
     display: flex;
