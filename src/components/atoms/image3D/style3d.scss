@@ -2,7 +2,7 @@
 
 .Viewport,
 .View3dContent {
-  height: calc(100vh - #{var.$modalHeader});
+  height: 100vh;
 }
 
 @media screen and (max-width: var.$mobile) {
@@ -30,7 +30,7 @@
       padding: var.$spacing * 5;
     }
     .title {
-      font-size: var.$fontSubtitle;
+      font-size: var.$fontSubtitle1;
       text-align: center;
       padding-bottom: var.$spacing * 5;
       border: none;
@@ -44,11 +44,11 @@
   }
   .Viewport {
     .Controls.mainControls {
-      top: 30px;
-      left: 10px;
+      top: 53px;
+      left: 30px;
       right: auto;
       bottom: auto;
-      font-size: 30px;
+      font-size: 24px;
     }
   }
 }

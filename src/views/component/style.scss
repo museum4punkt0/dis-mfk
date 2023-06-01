@@ -1,0 +1,118 @@
+@use '../../style/variables' as var;
+@use 'sass:math';
+
+$marker-small: 16px;
+$date-size: 70px;
+$date-spacing: -$date-size - 10px;
+
+.mfk-wrapper {
+  height: 100%;
+  padding: var.$spacing * 5;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.mfk-timeline {
+  &--container {
+    position: relative;
+    margin: 0 auto;
+    overflow: hidden;
+    padding-top: var.$spacing * 2.5;
+    &:before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 50%;
+      margin-left: -1px;
+      width: 2px;
+      height: 100%;
+      background: var.$gray;
+      z-index: 1
+    }
+  }
+  &--block {
+    display: flex;
+    position: relative;
+    width: calc(50% + math.div($marker-small, 2));
+    clear: both;
+    &:first-child {
+      .mfk-timeline--marker {
+        position: relative;
+        &:before {
+          content: '';
+          position: absolute;
+          top: calc(-100% - 1px);
+          left: calc(50% - 2px);
+          height: 11px;
+          width: 4px;
+          background-color: #ffffff;
+        }
+      }
+    }
+    &:not(:last-child) {
+      margin-bottom: var.$spacing * 5;
+    }
+    &-right {
+      float: right;
+      .mfk-card-wrapper {
+        margin-left: -8px;
+      }
+    }
+    &-left {
+      float: left;
+      direction: rtl;
+      .mfk-card-wrapper {
+        margin-right: -8px;
+      }
+    }
+    &:hover {
+      .mfk-timeline--marker {
+        transform: scale(1.3);
+      }
+    }
+  }
+  &--marker {
+    width: $marker-small;
+    height: $marker-small;
+    border-radius: 50%;
+    z-index: 2;
+    &-dark {
+      border: 2px solid #ffffff;
+      background: var.$gray;
+    }
+    &-light {
+      border: 2px solid var.$gray;
+      background: #ffffff;
+      margin-top: 10px;
+    }
+  }
+}
+
+@media screen and (max-width: var.$mobile) {
+  .mfk-wrapper {
+    max-width: 500px;
+  }
+  .mfk-timeline {
+    &--container {
+      overflow: visible;
+      &:before {
+        left: math.div($marker-small, 2);
+     }
+    }
+    &--block {
+      width: 100%;
+      &-right {
+        float: none;
+      }
+      &-left {
+        float: none;
+        direction: ltr;
+        .mfk-card-wrapper {
+          margin-left: -8px;
+          margin-right: 0;
+        }
+      }
+   }
+  }
+}
+

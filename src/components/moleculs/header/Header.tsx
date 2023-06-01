@@ -1,9 +1,9 @@
-import { useTranslation } from "react-i18next";
 import i18n from "i18next";
 import { Text, Dropdown } from "components/atoms";
 import { langType, ComponentProps } from "types";
 import { langsData, dropdownLangOptions } from "./helpers";
 
+import logo from "assets/logo.svg";
 import "./style.scss";
 
 type Props = {
@@ -19,8 +19,6 @@ type Props = {
 
 export const Header = (props: Props) => {
   const { lang, onChangeLang, identifier } = props;
-
-  const { t } = useTranslation();
 
   const changeLang = (lang: langType): void => {
     i18n.changeLanguage(lang);
@@ -39,7 +37,7 @@ export const Header = (props: Props) => {
             }`}
             onClick={() => changeLang(item as langType)}
           >
-            <Text type="subtitle">
+            <Text type="subtitle2">
               {langsData[item as keyof typeof langsData]}
             </Text>
           </div>
@@ -50,10 +48,7 @@ export const Header = (props: Props) => {
           handleChange={(e) => changeLang(e.target.value as langType)}
         />
       </div>
-      <div className="mfk-header--content">
-        <Text type="title">{t("title")}</Text>
-        <Text>{t("description")}</Text>
-      </div>
+      <img className="mfk-header--logo" src={logo} alt="logo" />
     </div>
   );
 };

@@ -7,6 +7,7 @@ import { initReactI18next } from "react-i18next";
 const resources = {
   en: {
     translation: {
+      logo: "Museum timeline",
       title: "TECHNICAL MILESTONES",
       description:
         "Numerous physical and technical discoveries and inventions have decisively advanced the way we communicate today.",
@@ -14,6 +15,7 @@ const resources = {
   },
   de: {
     translation: {
+      logo: "Zeitleiste des Museums",
       title: "MEILENSTEINE DER TECHNIK",
       description:
         "Zahlreiche physikalische und technische Entdeckungen und Erfindungen haben unsere heutige Art der Kommunikation entschieden vorangebracht.",

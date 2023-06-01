@@ -1,5 +1,7 @@
 import { MouseEventHandler, useEffect, useState } from "react";
-import { Image3D } from "components/atoms";
+import { Image3D, Text } from "components/atoms";
+
+import { FaArrowLeft, FaSyncAlt } from "react-icons/fa";
 import "./style.scss";
 
 type Props = {
@@ -23,17 +25,20 @@ export const Modal = (props: Props) => {
       setJsonData(require(`assets/glb/${content}`));
     }
   }, [content, jsonData]);
-  console.log(jsonData);
   return (
     <div className="mfk-modal">
-      <div className="mfk-modal--header">
-        <span onClick={onClose}>Timeline</span>
-      </div>
-      <div className="mfk-modal--content">
-        {/* <span className="mfk-modal-close" onClick={onClose}>
-          &#x2716;
-        </span> */}
-        <div className="mfk-modal--title">{jsonData && jsonData.title}</div>
+      <div className={"mfk-modal--content"}>
+        <div className="mfk-modal--title">
+          <span className="mfk-modal--close" onClick={onClose}>
+            <FaArrowLeft />
+          </span>
+          <Text type="subtitle1">{jsonData && jsonData.title}</Text>
+        </div>
+        <div className="mfk-modal--settings">
+          <div className="mfk-modal--settings-item">
+            <FaSyncAlt />
+          </div>
+        </div>
         {jsonData && <Image3D fileName={content} />}
       </div>
     </div>
