@@ -51,7 +51,7 @@ export const Content = (props: Props) => {
           >
             <div
               className={`mfk-timeline--marker ${
-                item.type === 1
+                item.type !== 1
                   ? "mfk-timeline--marker-light"
                   : "mfk-timeline--marker-dark"
               }`}

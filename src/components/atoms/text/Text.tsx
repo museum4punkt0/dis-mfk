@@ -8,7 +8,7 @@ type Props = {
   /**
    * Text type
    */
-  type?: "title" | "subtitle" | "body" | "caption";
+  type?: "title" | "subtitle1" | "subtitle2" | "body" | "caption";
   additionalClass?: string;
 };
 

@@ -3,10 +3,14 @@
 .mfk-text {
   &--title {
     font-size: var.$fontTitle;
+    font-weight: var.$fontBold2;
+  }
+  &--subtitle1 {
+    font-size: var.$fontSubtitle1;
     font-weight: var.$fontBold;
   }
-  &--subtitle {
-    font-size: var.$fontSubtitle;
+  &--subtitle2 {
+    font-size: var.$fontSubtitle2;
   }
   &--body {
     font-size: var.$fontBody;

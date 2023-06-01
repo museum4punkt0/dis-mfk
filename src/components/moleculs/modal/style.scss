@@ -20,19 +20,9 @@ $titleHeight: 40px;
     }
   }
 
-  &--header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    height: var.$headerHeight;
-    background-color: var.$primary;
-    color: #fff;
-    padding: 0 var.$spacing * 5;
-  }
-
   &--content {
     position: relative;
-    height: calc(100% - #{var.$headerHeight});
+    height: 100%;
     width: 100%;
     background: transparent;
     overflow: hidden;
@@ -45,6 +35,7 @@ $titleHeight: 40px;
     right: 0;
     display: flex;
     align-items: center;
+    justify-content: center;
     width: 100%;
     height: $titleHeight;
     background-color: rgba(0,0,0,0.3);
@@ -54,6 +45,17 @@ $titleHeight: 40px;
     text-overflow: ellipsis;
     overflow: hidden;
     z-index: 1;
+  }
+
+  &--close {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: $titleHeight;
+    width: $titleHeight;
   }
 
   &--settings {
@@ -66,26 +68,10 @@ $titleHeight: 40px;
     padding: 10px;
     border-radius: 0 10px 10px 0;
     box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.3);
-    transition: width 0.3s ease-in-out;
     z-index: 1;
     &-item {
       display: flex;
       font-size: 20px;
-    }
-  }
-}
-
-//Settings animation
-.mfk-settings-open {
-  .mfk-modal--settings {
-    width: 140px;
-  }
-  .Viewport {
-    .Controls {
-      &.mainControls {
-        opacity: 1;
-        z-index: 2;
-      }
     }
   }
 }

@@ -46,7 +46,7 @@ export default function Main() {
       />
       <div className="mfk-timeline--header">
         <Text type="title">{t("title")}</Text>
-        <Text type="subtitle">{t("description")}</Text>
+        <Text type="subtitle2">{t("description")}</Text>
       </div>
       {exhiditsData ? (
         <Content

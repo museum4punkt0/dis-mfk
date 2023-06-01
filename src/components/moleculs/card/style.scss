@@ -3,7 +3,6 @@
 .mfk-card-wrapper {
   width: 100%;
   max-width: 400px;
-  color: var.$gray;
   cursor: pointer;
   &.mfk-type-text {
     .mfk-card-title {
@@ -26,12 +25,13 @@
   display: -webkit-box;
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
+  margin-top: var.$spacing;
   overflow: hidden;
 }
 
 .mfk-card--description {
-  font-size: var.$fontBody;
-  margin-top: var.$spacing * 2.5;
+  margin-top: var.$spacing;
+  font-weight: var.$fontLight;
   &.mfk-hide--description {
     display: -webkit-box;
     -webkit-line-clamp: 2;

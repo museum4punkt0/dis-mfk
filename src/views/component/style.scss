@@ -79,11 +79,11 @@ $date-spacing: -$date-size - 10px;
     &-dark {
       border: 2px solid #ffffff;
       background: var.$gray;
-      margin-top: 10px;
     }
     &-light {
       border: 2px solid var.$gray;
       background: #ffffff;
+      margin-top: 10px;
     }
   }
 }
