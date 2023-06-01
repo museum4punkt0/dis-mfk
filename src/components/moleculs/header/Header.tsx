@@ -48,7 +48,11 @@ export const Header = (props: Props) => {
           handleChange={(e) => changeLang(e.target.value as langType)}
         />
       </div>
-      <img className="mfk-header--logo" src={logo} alt="logo" />
+      <img
+        className="mfk-header--logo"
+        src={process.env.REACT_APP_API_PATH + logo}
+        alt="logo"
+      />
     </div>
   );
 };
