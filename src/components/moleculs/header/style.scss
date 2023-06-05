@@ -14,6 +14,7 @@
   background-color: var.$primary;
   color: #ffffff;
   padding: 0 var.$spacing * 5;
+  transition: background-color 1s ease-out;
   &--logo {
     height: 30px;
   }

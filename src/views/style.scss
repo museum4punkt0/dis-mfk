@@ -10,6 +10,50 @@ body {
   color: var.$primary;
 }
 
+.mfk-first-visit {
+  .mfk-header {
+    background-color: transparent;
+  }
+  .mfk-landing {
+    margin-top: 0;
+    padding: var.$headerHeight + (var.$spacing * 5) var.$spacing * 5 0;
+  }
+  .mfk-timeline--header,
+  .mfk-wrapper {
+    display: none;
+  }
+}
+
+.mfk-landing {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  background-color: tomato;
+  padding: 0;
+  margin-top: -100vh;
+  color: #ffffff;
+  transition: margin .7s ease-out;
+  &--btn {
+    display: flex;
+    font-size: 200px;
+    cursor: pointer;
+    opacity: .6;
+    transform: translate(0px, 0px);
+    animation: MoveUpDown 1s linear infinite;
+  }
+}
+
+@keyframes MoveUpDown {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-30px);
+  }
+}
+
 .mfk-timeline--header {
   padding: var.$headerHeight + (var.$spacing * 5) var.$spacing * 5 0;
   text-align: center;

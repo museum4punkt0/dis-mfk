@@ -1,12 +1,14 @@
 import { useState, useEffect } from "react";
 import { useTranslation } from "react-i18next";
+import i18n from "i18next";
 
 import { Loader, Text } from "components/atoms";
 import { Header, Modal } from "components/moleculs";
 import { Content } from "./component";
+import { BiChevronsDown } from "react-icons/bi";
+
 import { getData } from "api/mockData";
 import { mockDataType, langType } from "types";
-import i18n from "i18next";
 
 import "./style.scss";
 
@@ -16,6 +18,9 @@ export default function Main() {
   const [currentLang, setCurrentLang] = useState(i18n.language as langType);
   const [exhiditsData, setExhiditsData] = useState<mockDataType | null>(null);
   const [showModal, setShowModal] = useState<boolean>(false);
+  const [hideLanding, setHideLanding] = useState<boolean>(
+    JSON.parse(localStorage.getItem("mfkVisit") || "false")
+  );
   const [modalContent, setModalContent] = useState<string>("");
 
   useEffect(() => {
@@ -37,13 +42,27 @@ export default function Main() {
     if (content) setModalContent(content);
   };
 
+  const onHideLanding = () => {
+    //TODO: Uncomment it after getting design
+    //localStorage.setItem("mfkVisit", "true");
+    setHideLanding(true);
+  };
+
   return (
-    <div data-testid="main">
+    <div
+      className={`${hideLanding ? "" : "mfk-first-visit"}`}
+      data-testid="main"
+    >
       <Header
         onChangeLang={setCurrentLang}
         lang={currentLang as langType}
         identifier="header"
       />
+      <div className="mfk-landing">
+        <div className="mfk-landing--btn" onClick={onHideLanding}>
+          <BiChevronsDown />
+        </div>
+      </div>
       <div className="mfk-timeline--header">
         <Text type="title">{t("title")}</Text>
         <Text type="subtitle2">{t("description")}</Text>
