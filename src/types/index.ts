@@ -11,8 +11,6 @@ export type mockDataType = {
   description: {
     [key in langType]: string;
   };
-  //TODO: Should remove after finish implementation with @smb/display
-  //sketchfab?: string;
   glbJson?: {
     [key in langType]: string;
   };

@@ -31,6 +31,7 @@ body {
   display: flex;
   align-items: flex-end;
   justify-content: center;
+  //TODO: Need to replace with new bg image or new color
   background-color: tomato;
   padding: 0;
   color: #ffffff;
@@ -42,6 +43,9 @@ body {
     opacity: .6;
     transform: translate(0px, 0px);
     animation: MoveUpDown 1s linear infinite;
+    @media screen and (max-width: var.$mobile) {
+      font-size: 120px;
+    }
   }
 }
 
