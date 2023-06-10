@@ -4,8 +4,7 @@ import i18n from "i18next";
 
 import { Loader, Text } from "components/atoms";
 import { Header, Modal } from "components/moleculs";
-import { Content } from "./component";
-import { BiChevronsDown } from "react-icons/bi";
+import { Landing, Content } from "./component";
 
 import { getData } from "api/mockData";
 import { mockDataType, langType } from "types";
@@ -58,11 +57,7 @@ export default function Main() {
         lang={currentLang as langType}
         identifier="header"
       />
-      <div className="mfk-landing">
-        <div className="mfk-landing--btn" onClick={onHideLanding}>
-          <BiChevronsDown />
-        </div>
-      </div>
+      <Landing onClickAction={onHideLanding} />
       <div className="mfk-timeline--header">
         <Text type="title">{t("title")}</Text>
         <Text type="subtitle2">{t("description")}</Text>

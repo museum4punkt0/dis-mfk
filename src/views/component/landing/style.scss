@@ -1,0 +1,47 @@
+@use '../../../style/variables' as var;
+
+.mfk-landing {
+  height: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  //TODO: Need to replace with new bg image or new color
+  background-color: var.$primary;
+  padding: 0;
+  color: #ffffff;
+  transition: height 1s, padding 1s;
+  overflow: hidden;
+  &--content {
+    max-width: 1000px;
+    text-align: center;
+    overflow-y: auto;
+  }
+  &--description {
+    margin-top: var.$spacing * 10;
+    padding-bottom: var.$spacing * 2.5;
+    line-height: 1.7;
+    overflow-y: auto;
+  }
+  &--btn {
+    display: flex;
+    font-size: 200px;
+    cursor: pointer;
+    opacity: .6;
+    transform: translate(0px, 0px);
+    animation: MoveUpDown 1s linear infinite;
+    @media screen and (max-width: var.$mobile) {
+      font-size: 120px;
+    }
+  }
+}
+
+@keyframes MoveUpDown {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-30px);
+  }
+}

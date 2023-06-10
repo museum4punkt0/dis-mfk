@@ -21,6 +21,14 @@ const resources = {
         "Zahlreiche physikalische und technische Entdeckungen und Erfindungen haben unsere heutige Art der Kommunikation entschieden vorangebracht.",
     },
   },
+  ge: {
+    translation: {
+      logo: "Zeitleiste des Museums",
+      title: "MEILENSTEINE DER TECHNIK",
+      description:
+        "Zahlreiche physikalische und technische Entdeckungen und Erfindungen haben unsere heutige Art der Kommunikation entschieden vorangebracht.",
+    },
+  },
 };
 
 i18n
