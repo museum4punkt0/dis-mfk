@@ -1,2 +1,3 @@
 /* istanbul ignore file */
-export * from "./Content";
+export * from "./content";
+export * from "./landing";

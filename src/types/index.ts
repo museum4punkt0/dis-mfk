@@ -1,4 +1,4 @@
-export type langType = "en" | "de";
+export type langType = "en" | "de" | "ge";
 
 export type mockDataType = {
   id: string;
