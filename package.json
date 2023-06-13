@@ -11,6 +11,7 @@
     "@types/node": "^16.18.23",
     "@types/react": "^18.0.35",
     "@types/react-dom": "^18.0.11",
+    "copyfiles": "^2.4.1",
     "i18next": "^22.4.15",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -23,11 +24,14 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "start": "npm run prepareGlbContent && react-scripts start",
+    "build": "npm run prepareGlbContent && react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "test:coverage": "react-scripts test --env=jsdom --watchAll=false --coverage"
+    "test:coverage": "react-scripts test --env=jsdom --watchAll=false --coverage",
+    "copy": "copyfiles --u 2 src/assets/glb/**/* public/assets",
+    "clearGlbFolder": "rm -rf public/assets/glb",
+    "prepareGlbContent": "npm run clearGlbFolder && npm run copy"
   },
   "eslintConfig": {
     "extends": [
