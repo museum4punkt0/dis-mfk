@@ -52,7 +52,8 @@
       "!src/**/*.d.ts",
       "!src/i18n.ts",
       "!src/api/**",
-      "!src/types/**"
+      "!src/types/**",
+      "!src/**/type.ts"
     ]
   },
   "browserslist": {
