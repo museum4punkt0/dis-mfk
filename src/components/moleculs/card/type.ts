@@ -1,4 +1,5 @@
 import { MouseEventHandler } from "react";
+import { ComponentProps } from "types";
 
 export type CardType = {
   /**
@@ -25,4 +26,4 @@ export type CardType = {
    * Click action
    */
   onClick: MouseEventHandler;
-};
+} & ComponentProps;
