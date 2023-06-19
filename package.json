@@ -42,7 +42,7 @@
   "jest": {
     "coverageThreshold": {
       "src/**/*.{ts,tsx}": {
-        "statements": 0
+        "statements": 70
       }
     },
     "collectCoverageFrom": [
