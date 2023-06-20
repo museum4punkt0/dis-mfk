@@ -1,19 +1,12 @@
 import "./style.scss";
+import { TextComponentType } from "./type";
 
-type Props = {
-  /**
-   * Text value
-   */
-  children: string;
-  /**
-   * Text type
-   */
-  type?: "title" | "subtitle1" | "subtitle2" | "body" | "caption";
-  additionalClass?: string;
-};
-
-export const Text = (props: Props) => {
+export const Text = (props: TextComponentType) => {
   const { children, type = "body", additionalClass = "" } = props;
 
-  return <p className={`mfk-text--${type} ${additionalClass}`}>{children}</p>;
+  return (
+    <p className={`mfk-text--${type} ${additionalClass}`} role={type}>
+      {children}
+    </p>
+  );
 };

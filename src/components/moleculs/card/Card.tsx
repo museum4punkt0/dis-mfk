@@ -5,7 +5,7 @@ import { CardType } from "./type";
 import "./style.scss";
 
 export const Card = (props: CardType) => {
-  const { id, date, title, description, type = 1, onClick } = props;
+  const { id, date, title, description, type = 1, onClick, identifier } = props;
   const cardWrapperClass = type === 1 ? "mfk-type-text" : "mfk-type-img";
 
   const [hideDescription, setHideDescription] = useState<boolean>(true);
@@ -16,6 +16,7 @@ export const Card = (props: CardType) => {
 
   return (
     <div
+      data-testid={identifier}
       className={`mfk-card-wrapper ${cardWrapperClass}`}
       onClick={type === 1 ? showHideDescription : onClick}
     >

@@ -3,6 +3,7 @@ import { Image3D, Text } from "components/atoms";
 
 import { FaArrowLeft, FaSyncAlt } from "react-icons/fa";
 import "./style.scss";
+import { ComponentProps } from "types";
 
 type Props = {
   /**
@@ -13,10 +14,14 @@ type Props = {
    * Modal close action
    */
   onClose: MouseEventHandler;
-};
+  /**
+   * Modal role (need for testing)
+   */
+  role?: string;
+} & ComponentProps;
 
 export const Modal = (props: Props) => {
-  const { content, onClose } = props;
+  const { content, onClose, role = "modal", identifier } = props;
   //Need to change any for different dataType
   const [jsonData, setJsonData] = useState<any | null>(null);
 
@@ -26,7 +31,7 @@ export const Modal = (props: Props) => {
     }
   }, [content, jsonData]);
   return (
-    <div className="mfk-modal">
+    <div data-testid={identifier} role={role} className="mfk-modal">
       <div className={"mfk-modal--content"}>
         <div className="mfk-modal--title">
           <span className="mfk-modal--close" onClick={onClose}>
@@ -39,7 +44,7 @@ export const Modal = (props: Props) => {
             <FaSyncAlt />
           </div>
         </div>
-        {jsonData && <Image3D fileName={content} />}
+        {jsonData && <Image3D fileName={content} identifier="3d-object" />}
       </div>
     </div>
   );
