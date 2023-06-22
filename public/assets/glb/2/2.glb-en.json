@@ -1,9 +1,9 @@
 {
-  "title": "Story title",
+  "title": "Sotzmann Globe",
   "content": [
     {
-      "title": "English version id-2",
-      "html": "<p> Description with image </p> <img src=\"assets/2.png\">",
+      "title": "Was ist Medaillenkunst?",
+      "html": "<p> »Wie eine Sammellinse, die Strahlungsenergie in einem Brennpunkt vereinigt, können Medaillen Zeitgeschichte und Zeitgeist in konzentrierter Form künstlerisch widerspiegeln.« (Wolfgang Steguweit, 1995 zitiert nach Küter, Alexa – Weisser, Bernhard: Kunst prägt Geld – Muse Macht Moneten, Berlin 2016, S. 7) </p> <img src=\"https://bronzenwietiere.smb.museum/img/II-1.jpg\"><p>Seit die in der Folge der staatlichen Einheit im Jahre 1991 gegründete Deutsche Gesellschaft für Medaillenkunst im Jahr darauf den ersten Band ihrer mittlerweile auf 30 Titel angewachsenen Reihe zur ›Kunstmedaille in Deutschland‹ herausgab, erhielt diese kleine, konzentrierte Form des Bildhauerschaffens einen Raum, in dem auch Heide Dobberkau regelmäßig vertreten war »Um hier und heute nicht zu trocken oder fachspezifisch zu memorieren, fällt mir ein bekannter Songtext von Herbert Grönemeyer aus dem Jahre 1984 ein, den ich hier einfach umtexte: Wann ist eine Medaille eine Medaille? Die Antwort ist ebenso schwer wie leicht. ›Außen hart und innen ganz weich‹, heißt es im Liedtext an einer Stelle über die Gattung ›Mann‹ und kann doch nicht eindimensional die alles entscheidende Frage klären, wann ist eine Medaille Kunst? Und wie gelingt es uns, sie in den Olymp der Hohen Kunst zu hieven?« (Wolfgang Steguweit zitiert nach Weisser, Bernhard, Wolfgang Steguweit. Initiator – Macher – Mentor – Visionär, in: Geldgeschichtliche Nachrichten 49, 2014, 214–225 (incl. Schriftenverzeichnis), hier S. 217–218)</p>",
       "camera": "Camera_animated_baked"
     },
     {
@@ -20,17 +20,11 @@
       "title": "Title for camera Camerabehindlamp",
       "html": "<div><p> Description with local video </p> <video style=\"position: relative\" width=\"100%\" height=\"240\" controls><source src=\"video.mp4\" type=\"video/mp4\">Your browser does not support the video tag.</video></div>",
       "camera": "Camerabehindlamp"
-    },
-    {
-      "title": "Title for camera Camera_far",
-      "html": "<p> some fancy description html </p>",
-      "camera": "Camera_far"
-    },
-    {
-      "title": "Title for camera Camera",
-      "html": "<p> some fancy description html </p>",
-      "camera": "Camera"
     }
+  ],
+  "chapters": [
+    {"id":"ch1", "title": "chapter 1", "cameras":["Camera_animated_baked", "Camera_front"]},
+    {"id":"ch2", "title": "chapter 2", "cameras":["Camera_top", "Camerabehindlamp"]}
   ],
   "gltfUrl": "assets/glb/2/2.glb"
 }

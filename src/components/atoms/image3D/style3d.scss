@@ -1,56 +1,109 @@
 @use '../../../style/variables' as var;
 
 .mfk-image3D-wrapper {
-  .Viewport,
-  .View3dContent {
+  .Viewport {
     height: 100vh;
   }
-  
-  @media screen and (max-width: var.$mobile) {
-    .View3dContent {
-      position: absolute;
-      bottom: 0;
-      height: 150px;
-      width: 100%;
+  .View3dContent {
+    position: fixed;
+    top: 40px;
+    right: 0;
+    height: calc(100% - 40px);
+    width: 100%;
+    max-width: 380px;
+    background-color: rgba(255, 255, 255, .7);
+    z-index: 2;
+    .header {
       background-color: transparent;
-      z-index: 2;
-      //TODO: Should improve after @smb/display provide latest solution
-      padding: 0 var.$spacing * 4;
-      overflow-y: hidden;
+      .storyTitle {
+        font-size: var.$fontSubtitle1;
+        font-weight: bold;
+        text-align: center;
+        color: #000;
+      }
+      button {
+        border: none;
+        color: transparent;
+        font-size: 20px;
+        opacity: 0.7;
+        &:hover {
+          opacity: 1;
+        }
+        &:first-of-type {
+          background: url('./assets/left-arrow.svg') no-repeat center/cover;
+        }
+        &:last-of-type {
+          background: url('./assets/right-arrow.svg') no-repeat center/cover;
+        }
+        
+      }
+    }
+    section {
+      color: #000;
       img {
         max-width: 100%;
+        margin: var.$spacing * 2.5 auto ;
       }
-      section {
-        //TODO: Should remove after @smb/display make slide on their side
-        &:not(:first-child) {
-          display: none;
-        }
-        height: 100%;
-        background-color: #ffffff;
-        border-radius: 20px 20px 0 0;
-        padding: var.$spacing * 5;
+    }
+    .title {
+      font-size: 20px;
+      font-weight: bold;
+      border: none;
+      margin-bottom: var.$spacing * 2.5;
+      & + p {
+        font-size: var.$fontBody;
       }
-      .title {
-        font-size: var.$fontSubtitle1;
-        text-align: center;
-        padding-bottom: var.$spacing * 5;
+    }
+    .chaptersNav {
+      background-color: transparent;
+      button {    
+        width: 30px;
+        height: 30px;
         border: none;
-        & + p {
-          height: calc(100% - #{var.$spacing * 10});
-          font-size: var.$fontBody;
-          text-align: center;
-          overflow-y: auto;
+        color: transparent;   
+        font-size: 0;
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        box-shadow: #000 0px 0px 7px;
+        opacity: 0.7;
+        &:hover {
+          opacity: 1;
+        }
+        &:nth-of-type(1){
+          background: url('./assets/brain.svg') no-repeat center/80%;
+          background-color: #fff;
+        }
+        &:nth-of-type(2) {
+          background: url('./assets/settings.svg') no-repeat center/80%;
+          background-color: #fff;
+        }
+        &:not(:last-child) {
+          margin-right: 10px;
         }
       }
     }
-    .Viewport {
-      .Controls.mainControls {
-        top: 53px;
-        left: 30px;
-        right: auto;
-        bottom: auto;
-        font-size: 24px;
-      }
+  }
+
+  .Controls.mainControls {
+    top: 40px;
+    bottom: unset;
+    left: 50px;
+    right: unset;
+  }
+
+  
+  @media screen and (max-width: var.$mobile) {
+    .View3dContent {
+      top: unset;
+      bottom: 0;
+      left: 20px;
+      height: 200px;
+      max-width: calc(100% - 40px);
+      background-color: #fff;
+      padding: 10px 10px 0;
+      border-top-left-radius: 8px;
+      border-top-right-radius: 8px;
     }
   }
 }

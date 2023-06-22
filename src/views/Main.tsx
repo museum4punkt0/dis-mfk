@@ -43,7 +43,7 @@ export default function Main() {
 
   const onHideLanding = () => {
     //TODO: Uncomment it after getting design
-    //localStorage.setItem("mfkVisit", "true");
+    localStorage.setItem("mfkVisit", "true");
     setHideLanding(true);
   };
 
