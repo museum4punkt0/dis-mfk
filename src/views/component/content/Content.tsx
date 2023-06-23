@@ -20,7 +20,10 @@ type Props = {
   /**
    * Action to show/hide modal window or toggle content
    */
-  onClickAction: (show: boolean, link: string | undefined) => void;
+  onClickAction: (
+    show: boolean,
+    content: { data: string | undefined; title: string }
+  ) => void;
 } & ComponentProps;
 
 export const Content = (props: Props) => {
@@ -63,14 +66,17 @@ export const Content = (props: Props) => {
               title={item.title[currentLang as langType]}
               description={item.description[currentLang as langType]}
               onClick={() => {
-                onClickAction(
-                  true,
-                  item.glbJson
+                onClickAction(true, {
+                  data: item.glbJson
                     ? //each .glb file with information in related json should be located in separate folder.
                       //folder name is the id of current object from mockData
                       `${item.id}/${item.glbJson[currentLang as langType]}`
-                    : undefined
-                );
+                    : undefined,
+                  title: `${item.title[currentLang as langType]} (${setDate(
+                    item.startDate,
+                    item.endDate
+                  )})`,
+                });
               }}
             />
           </div>

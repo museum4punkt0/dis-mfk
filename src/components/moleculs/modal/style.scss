@@ -57,21 +57,4 @@ $titleHeight: 40px;
     height: $titleHeight;
     width: $titleHeight;
   }
-
-  &--settings {
-    position: absolute;
-    top: $titleHeight + 10px;
-    left: 0;
-    height: 40px;
-    width: 40px;
-    background-color: #ffffff;
-    padding: 10px;
-    border-radius: 0 10px 10px 0;
-    box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.3);
-    z-index: 1;
-    &-item {
-      display: flex;
-      font-size: 20px;
-    }
-  }
 }

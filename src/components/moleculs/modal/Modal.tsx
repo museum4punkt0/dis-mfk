@@ -1,11 +1,15 @@
-import { MouseEventHandler, useEffect, useState } from "react";
+import { MouseEventHandler } from "react";
 import { Image3D, Text } from "components/atoms";
 
-import { FaArrowLeft, FaSyncAlt } from "react-icons/fa";
+import { FaArrowLeft } from "react-icons/fa";
 import "./style.scss";
 import { ComponentProps } from "types";
 
 type Props = {
+  /**
+   * Modal title
+   */
+  title: string;
   /**
    * Modal content
    */
@@ -21,15 +25,7 @@ type Props = {
 } & ComponentProps;
 
 export const Modal = (props: Props) => {
-  const { content, onClose, role = "modal", identifier } = props;
-  //Need to change any for different dataType
-  const [jsonData, setJsonData] = useState<any | null>(null);
-
-  useEffect(() => {
-    if (jsonData === null) {
-      setJsonData(require(`assets/glb/${content}`));
-    }
-  }, [content, jsonData]);
+  const { title, content, onClose, role = "modal", identifier } = props;
   return (
     <div data-testid={identifier} role={role} className="mfk-modal">
       <div className={"mfk-modal--content"}>
@@ -37,14 +33,9 @@ export const Modal = (props: Props) => {
           <span className="mfk-modal--close" onClick={onClose}>
             <FaArrowLeft />
           </span>
-          <Text type="subtitle1">{jsonData && jsonData.title}</Text>
+          <Text type="subtitle1">{title}</Text>
         </div>
-        <div className="mfk-modal--settings">
-          <div className="mfk-modal--settings-item">
-            <FaSyncAlt />
-          </div>
-        </div>
-        {jsonData && <Image3D fileName={content} identifier="3d-object" />}
+        <Image3D fileName={content} identifier="3d-object" />
       </div>
     </div>
   );

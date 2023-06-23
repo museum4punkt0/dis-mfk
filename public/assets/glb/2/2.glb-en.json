@@ -23,8 +23,9 @@
     }
   ],
   "chapters": [
-    {"id":"ch1", "title": "chapter 1", "cameras":["Camera_animated_baked", "Camera_front"]},
-    {"id":"ch2", "title": "chapter 2", "cameras":["Camera_top", "Camerabehindlamp"]}
+    {"id":"ch1", "title": "", "cameras":["Camera_animated_baked", "Camera_front"]},
+    {"id":"ch2", "title": "", "cameras":["Camera_top", "Camerabehindlamp"]},
+    {"id":"ch3", "title": "", "cameras":["Camera_front", "Camera_top"]}
   ],
   "gltfUrl": "assets/glb/2/2.glb"
 }
