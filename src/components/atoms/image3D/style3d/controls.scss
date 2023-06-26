@@ -1,0 +1,44 @@
+@use '../../../../style/variables' as var;
+
+.Controls.mainControls {
+  top: 50px;
+  bottom: unset;
+  left: 20px;
+  right: unset;
+  button {
+    width: 30px;
+    height: 30px;
+    border: none;
+    color: transparent;
+    font-size: 0;
+    padding: 0;
+    border-radius: 25%;
+    &:hover {
+      transform: scale(1);
+    }
+    &:not(:last-child) {
+      margin-right: var.$spacing * 2.5;
+    }
+    &:nth-child(1) {
+      display: none;
+    }
+    &:nth-child(2) {
+      &.on {
+        background: url('./assets/unmute.svg') no-repeat center/60%;
+        background-color: rgba(255,255,255, 0.9);
+      }
+      &.off {
+        background: url('./assets/mute.svg') no-repeat center/60%;
+        background-color: rgba(255,255,255, 0.9);
+      }
+    }
+    &:nth-child(3) {
+      background: url('./assets/eye.svg') no-repeat center/60%;
+      background-color: rgba(255,255,255, 0.9);
+    }
+    &:last-child {
+      background: url('./assets/restart.svg') no-repeat center/60%;
+      background-color: rgba(255,255,255, 0.9);
+    }
+  }
+}

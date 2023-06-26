@@ -56,5 +56,72 @@ $titleHeight: 40px;
     justify-content: center;
     height: $titleHeight;
     width: $titleHeight;
+    cursor: pointer;
+  }
+}
+
+// Additional styling for toggle description
+.mfk-modal--description-toggle {
+  display: none;
+  position: absolute;
+  left: 50%;
+  bottom: 178px;
+  cursor: pointer;
+  z-index: 2;
+  @media screen and (max-width: var.$mobile) {
+    display: block;
+  }
+}
+.mfk-modal--content {
+  &.toggle {
+    .mfk-modal--description-toggle {
+      bottom: -2px;
+    }
+    .View3dContent {
+      height: 20px;
+    }
+    .mfk-modal--show-full {
+      display: none;
+    }
+  }
+}
+
+// Additional styling for show/hide full screen
+.mfk-modal--show-full {
+  display: none;
+  position: absolute;
+  bottom: 70px;
+  right: 50px;
+  background-color: #fff;
+  padding: 0 5px;
+  font-size: var.$fontBody;
+  font-weight: var.$fontBold;
+  color: var.$primaryBgGradient;
+  cursor: pointer;
+  z-index: 2;
+  @media screen and (max-width: var.$mobile) {
+    display: block;
+  }
+  &:before {
+    content: '...';
+  } 
+}
+.mfk-modal--hide-full {
+  display: none;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  font-size: 25px;
+  cursor: pointer;
+  z-index: 2;
+}
+
+.mfk-image3D--full {
+  .mfk-modal--show-full,
+  .mfk-modal--description-toggle {
+    display: none;
+  }
+  .mfk-modal--hide-full {
+    display: block;
   }
 }
