@@ -81,17 +81,17 @@
     {
       "id": "ch2",
       "title": "",
-      "cameras": ["LookingAtPOIpresent001"]
+      "cameras": ["LookingAtPOIhistory001"]
     },
     {
       "id": "ch3",
       "title": "",
-      "cameras": ["LookingAtPOI003"]
+      "cameras": ["LookingAtPOI001","LookingAtPOI002","LookingAtPOI003","LookingAtPOI004","LookingAtPOI005","LookingAtPOI006","LookingAtPOI007","LookingAtPOI008","LookingAtPOI009","LookingAtPOI010","LookingAtPOI011","LookingAtPOI012","LookingAtPOI013"]
     },
     {
       "id": "ch1",
       "title": "",
-      "cameras": ["LookingAtPOI007"]
+      "cameras": ["LookingAtPOIpresent001"]
     }
   ],
   "gltfUrl": "assets/glb/17/enigma.glb"

@@ -51,17 +51,17 @@
     {
       "id": "ch1",
       "title": "",
-      "cameras": ["LookingAtPOIpresent001"]
+      "cameras": ["LookingAtPOIhistory001"]
     },
     {
       "id": "ch2",
       "title": "",
-      "cameras": ["LookingAtPOI003"]
+      "cameras": ["LookingAtPOI001","LookingAtPOI002","LookingAtPOI003","LookingAtPOI004","LookingAtPOI005","LookingAtPOI006","LookingAtPOI007"]
     },
     {
       "id": "ch3",
       "title": "",
-      "cameras": ["LookingAtPOI007"]
+      "cameras": ["LookingAtPOIpresent007"]
     }
   ],
   "gltfUrl": "assets/glb/13/kabeldampfer.glb"
