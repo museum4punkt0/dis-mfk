@@ -22,7 +22,7 @@ export const Avatar = (props: Props) => {
       role={role}
       className="mfk-avatar"
       style={{
-        background: `url(${url}) no-repeat center center/cover`,
+        background: `url(${url}) no-repeat center top/cover`,
       }}
     ></div>
   );

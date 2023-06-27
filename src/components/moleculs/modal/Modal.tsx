@@ -1,11 +1,16 @@
-import { MouseEventHandler, useEffect, useState } from "react";
+import { MouseEventHandler } from "react";
 import { Image3D, Text } from "components/atoms";
-
-import { FaArrowLeft, FaSyncAlt } from "react-icons/fa";
-import "./style.scss";
 import { ComponentProps } from "types";
 
+import { FaArrowLeft, FaGripLines } from "react-icons/fa";
+import { IoCloseSharp } from "react-icons/io5";
+import "./style.scss";
+
 type Props = {
+  /**
+   * Modal title
+   */
+  title: string;
   /**
    * Modal content
    */
@@ -20,31 +25,47 @@ type Props = {
   role?: string;
 } & ComponentProps;
 
-export const Modal = (props: Props) => {
-  const { content, onClose, role = "modal", identifier } = props;
-  //Need to change any for different dataType
-  const [jsonData, setJsonData] = useState<any | null>(null);
+const showFullScreen = () => {
+  const element = document.getElementById("mfk-modal") as HTMLDivElement;
+  const fullScreenClassName = "mfk-image3D--full";
+  !element.classList.contains(fullScreenClassName)
+    ? element.classList.add(fullScreenClassName)
+    : element.classList.remove(fullScreenClassName);
+};
 
-  useEffect(() => {
-    if (jsonData === null) {
-      setJsonData(require(`assets/glb/${content}`));
-    }
-  }, [content, jsonData]);
+const toggleDescription = () => {
+  const element = document.getElementById("mfk-modal") as HTMLDivElement;
+
+  !element.classList.contains("toggle")
+    ? element.classList.add("toggle")
+    : element.classList.remove("toggle");
+};
+
+export const Modal = (props: Props) => {
+  const { title, content, onClose, role = "modal", identifier } = props;
+
   return (
     <div data-testid={identifier} role={role} className="mfk-modal">
-      <div className={"mfk-modal--content"}>
+      <div id="mfk-modal" className={"mfk-modal--content"}>
         <div className="mfk-modal--title">
           <span className="mfk-modal--close" onClick={onClose}>
             <FaArrowLeft />
           </span>
-          <Text type="subtitle1">{jsonData && jsonData.title}</Text>
+          <Text type="subtitle1">{title}</Text>
         </div>
-        <div className="mfk-modal--settings">
-          <div className="mfk-modal--settings-item">
-            <FaSyncAlt />
-          </div>
-        </div>
-        {jsonData && <Image3D fileName={content} identifier="3d-object" />}
+        <Image3D fileName={content} identifier="3d-object" />
+        <span className="mfk-modal--show-full" onClick={showFullScreen}>
+          show more
+        </span>
+        <span className="mfk-modal--hide-full" onClick={showFullScreen}>
+          <IoCloseSharp />
+        </span>
+        <span
+          className="mfk-modal--description-toggle"
+          onClick={toggleDescription}
+        >
+          <FaGripLines />
+        </span>
       </div>
     </div>
   );

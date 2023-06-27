@@ -20,7 +20,8 @@ export default function Main() {
   const [hideLanding, setHideLanding] = useState<boolean>(
     JSON.parse(localStorage.getItem("mfkVisit") || "false")
   );
-  const [modalContent, setModalContent] = useState<string>("");
+  //TODO: Need to add correct data type insted of any
+  const [modalContent, setModalContent] = useState<any>({});
 
   useEffect(() => {
     if (exhiditsData === null) {
@@ -36,14 +37,15 @@ export default function Main() {
     }
   }, [exhiditsData]);
 
-  const showHideModal = (show: boolean, content?: string): void => {
+  //TODO: Need to add correct data type insted of any, same as on line 23
+  const showHideModal = (show: boolean, content?: any): void => {
     setShowModal(show);
     if (content) setModalContent(content);
   };
 
   const onHideLanding = () => {
     //TODO: Uncomment it after getting design
-    //localStorage.setItem("mfkVisit", "true");
+    localStorage.setItem("mfkVisit", "true");
     setHideLanding(true);
   };
 
@@ -74,7 +76,11 @@ export default function Main() {
       )}
 
       {showModal && (
-        <Modal content={modalContent} onClose={() => showHideModal(false)} />
+        <Modal
+          title={modalContent.title}
+          content={modalContent.data}
+          onClose={() => showHideModal(false)}
+        />
       )}
     </div>
   );

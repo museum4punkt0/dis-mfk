@@ -21,7 +21,7 @@ $date-spacing: -$date-size - 10px;
     &:before {
       content: '';
       position: absolute;
-      top: 0;
+      top: 10px;
       left: 50%;
       margin-left: -1px;
       width: 2px;
