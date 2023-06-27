@@ -14,7 +14,13 @@ export const Image3D = (props: Props) => {
   const { fileName, identifier } = props;
 
   const render3D = (ref: Element) =>
-    ref ? createScene(ref, `assets/glb/${fileName}`) : null;
+    ref
+      ? createScene(
+          ref,
+          `assets/glb/${fileName}`,
+          process.env.REACT_APP_API_PATH
+        )
+      : null;
   return (
     <div
       data-testid={identifier}
