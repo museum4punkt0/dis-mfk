@@ -23,9 +23,21 @@
     }
   ],
   "chapters": [
-    {"id":"ch1", "title": "", "cameras":["Camera_animated_baked", "Camera_front"]},
-    {"id":"ch2", "title": "", "cameras":["Camera_top", "Camerabehindlamp"]},
-    {"id":"ch3", "title": "", "cameras":["Camera_front", "Camera_top"]}
+    {
+      "id": "ch1",
+      "title": "",
+      "cameras": []
+    },
+    {
+      "id": "ch2",
+      "title": "",
+      "cameras": []
+    },
+    {
+      "id": "ch3",
+      "title": "",
+      "cameras": []
+    }
   ],
-  "gltfUrl": "assets/glb/2/2.glb"
+  "gltfUrl": "assets/glb/1/2.glb"
 }

@@ -370,7 +370,7 @@ const mockData: mockDataType = [
     id: "22",
     type: 1,
     startDate: "1989",
-    endDate: "1991"
+    endDate: "1991",
     title: {
       en: "World Wide Web",
       de: "World Wide Web",
