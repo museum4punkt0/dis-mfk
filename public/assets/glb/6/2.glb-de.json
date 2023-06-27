@@ -32,5 +32,22 @@
       "camera": "Camera"
     }
   ],
+  "chapters": [
+    {
+      "id": "ch1",
+      "title": "",
+      "cameras": []
+    },
+    {
+      "id": "ch2",
+      "title": "",
+      "cameras": []
+    },
+    {
+      "id": "ch3",
+      "title": "",
+      "cameras": []
+    }
+  ],
   "gltfUrl": "assets/glb/6/2.glb"
 }
