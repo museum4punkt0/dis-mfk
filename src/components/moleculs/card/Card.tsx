@@ -48,7 +48,7 @@ export const Card = (props: CardType) => {
             </>
           )}
         </div>
-        {type === 1 && <Avatar />}
+        {type === 1 && <Avatar url={`assets/${id}.png`} />}
       </div>
     </div>
   );
