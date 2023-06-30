@@ -1,6 +1,7 @@
-import { MouseEventHandler } from "react";
+import { MouseEventHandler, useState, useEffect } from "react";
 import { Image3D, Text } from "components/atoms";
 import { ComponentProps } from "types";
+import { Viewer } from "@smb/display";
 
 import { FaArrowLeft, FaGripLines } from "react-icons/fa";
 import { IoCloseSharp } from "react-icons/io5";
@@ -25,47 +26,61 @@ type Props = {
   role?: string;
 } & ComponentProps;
 
-const showFullScreen = () => {
-  const element = document.getElementById("mfk-modal") as HTMLDivElement;
-  const fullScreenClassName = "mfk-image3D--full";
-  !element.classList.contains(fullScreenClassName)
-    ? element.classList.add(fullScreenClassName)
-    : element.classList.remove(fullScreenClassName);
-};
-
-const toggleDescription = () => {
-  const element = document.getElementById("mfk-modal") as HTMLDivElement;
-
-  !element.classList.contains("toggle")
-    ? element.classList.add("toggle")
-    : element.classList.remove("toggle");
-};
-
 export const Modal = (props: Props) => {
   const { title, content, onClose, role = "modal", identifier } = props;
 
+  const [isFullScreen, setIsFullScreen] = useState<Boolean>(false);
+  const [isToggled, setIsToggled] = useState<Boolean>(false);
+  const [is3dObjectloaded, setIs3dObjectloaded] = useState<Boolean>(false);
+
+  const toggleFullScreen = () => setIsFullScreen((oldState) => !oldState);
+  const toggleDescription = () => setIsToggled((oldState) => !oldState);
+
+  //Add this constant for detecting canvas object before render.
+  const ViewerWrapper = Viewer({
+    src: `assets/glb/${content}`,
+    baseResourceUrl: process.env.REACT_APP_API_PATH as string,
+  });
+
+  useEffect(() => {
+    //FIXME: This is a hardcoded property that help to detect loading state in Viewer from @smb/display library
+    const loadindData = ViewerWrapper.props.children[0].props.children[1].type;
+    if (loadindData !== "progress") {
+      setIs3dObjectloaded(true);
+    }
+  }, [ViewerWrapper]);
+
   return (
     <div data-testid={identifier} role={role} className="mfk-modal">
-      <div id="mfk-modal" className={"mfk-modal--content"}>
+      <div
+        id="mfk-modal"
+        className={`mfk-modal--content ${
+          isFullScreen ? "mfk-image3D--full" : ""
+        } ${isToggled ? "mfk-toggle--content" : ""}`}
+      >
         <div className="mfk-modal--title">
           <span className="mfk-modal--close" onClick={onClose}>
             <FaArrowLeft />
           </span>
           <Text type="subtitle1">{title}</Text>
         </div>
-        <Image3D fileName={content} identifier="3d-object" />
-        <span className="mfk-modal--show-full" onClick={showFullScreen}>
-          show more
-        </span>
-        <span className="mfk-modal--hide-full" onClick={showFullScreen}>
-          <IoCloseSharp />
-        </span>
-        <span
-          className="mfk-modal--description-toggle"
-          onClick={toggleDescription}
-        >
-          <FaGripLines />
-        </span>
+        <Image3D displayObject={ViewerWrapper} identifier="3d-object" />
+        {is3dObjectloaded && (
+          <>
+            <span className="mfk-modal--show-full" onClick={toggleFullScreen}>
+              show more
+            </span>
+            <span className="mfk-modal--hide-full" onClick={toggleFullScreen}>
+              <IoCloseSharp />
+            </span>
+            <span
+              className="mfk-modal--description-toggle"
+              onClick={toggleDescription}
+            >
+              <FaGripLines />
+            </span>
+          </>
+        )}
       </div>
     </div>
   );
