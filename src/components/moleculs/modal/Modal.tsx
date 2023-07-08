@@ -1,5 +1,5 @@
 import { MouseEventHandler, useState, useEffect } from "react";
-import { Image3D, Text } from "components/atoms";
+import { Image3D, Loader, Text } from "components/atoms";
 import { ComponentProps } from "types";
 import { Viewer } from "@smb/display";
 
@@ -46,7 +46,10 @@ export const Modal = (props: Props) => {
     //FIXME: This is a hardcoded property that help to detect loading state in Viewer from @smb/display library
     const loadindData = ViewerWrapper.props.children[0].props.children[1].type;
     if (loadindData !== "progress") {
-      setIs3dObjectloaded(true);
+      //setTimeout need to show Loader more then 1s, because data loads quickly and loader dissapear in less then 300ms
+      setTimeout(() => {
+        setIs3dObjectloaded(true);
+      }, 1000);
     }
   }, [ViewerWrapper]);
 
@@ -64,8 +67,10 @@ export const Modal = (props: Props) => {
           </span>
           <Text type="subtitle1">{title}</Text>
         </div>
-        <Image3D displayObject={ViewerWrapper} identifier="3d-object" />
-        {is3dObjectloaded && (
+        <div className={!is3dObjectloaded ? "mfk-hide-3D" : ""}>
+          <Image3D displayObject={ViewerWrapper} identifier="3d-object" />
+        </div>
+        {is3dObjectloaded ? (
           <>
             <span className="mfk-modal--show-full" onClick={toggleFullScreen}>
               show more
@@ -80,6 +85,10 @@ export const Modal = (props: Props) => {
               <FaGripLines />
             </span>
           </>
+        ) : (
+          <div className="mfk-modal--loader">
+            <Loader />
+          </div>
         )}
       </div>
     </div>

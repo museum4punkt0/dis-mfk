@@ -58,6 +58,21 @@ $titleHeight: 40px;
     width: $titleHeight;
     cursor: pointer;
   }
+
+  &--loader {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    z-index: 1;
+  }
+}
+
+.mfk-hide-3D {
+  visibility: hidden;
 }
 
 // Additional styling for toggle description

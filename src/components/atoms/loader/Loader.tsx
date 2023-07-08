@@ -8,10 +8,10 @@ export const Loader = (props: ComponentProps) => {
   return (
     <div className="mfk-loader" data-testid={identifier}>
       <RotatingLines
-        strokeColor="#4D4D51"
-        strokeWidth="5"
-        animationDuration="0.75"
-        width="96"
+        strokeColor="#042f70"
+        strokeWidth="3"
+        animationDuration="1"
+        width="80"
         visible={true}
       />
     </div>
