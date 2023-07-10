@@ -16,7 +16,7 @@ i18n
   .init({
     resources,
     fallbackLng: localStorage.getItem("lang") || "en", // need to store lang after refresh
-    debug: true,
+    debug: false,
     interpolation: {
       escapeValue: false, // react already safes from xss
     },

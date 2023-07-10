@@ -16,7 +16,7 @@ type Props = {
 export const Landing = (props: Props) => {
   const { onClickAction } = props;
 
-  const { t } = useTranslation();
+  const { t } = useTranslation("translation", { keyPrefix: "landing" });
 
   return (
     <div className="mfk-landing">
@@ -25,10 +25,10 @@ export const Landing = (props: Props) => {
           <img src={process.env.REACT_APP_API_PATH + logo} alt="landing-logo" />
         </div>
         <Text type="title" additionalClass="mfk-landing--title">
-          {t("landing.title")}
+          {t("title")}
         </Text>
         <div className="mfk-landing--description">
-          <Text type="subtitle1">{t("landing.content")}</Text>
+          <Text type="subtitle1">{t("content")}</Text>
         </div>
       </div>
       <div className="mfk-landing--btn" onClick={onClickAction}>
