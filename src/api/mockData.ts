@@ -16,11 +16,7 @@ const mockData: mockDataType = [
       de: `Sotzmann-Globus und die Vervollständigung des europäischen Weltbilds durch Schifffahrten`,
       ge: `Sotzmann-Globus und die Vervollständigung des europäischen Weltbilds durch Schifffahrten`,
     },
-    glbJson: {
-      en: "2.glb-en.json",
-      de: "2.glb-de.json",
-      ge: "2.glb-ge.json",
-    },
+    glbJson: true,
   },
   {
     id: "2",
@@ -97,11 +93,7 @@ const mockData: mockDataType = [
       de: `Telegrafenstation mit Stiftschreiber und Morsetaste`,
       ge: `Telegrafenstation mit Stiftschreiber und Morsetaste`,
     },
-    glbJson: {
-      en: "2.glb-en.json",
-      de: "2.glb-de.json",
-      ge: "2.glb-ge.json",
-    },
+    glbJson: true,
   },
   {
     id: "7",
@@ -117,11 +109,7 @@ const mockData: mockDataType = [
       de: `Telefon von Philipp Reis`,
       ge: `Telefon von Philipp Reis`,
     },
-    glbJson: {
-      en: "2.glb-en.json",
-      de: "2.glb-de.json",
-      ge: "2.glb-ge.json",
-    },
+    glbJson: true,
   },
   {
     id: "8",
@@ -137,11 +125,7 @@ const mockData: mockDataType = [
       de: `Telefon von Alexander Graham Bell`,
       ge: `Telefon von Alexander Graham Bell`,
     },
-    glbJson: {
-      en: "2.glb-en.json",
-      de: "2.glb-de.json",
-      ge: "2.glb-ge.json",
-    },
+    glbJson: true,
   },
   {
     id: "9",
@@ -187,11 +171,7 @@ const mockData: mockDataType = [
       de: `Klappenschrank für 100 Telefonanschlüsse`,
       ge: `Klappenschrank für 100 Telefonanschlüsse`,
     },
-    glbJson: {
-      en: "2.glb-en.json",
-      de: "2.glb-de.json",
-      ge: "2.glb-ge.json",
-    },
+    glbJson: true,
   },
   {
     id: "12",
@@ -207,11 +187,7 @@ const mockData: mockDataType = [
       de: `Zinnfolienphonograph nach Thomas Alva Edison`,
       ge: `Zinnfolienphonograph nach Thomas Alva Edison`,
     },
-    glbJson: {
-      en: "2.glb-en.json",
-      de: "2.glb-de.json",
-      ge: "2.glb-ge.json",
-    },
+    glbJson: true,
   },
   {
     id: "13",
@@ -227,11 +203,7 @@ const mockData: mockDataType = [
       de: `Kabeldampfer „Stephan“`,
       ge: `Kabeldampfer „Stephan“`,
     },
-    glbJson: {
-      en: "2.glb-en.json",
-      de: "2.glb-de.json",
-      ge: "2.glb-ge.json",
-    },
+    glbJson: true,
   },
   {
     id: "14",
@@ -247,11 +219,7 @@ const mockData: mockDataType = [
       de: `Fernsehempfänger mit Nipkow-Scheibe „Telehor“`,
       ge: `Fernsehempfänger mit Nipkow-Scheibe „Telehor“`,
     },
-    glbJson: {
-      en: "2.glb-en.json",
-      de: "2.glb-de.json",
-      ge: "2.glb-ge.json",
-    },
+    glbJson: true,
   },
   {
     id: "15",
@@ -297,11 +265,7 @@ const mockData: mockDataType = [
       de: `Rotor-Chiffriermaschine Enigma M4`,
       ge: `Rotor-Chiffriermaschine Enigma M4`,
     },
-    glbJson: {
-      en: "2.glb-en.json",
-      de: "2.glb-de.json",
-      ge: "2.glb-ge.json",
-    },
+    glbJson: true,
   },
   {
     id: "18",
