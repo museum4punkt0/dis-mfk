@@ -17,13 +17,13 @@ export const Card = (props: CardType) => {
   return (
     <div
       data-testid={identifier}
-      className={`mfk-card-wrapper ${cardWrapperClass}`}
+      className={`mfk-card--wrapper ${cardWrapperClass}`}
       onClick={type === 1 ? showHideDescription : onClick}
     >
       <div className="mfk-card--content">
         <div style={{ flex: 1 }}>
           <Text type="caption">{date}</Text>
-          <Text type="subtitle1" additionalClass="mfk-card-title">
+          <Text type="subtitle1" additionalClass="mfk-card--title">
             {title}
           </Text>
           {type === 1 ? (

@@ -54,14 +54,14 @@ $date-spacing: -$date-size - 10px;
     }
     &-right {
       float: right;
-      .mfk-card-wrapper {
+      .mfk-card--wrapper {
         margin-left: -8px;
       }
     }
     &-left {
       float: left;
       direction: rtl;
-      .mfk-card-wrapper {
+      .mfk-card--wrapper {
         margin-right: -8px;
       }
     }
@@ -107,7 +107,7 @@ $date-spacing: -$date-size - 10px;
       &-left {
         float: none;
         direction: ltr;
-        .mfk-card-wrapper {
+        .mfk-card--wrapper {
           margin-left: -8px;
           margin-right: 0;
         }
