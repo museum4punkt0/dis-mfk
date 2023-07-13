@@ -50,6 +50,12 @@
       padding: 10px 10px 0;
       border-top-left-radius: 8px;
       border-top-right-radius: 8px;
+      .storyTitle {
+        display: -webkit-box;
+        -webkit-line-clamp: 1;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+      }
       section {
         .title {
           & + p {
@@ -81,6 +87,11 @@
         button {
           display: none;
         }
+      }
+      .storyTitle {
+        padding: 0 var.$spacing * 5;
+        -webkit-line-clamp: unset;
+        overflow: visible;
       }
       section {
         .title {

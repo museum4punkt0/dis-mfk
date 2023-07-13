@@ -1,53 +1,90 @@
 {
-  "title": "Story title",
+  "title": "Telefon von Alexander Graham Bell mit Schnittmodell eines Fernsprechers nach Bell",
   "content": [
     {
-      "title": "English version id-8",
-      "html": "<p> some fancy description html </p>",
-      "camera": "Camera_animated_baked"
+      "title": "Erfindungs- und Nutzungsgeschichte",
+      "html": "<p>Der Erfinder Alexander Graham Bell (1847–1922) verhalf der Entwicklung des Telefons und dessen internationaler Vermarktung zum Durchbruch. Maßgeblichen Einfluss übte dabei der Reis’sche Telefonapparat aus. 1876 erhielt Bell das Patent für sein Telefonmodell und setzte dieses auch gerichtlich gegen die Ansprüche anderer Erfinder durch.</p><div><img src='https://3d-objekte.museumsstiftung.de/app/images/bell/1.Foto_von_Alexander_Graham_Bel.png' alt='1.Foto_von_Alexander_Graham_Bel.png'></div><p>Foto von Alexander Graham Bell, ca. 1914 © CC 0 1.0</p>",
+      "camera": "LookingAtPOIhistory001"
     },
     {
-      "title": "Title for camera Camera_front",
-      "html": "<p> some fancy description html </p>",
-      "camera": "Camera_front"
+      "title": "",
+      "html": "<p>Im Gegensatz zu dem Telefon von Philipp Reis handelte es sich bei dem Bell-Telefon um ein Einhand-Telefongerät. In Handhabung, Größe und Gewicht wies es bereits viele Ähnlichkeiten mit heutigen Telefonen auf.</p><div><img src='https://3d-objekte.museumsstiftung.de/app/images/bell/2.Zeitungsartikel_The_New_Bell_Telephone.png' alt='2.Zeitungsartikel_The_New_Bell_Telephone.png'></div><p>Zeitungsartikel „The New Bell Telephone“ (aus: Scientific American) © MSPT</p>",
+      "camera": "LookingAtPOIhistory002"
     },
     {
-      "title": "Title for camera Camera_top",
-      "html": "<p> some fancy description html </p>",
-      "camera": "Camera_top"
+      "title": "",
+      "html": "<p>Bells Erfindung fußte auf dem Prinzip der magnetischen Induktion. Dabei wurden elektrische Schwingungen durch ein verändertes Magnetfeld erzeugt, während Reis den Stromfluss unterbrochen hatte, um Stromimpulse auszulösen. Auf diese Weise funktionierte der Bell-Apparat im Gegensatz zum Reis-Telefon ohne Batterien.</p>",
+      "camera": "LookingAtPOIhistory003"
     },
     {
-      "title": "Title for camera Camerabehindlamp",
-      "html": "<p> some fancy description html </p>",
-      "camera": "Camerabehindlamp"
+      "title": "",
+      "html": "<p>Heinrich von Stephan führte mit dem Telefon am 26. Oktober 1877 das deutschlandweit erste Telefongespräch. Nur wenige Monate später veranlasste er, die bestehenden Telegrafenlinien auch für den Telefonbetrieb zu nutzen. Die Telegraphen Bau-Anstalt von Siemens & Halske verbesserte die Telefone in den folgenden Jahren ständig und erwarb eigene Patente.</p><div><img src='https://3d-objekte.museumsstiftung.de/app/images/bell/3.Museumsgründer_Heinrich_von_Stephan.png' alt='3.Museumsgründer_Heinrich_von_Stephan.png'></div><p>Museumsgründer Heinrich von Stephan mit dem Bell-Telefon © MSPT</p>",
+      "camera": "LookingAtPOIhistory004"
     },
     {
-      "title": "Title for camera Camera_far",
-      "html": "<p> some fancy description html </p>",
-      "camera": "Camera_far"
+      "title": "",
+      "html": "<p>Ein privater Telefonanschluss war um 1900 nicht für jeden finanzierbar. Die Anschlussgebühr kostete jährlich 200 Mark. Das durchschnittliche Jahreseinkommen im Deutschen Reich lag bei ungefähr 850 Mark.</p>",
+      "camera": "LookingAtPOIhistory005"
     },
     {
-      "title": "Title for camera Camera",
-      "html": "<p> some fancy description html </p>",
-      "camera": "Camera"
+      "title": "Technische Funktionsweise (Trichter)",
+      "html": "<p>Das Bell-Telefon dient gleichzeitig als Empfänger und Sender. Der Trichter ist also sowohl zum Sprechen als auch zum Hören. Das Gerät muss beim Gespräch zwischen Mund und Ohr hin- und hergewechselt werden.</p>",
+      "camera": "LookingAtPOI001"
+    },
+    {
+      "title": "Eisenmembran",
+      "html": "<p>Sobald eine Nachricht in den Trichter gesprochen wird, gerät eine dahinterliegende Eisenmembran in Schwingung. Diese Eisenmembran liegt über einer Spule, die mit einem dauerhaft magnetisierten Magneten verbunden ist.</p>",
+      "camera": "LookingAtPOI002"
+    },
+    {
+      "title": "Elektromagnet",
+      "html": "<p>Der Elektromagnet erzeugt ein Magnetfeld. Die Vibrationen der Eisenmembran beeinflussen dieses Magnetfeld und erzeugen so elektrische Schwingungen in der Spule.</p>",
+      "camera": "LookingAtPOI003"
+    },
+    {
+      "title": "Spule",
+      "html": "<p>Durch das veränderte Magnetfeld entstehen in der Spule elektrische Schwingungen. Diese werden über angeschlossene Kupferdrähte zu den Klemmschrauben weitergeleitet.</p>",
+      "camera": "LookingAtPOI004"
+    },
+    {
+      "title": "Klemmschrauben",
+      "html": "<p>Das Bell-Telefon verfügt über zwei an die Klemmschrauben angeschlossene Kabel: Ein Kabel leitet die Nachricht als elektrische Signale. Ein weiteres Kabel dient zur Erdung des Geräts. Empfangene Nachrichten werden durch ein identisches Gerät in umgekehrter Reihenfolge wieder hörbar gemacht.</p>",
+      "camera": "LookingAtPOI005"
+    },
+    {
+      "title": "Gegenwartsbezug",
+      "html": "<p>1879 hatten weltweit erst 20 Städte Fernsprechvermittlungseinrichtungen. Zwei Jahre später wurde in Berlin die erste Fernsprechvermittlungsstelle mit acht Teilnehmer:innen eingerichtet. Zur gleichen Zeit besaßen in den USA alle Städte mit über 15.000 Einwohner:innen bereits ein Telefonnetz. 1910 gab es weltweit 10 Millionen Fernsprecher, rund 941.000 davon in Deutschland – bei damals 64,9 Millionen Einwohner:innen. Somit hatten rund 1,45 % der deutschen Bevölkerung einen Telefonanschluss. 2022 besaßen in Deutschland 62,6 Millionen Menschen ein Smartphone, das sind ungefähr 75 %. Im gleichen Jahr waren weltweit 5,3 von 7,9 Milliarden Menschen im Besitz eines Smartphones.</p>",
+      "camera": "LookingAtPOIpresent001"
     }
   ],
   "chapters": [
     {
-      "id": "ch1",
+      "id": "history",
       "title": "",
-      "cameras": []
+      "cameras": [
+        "LookingAtPOIhistory001",
+        "LookingAtPOIhistory002",
+        "LookingAtPOIhistory003",
+        "LookingAtPOIhistory004",
+        "LookingAtPOIhistory005"
+      ]
     },
     {
-      "id": "ch2",
+      "id": "information",
       "title": "",
-      "cameras": []
+      "cameras": [
+        "LookingAtPOI001",
+        "LookingAtPOI002",
+        "LookingAtPOI003",
+        "LookingAtPOI004",
+        "LookingAtPOI005"
+      ]
     },
     {
-      "id": "ch3",
+      "id": "present",
       "title": "",
-      "cameras": []
+      "cameras": ["LookingAtPOIpresent001"]
     }
   ],
-  "gltfUrl": "assets/glb/8/2.glb"
+  "gltfUrl": "assets/glb/8/reistelefon.glb"
 }
