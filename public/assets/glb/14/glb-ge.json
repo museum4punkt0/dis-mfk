@@ -1,52 +1,77 @@
 {
-  "title": "Story title",
+  "title": "Fernsehempfänger mit Nipkow-Scheibe „Telehor“",
   "content": [
     {
-      "title": "Deutsche Version id-16",
-      "html": "<p> some fancy description html </p>",
-      "camera": "Camera_animated_baked"
+      "title": "Erfindungs- und Nutzungsgeschichte",
+      "html": "<p>1883 hatte der Student Paul Nipkow eine geniale Idee: ein bewegtes Bild mit einer rotierenden Lochscheibe zu zerlegen, über eine Leitung elektrisch zu übertragen und im Empfänger wieder zusammenzusetzen.</p><div><img src='https://3d-objekte.museumsstiftung.de/app/images/nipkow/1.Paul_Nipkow.png' alt='1.Paul_Nipkow.png'></div><p>Paul Nipkow © MSPT</p>",
+      "camera": "LookingAtPOIhistory001"
     },
     {
-      "title": "Title for camera Camera_front",
-      "html": "<p> some fancy description html </p>",
-      "camera": "Camera_front"
+      "title": "",
+      "html": "<p>Auf der 5. Großen Deutschen Funkausstellung 1928 in Berlin präsentierte Dénes von Mihály den Fernseher erstmals der Öffentlichkeit. Sein Telehor beruhte auf dem Prinzip, das 1883 Paul Nipkow entwickelt hatte. Die Bildgröße betrug 2 x 3 cm, mit einer Lupe sogar 3 x 4,5 cm.</p><div><img src='https://3d-objekte.museumsstiftung.de/app/images/nipkow/2.Dénes_von_Mihály_vor_einem_Telehor-Empfänger.png' alt='2.Dénes_von_Mihály_vor_einem_Telehor-Empfänger.png'></div><p>Dénes von Mihály vor einem Telehor-Empfänger auf der 5. Großen Deutschen Funkausstellung, 1928 © MSPT</p>",
+      "camera": "LookingAtPOIhistory002"
     },
     {
-      "title": "Title for camera Camera_top",
-      "html": "<p> some fancy description html </p>",
-      "camera": "Camera_top"
+      "title": "",
+      "html": "<p>1930 brachte die Firma TeKaDe einen Baukasten zum Selbstbau des Fernsehempfängers „System TELEHOR“ auf den Markt. Der Fernseher konnte an Rundfunkempfänger angeschlossen werden. Damit ließen sich der Sender Witzleben, von dem die Reichspost Versuchssendungen ausstrahlte, und der Sender der Baird Television Company aus London empfangen.</p><div><img src='https://3d-objekte.museumsstiftung.de/app/images/nipkow/3.Fernsehbaukastensystem_Telehor.png' alt='3.Fernsehbaukastensystem_Telehor.png'></div><p>Fernsehbaukastensystem Telehor der Firma TeKaDe © MSPT</p>",
+      "camera": "LookingAtPOIhistory003"
     },
     {
-      "title": "Title for camera Camerabehindlamp",
-      "html": "<p> some fancy description html </p>",
-      "camera": "Camerabehindlamp"
+      "title": "Nipkow-Scheibe",
+      "html": "<p>1. Damit der Fernsehempfänger „System TELEHOR“ Bilder zeigen kann, müssen diese zuvor von einem Sender, der ebenfalls über eine Nipkow-Scheibe verfügt, aufgenommen werden. In der Regel werden die Bilder live in einem Fernsehstudio produziert und gesendet.</p><div><img src='https://3d-objekte.museumsstiftung.de/app/images/nipkow/4.Fernseh-Aufnahmeversuche_mit_Bildabtaster.png' alt='4.Fernseh-Aufnahmeversuche_mit_Bildabtaster.png'></div><p>Fernseh-Aufnahmeversuche mit Bildabtaster © MSPT</p><br/><p>2. Durch die spiralförmigen Löcher der sich drehenden Nipkow-Scheibe wird das Ursprungsbild in einzelne horizontale Bildzeilen zerlegt, die aus hellen und dunklen Bildpunkten bestehen.</p><div><img src='https://3d-objekte.museumsstiftung.de/app/images/nipkow/5.Zeitschriftenartikel_aus_dem_Jahr_1977.png' alt='5.Zeitschriftenartikel_aus_dem_Jahr_1977.png'></div><p>Zeitschriftenartikel aus dem Jahr 1977 mit dem ersten Fernsehbild, das in Deutschland gesendet wurde © MSPT</p><br/><p>3. Eine Fotozelle hinter der Scheibe wandelt die Bildzeilen in elektrische Signale um. Dazu dienen lichtempfindliche Materialien wie Selen, die je nach Beleuchtung unterschiedliche elektrische Spannungen erzeugen. Diese Signale werden verstärkt und auf einer Trägerwelle ausgestrahlt.</p><br/><p>4. Ein an den TELEHOR angeschlossener Rundfunkempfänger empfängt die Signale. Mithilfe einer Flächenglimmlampe und einer Nipkow-Scheibe werden die Bildzeilen wieder zusammengesetzt. Ein Bild bestand aus 30 Zeilen, der TELEHOR zeigt 12,5 Bilder pro Sekunde.</p>",
+      "camera": "LookingAtPOI001"
     },
     {
-      "title": "Title for camera Camera_far",
-      "html": "<p> some fancy description html </p>",
-      "camera": "Camera_far"
+      "title": "Flächenglimmlampe",
+      "html": "<p>Die Stromstärke des empfangenen Signals regelt die Helligkeit der Flächenglimmlampe. Das Licht wird durch die Löcher der sich drehenden Nipkow-Scheibe geworfen, die das Bild an der davorliegenden Mattglasscheibe Bildzeile für Bildzeile als Gesamtbild wieder zusammensetzt.</p>",
+      "camera": "LookingAtPOI002"
     },
     {
-      "title": "Title for camera Camera",
-      "html": "<p> some fancy description html </p>",
-      "camera": "Camera"
+      "title": "Helligkeitsregelung für die Glimmlampe",
+      "html": "<p>Über einen Widerstand wird die Helligkeit des Fernsehbilds eingestellt.</p>",
+      "camera": "LookingAtPOI003"
+    },
+    {
+      "title": "Phonisches Rad",
+      "html": "<p>Ein phonisches Rad steuert die konstante Rotationsgeschwindigkeit der Nipkow-Scheibe. Die zwei baugleichen phonischen Räder in Sender und Empfänger rotieren exakt gleich schnell, wenn sie sich im selben Stromnetz befinden. Nur so ist eine stabile Bildübertragung gewährleistet. Die Scheiben müssen sich dabei so schnell drehen, dass das Auge den Punkt- und Zeilenwechsel nicht mehr nachvollziehen kann.</p>",
+      "camera": "LookingAtPOI004"
+    },
+    {
+      "title": "Phasensynchronisierung",
+      "html": "<p>Um ein klar erkennbares Bild zu bekommen, muss in Sender und Empfänger das gleiche Loch zur gleichen Zeit an der gleichen Stelle sein. Die Position der Löcher, die Phase der Rotation, lässt sich über diese Hebel einstellen.</p>",
+      "camera": "LookingAtPOI005"
+    },
+    {
+      "title": "Gegenwartsbezug",
+      "html": "<p>Auf der Grundlage technischer Entwicklungen wie des Telehor entwickelte sich das Fernsehen zu einem der bedeutendsten Massenmedien des 20. Jh. Es beeinflusste in hohem Maße gesellschaftliche und politische Entwicklungen. In den Zeiten des Wirtschaftswunders der 1950er/60er Jahre nahm die Popularität des Fernsehens rasant zu und es löste das Radio als Leitmedium ab. Durch seine große Reichweite übte es erheblichen Einfluss auf die Gesellschaft aus. Das traditionelle lineare Fernsehen mit festen Programmen verliert seit dem Beginn des 21. Jh. durch Streamingdienste und Mediatheken im Internet zunehmend an Bedeutung. Seine Rolle als Leitmedium allerdings hat Fernsehen mit dieser Entwicklung keineswegs eingebüßt, sondern es hat an Flexibilität und Vielschichtigkeit gewonnen.</p>",
+      "camera": "LookingAtPOIpresent001"
     }
   ],
   "chapters": [
     {
-      "id": "ch1",
+      "id": "history",
       "title": "",
-      "cameras": []
+      "cameras": [
+        "LookingAtPOIhistory001",
+        "LookingAtPOIhistory002",
+        "LookingAtPOIhistory003"
+      ]
     },
     {
-      "id": "ch2",
+      "id": "information",
       "title": "",
-      "cameras": []
+      "cameras": [
+        "LookingAtPOI001",
+        "LookingAtPOI002",
+        "LookingAtPOI003",
+        "LookingAtPOI004",
+        "LookingAtPOI005"
+      ]
     },
     {
-      "id": "ch3",
+      "id": "present",
       "title": "",
-      "cameras": []
+      "cameras": ["LookingAtPOIpresent001"]
     }
   ],
   "gltfUrl": "assets/glb/14/nipkov.glb"
