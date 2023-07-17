@@ -1,59 +1,59 @@
 {
-  "title": "Telefon von Alexander Graham Bell mit Schnittmodell eines Fernsprechers nach Bell",
+  "title": "Bell telephone and cutaway model: Everyone their own telephone",
   "content": [
     {
-      "title": "Erfindungs- und Nutzungsgeschichte",
-      "html": "<p>Der Erfinder Alexander Graham Bell (1847–1922) verhalf der Entwicklung des Telefons und dessen internationaler Vermarktung zum Durchbruch. Maßgeblichen Einfluss übte dabei der Reis’sche Telefonapparat aus. 1876 erhielt Bell das Patent für sein Telefonmodell und setzte dieses auch gerichtlich gegen die Ansprüche anderer Erfinder durch.</p><div><img src='https://3d-objekte.museumsstiftung.de/app/images/bell/1.Foto_von_Alexander_Graham_Bel.png' alt='1.Foto_von_Alexander_Graham_Bel.png'></div><p>Foto von Alexander Graham Bell, ca. 1914 © CC 0 1.0</p>",
+      "title": "Erfindungs- und Nutzungsgeschichte???",
+      "html": "<p>Inventor Alexander Graham Bell (1847–1922) helped achieve a breakthrough in the phone’s development and its international marketing. In this process, the Reis telephone was a significant influence. After being granted a patent for his prototype telephone in 1876, Bell invested considerable time and effort in defending his patent against other inventors, also by taking them to court.</p><div><img src='https://3d-objekte.museumsstiftung.de/app/images/bell/1.Foto_von_Alexander_Graham_Bel.png' alt='1.Foto_von_Alexander_Graham_Bel.png'></div><p>Photograph of Alexander Graham Bell © CC 0 1.0</p>",
       "camera": "LookingAtPOIhistory001"
     },
     {
       "title": "",
-      "html": "<p>Im Gegensatz zu dem Telefon von Philipp Reis handelte es sich bei dem Bell-Telefon um ein Einhand-Telefongerät. In Handhabung, Größe und Gewicht wies es bereits viele Ähnlichkeiten mit heutigen Telefonen auf.</p><div><img src='https://3d-objekte.museumsstiftung.de/app/images/bell/2.Zeitungsartikel_The_New_Bell_Telephone.png' alt='2.Zeitungsartikel_The_New_Bell_Telephone.png'></div><p>Zeitungsartikel „The New Bell Telephone“ (aus: Scientific American) © MSPT</p>",
+      "html": "<p>In contrast to Philipp Reis’s telephone, the Bell telephone combined a transmitter and receiver so it could be held in one hand. In its use, size and weight, it already had many similarities with telephones today.</p><div><img src='https://3d-objekte.museumsstiftung.de/app/images/bell/2.Zeitungsartikel_The_New_Bell_Telephone.png' alt='2.Zeitungsartikel_The_New_Bell_Telephone.png'></div><p>Magazine article ‘The New Bell Telephone’ (from Scientific American) © MSPT</p>",
       "camera": "LookingAtPOIhistory002"
     },
     {
       "title": "",
-      "html": "<p>Bells Erfindung fußte auf dem Prinzip der magnetischen Induktion. Dabei wurden elektrische Schwingungen durch ein verändertes Magnetfeld erzeugt, während Reis den Stromfluss unterbrochen hatte, um Stromimpulse auszulösen. Auf diese Weise funktionierte der Bell-Apparat im Gegensatz zum Reis-Telefon ohne Batterien.</p>",
+      "html": "<p>Bell’s invention was based on the principle of magnetic induction with changes in a magnetic field producing electrical undulations, while Reis interrupted the flow of current to trigger electrical pulses. As a result, unlike the Reis telephone, Bell’s device did not need batteries.</p>",
       "camera": "LookingAtPOIhistory003"
     },
     {
       "title": "",
-      "html": "<p>Heinrich von Stephan führte mit dem Telefon am 26. Oktober 1877 das deutschlandweit erste Telefongespräch. Nur wenige Monate später veranlasste er, die bestehenden Telegrafenlinien auch für den Telefonbetrieb zu nutzen. Die Telegraphen Bau-Anstalt von Siemens & Halske verbesserte die Telefone in den folgenden Jahren ständig und erwarb eigene Patente.</p><div><img src='https://3d-objekte.museumsstiftung.de/app/images/bell/3.Museumsgründer_Heinrich_von_Stephan.png' alt='3.Museumsgründer_Heinrich_von_Stephan.png'></div><p>Museumsgründer Heinrich von Stephan mit dem Bell-Telefon © MSPT</p>",
+      "html": "<p>On 26 October 1877, Heinrich von Stephan used a Bell telephone to make the first phone call ever in Germany. Just a few months later, he opened the existing telegraph lines to telephone operations as well. Over the following years, the telegraph construction company ‘Telegraphen Bauanstalt von Siemens & Halske’ made improvements to the telephone and was granted a number of patents.</p><div><img src='https://3d-objekte.museumsstiftung.de/app/images/bell/3.Museumsgründer_Heinrich_von_Stephan.png' alt='3.Museumsgründer_Heinrich_von_Stephan.png'></div><p>Museum founder Heinrich von Stephan with the Bell telephone © MSPT</p>",
       "camera": "LookingAtPOIhistory004"
     },
     {
       "title": "",
-      "html": "<p>Ein privater Telefonanschluss war um 1900 nicht für jeden finanzierbar. Die Anschlussgebühr kostete jährlich 200 Mark. Das durchschnittliche Jahreseinkommen im Deutschen Reich lag bei ungefähr 850 Mark.</p>",
+      "html": "<p>Around 1900 the line rental for a private telephone cost 200 marks a year, putting it well beyond the means of most people. At that time, the average annual income in the German Reich was approximately 850 marks.</p>",
       "camera": "LookingAtPOIhistory005"
     },
     {
-      "title": "Technische Funktionsweise (Trichter)",
-      "html": "<p>Das Bell-Telefon dient gleichzeitig als Empfänger und Sender. Der Trichter ist also sowohl zum Sprechen als auch zum Hören. Das Gerät muss beim Gespräch zwischen Mund und Ohr hin- und hergewechselt werden.</p>",
+      "title": "Cone-shaped mouthpiece/earpiece",
+      "html": "<p>Since the Bell telephone’s cone-shaped mouthpiece/earpiece functions both as a receiver and transmitter, the piece can be moved as needed between the mouth and ear during the call.</p>",
       "camera": "LookingAtPOI001"
     },
     {
-      "title": "Eisenmembran",
-      "html": "<p>Sobald eine Nachricht in den Trichter gesprochen wird, gerät eine dahinterliegende Eisenmembran in Schwingung. Diese Eisenmembran liegt über einer Spule, die mit einem dauerhaft magnetisierten Magneten verbunden ist.</p>",
+      "title": "Iron membrane",
+      "html": "<p>As soon as a message is spoken into the mouthpiece, an iron membrane located behind it starts to vibrate. The iron membrane is set just in front of a coil connected to a permanent magnet.</p>",
       "camera": "LookingAtPOI002"
     },
     {
-      "title": "Elektromagnet",
-      "html": "<p>Der Elektromagnet erzeugt ein Magnetfeld. Die Vibrationen der Eisenmembran beeinflussen dieses Magnetfeld und erzeugen so elektrische Schwingungen in der Spule.</p>",
+      "title": "Electromagnet",
+      "html": "<p>The electromagnet generates a magnetic field. By influencing this magnetic field, the iron membrane’s vibrations induce electrical undulations in the coil.</p>",
       "camera": "LookingAtPOI003"
     },
     {
-      "title": "Spule",
-      "html": "<p>Durch das veränderte Magnetfeld entstehen in der Spule elektrische Schwingungen. Diese werden über angeschlossene Kupferdrähte zu den Klemmschrauben weitergeleitet.</p>",
+      "title": "Coil",
+      "html": "<p>The changes in the magnetic field create an undulatory current of electricity in the coil which is then transferred via connected copper wires to the binding screws.</p>",
       "camera": "LookingAtPOI004"
     },
     {
-      "title": "Klemmschrauben",
-      "html": "<p>Das Bell-Telefon verfügt über zwei an die Klemmschrauben angeschlossene Kabel: Ein Kabel leitet die Nachricht als elektrische Signale. Ein weiteres Kabel dient zur Erdung des Geräts. Empfangene Nachrichten werden durch ein identisches Gerät in umgekehrter Reihenfolge wieder hörbar gemacht.</p>",
+      "title": "Binding screws",
+      "html": "<p>The Bell telephone has two cables attached to the binding screws: one cable transfers the message as electric signals, while the other serves to earth the device. In the reverse sequence, messages received are made audible again through an identical device.</p>",
       "camera": "LookingAtPOI005"
     },
     {
-      "title": "Gegenwartsbezug",
-      "html": "<p>1879 hatten weltweit erst 20 Städte Fernsprechvermittlungseinrichtungen. Zwei Jahre später wurde in Berlin die erste Fernsprechvermittlungsstelle mit acht Teilnehmer:innen eingerichtet. Zur gleichen Zeit besaßen in den USA alle Städte mit über 15.000 Einwohner:innen bereits ein Telefonnetz. 1910 gab es weltweit 10 Millionen Fernsprecher, rund 941.000 davon in Deutschland – bei damals 64,9 Millionen Einwohner:innen. Somit hatten rund 1,45 % der deutschen Bevölkerung einen Telefonanschluss. 2022 besaßen in Deutschland 62,6 Millionen Menschen ein Smartphone, das sind ungefähr 75 %. Im gleichen Jahr waren weltweit 5,3 von 7,9 Milliarden Menschen im Besitz eines Smartphones.</p>",
+      "title": "Communication today",
+      "html": "<p>In 1879, only 20 cities around the world had a telephone exchange. Two years later, Berlin opened its first telephone exchange with just eight subscribers. In the USA at the same time, all cities with a population of over 15,000 already had a telephone network. In 1910 there were 10 million telephones globally. At that time, Germany had a population of 64.9 million, but only 941,000 phones – so just 1.45% of all people in the country had a telephone connection. In 2022, in comparison, 62.6 million people in Germany had a smartphone – roughly 75% of the population. In global terms, the world’s total population that year was 7.9 billion people – and 5.3 billion of them owned a smartphone.</p>",
       "camera": "LookingAtPOIpresent001"
     }
   ],

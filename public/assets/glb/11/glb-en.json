@@ -1,74 +1,74 @@
 {
-  "title": "Klappenschrank für 100 Telefonanschlüsse",
+  "title": "Telephone switchboard",
   "content": [
     {
-      "title": "Erfindungs- und Nutzungsgeschichte",
-      "html": "<p>Mit der Eröffnung der ersten städtischen Telefonzentralen 1881 begann die Geschichte des öffentlichen Telefonbetriebs in Deutschland. Klappenschränke aus Telefonzentralen sind Zeugen aus der Anfangszeit der Telefonie.</p><div><img src='https://3d-objekte.museumsstiftung.de/app/images/klappschrank/1.Handvermittlung_in_Stettin_im_Jahr_1893.png' alt='1.Handvermittlung_in_Stettin_im_Jahr_1893.png'></div><p>Handvermittlung in Stettin im Jahr, Fotografie, 1893 © MSPT</p>",
+      "title": "Erfindungs- und Nutzungsgeschichte???",
+      "html": "<p>The history of Germany’s public telephone network began when the first city telephone exchange was opened in 1881. The switchboards from telephone exchanges tell the history of telephony’s early years.</p><div><img src='https://3d-objekte.museumsstiftung.de/app/images/klappschrank/1.Handvermittlung_in_Stettin_im_Jahr_1893.png' alt='1.Handvermittlung_in_Stettin_im_Jahr_1893.png'></div><p>Manually operated switchboard in Stettin, 1893 © MSPT</p>",
       "camera": "LookingAtPOIhistory001"
     },
     {
       "title": "",
-      "html": "<p>In den Telefonzentralen nahmen Telefonist:innen die Gesprächswünsche an und stellten die Telefonverbindung manuell her. Ab 1889 kam vorwiegend weibliches Personal zum Einsatz. Die höherfrequenten Frauenstimmen waren unabhängig von der Leitungsqualität besser zu verstehen. Zudem zeigte sich, dass Frauen geduldiger und freundlicher mit den Anrufer:innen kommunizierten. Außerdem waren sie billiger, denn Frauen wurden schlechter bezahlt als Männer. Umgangssprachlich setzte sich der Begriff „Fräulein vom Amt“ als Bezeichnung durch, da die Frauen nicht nur jung und gebildet, sondern auch ledig sein mussten.</p><div><img src='https://3d-objekte.museumsstiftung.de/app/images/klappschrank/2.Postbeamtin_bei_der_Handvermittlung_von_Ferngesprächen.png' alt='2.Postbeamtin_bei_der_Handvermittlung_von_Ferngesprächen.png'></div><p>Postbeamtin bei der Handvermittlung von Ferngesprächen an einem Klappenschrank um 1900 © MSPT</p>",
+      "html": "<p>Subscribers phoned the exchange and spoke directly to operators who then manually connected them to the desired number. From 1889, the switchboards were largely staffed by women. Independently of the line quality, the higher pitch of women’s voices made them easier to understand. As became apparent, women were also more patient and friendly to callers – and, since women were paid less than men, they were cheaper. Moreover, the women recruited as switchboard operators were expected to be young, well-educated, and single. As a result, the colloquial term for an operator in German was ‘Fräulein vom Amt’ (‘Young woman from the exchange’).</p><div><img src='https://3d-objekte.museumsstiftung.de/app/images/klappschrank/2.Postbeamtin_bei_der_Handvermittlung_von_Ferngesprächen.png' alt='2.Postbeamtin_bei_der_Handvermittlung_von_Ferngesprächen.png'></div><p>Female post office clerk operating a manual switchboard around 1900 © MSPT</p>",
       "camera": "LookingAtPOIhistory002"
     },
     {
-      "title": "Technische Funktionsweise (Anrufklappe)",
-      "html": "<p>Um eine Telefonverbindung herzustellen, nimmt der/die Anrufer:in den Hörer des Telefons ab und dreht die am Telefon befindliche Kurbel. Der dadurch ausgelöste Stromfluss aktiviert den hinter der Anrufklappe verbauten Elektromagneten, der wiederum den Haltehaken der geschlossenen Anrufklappe anhebt. Die Klappe fällt herunter und zeigt der Telefonistin die Telefonnummer des/der Anrufenden an.</p>",
+      "title": "Drop flap indicator",
+      "html": "<p>To establish a telephone connection, the subscriber lifted the telephone receiver and turned the crank on the side of the phone. The current generated activated an electromagnet behind the drop flap indicator which then lifted the trip latch so the flap dropped down allowing the operator to see the caller’s telephone number.</p>",
       "camera": "LookingAtPOI001"
     },
     {
-      "title": "Wecker",
-      "html": "<p>Der Wecker dient als akustische Ergänzung der Anrufklappe, um der Telefonistin einen Gesprächswunsch zu signalisieren.</p>",
+      "title": "Bell alarm",
+      "html": "<p>The bell served as a supplementary audible alarm to signal a subscriber was calling the exchange.</p>",
       "camera": "LookingAtPOI002"
     },
     {
-      "title": "Roter Abfragestöpsel",
-      "html": "<p>Sobald die Telefonistin durch die heruntergefallene Anrufklappe den eingehenden Gesprächswunsch erkennt, stellt sie die Klappe wieder auf und verbindet den roten Abfragestöpsel mit dem Anschluss (der/des Anrufenden) im Stöpselbrett, der dieselbe Nummer hat wie die Anrufklappe. Nun zieht sie den Schalter zu sich in die vordere Position und kann über ihre Sprecheinrichtung nach dem Gesprächswunsch fragen.</p>",
+      "title": "Red jack plug",
+      "html": "<p>As soon as switchboard operators noticed the fallen flap indicator, they set up the flap again and connected the switchboard’s red jack plug to the subscriber’s line with the same number as the flap indicator. The operator then pulled the flip switch into the forward position and, using the mouthpiece, asked the caller which number they wanted to ring.</p>",
       "camera": "LookingAtPOI003"
     },
     {
-      "title": "Stöpselbrett",
-      "html": "<p>Auf dem Stöpselbrett befinden sich die Klinkenanschlüsse für die mit dem Klappenschrank verbundenen Anschlüsse. Die Nummern über den Klinkenanschlüssen beziehen sich auf die Telefonnummern hinter den Anrufklappen.</p>",
+      "title": "Jack board",
+      "html": "<p>The jack board had all the connections for telephone lines served by the manual switchboard. The numbers over the jacks also referred to the telephone numbers behind the drop flaps.</p>",
       "camera": "LookingAtPOI004"
     },
     {
-      "title": "Sprechtrichter",
-      "html": "<p>Der Sprechtrichter bildet gemeinsam mit der Hörmuschel die Sprecheinrichtung. Über diese kann die Telefonistin je nach Position des Schalters sowohl den Gesprächswunsch entgegennehmen als auch den Anruf anmelden.</p>",
+      "title": "Cone mouthpiece",
+      "html": "<p>The operator communicated with the caller via the cone mouthpiece and shell-shaped earpiece. By changing the flip switch’s position, the operator could either communicate with the subscriber or the line requested.</p>",
       "camera": "LookingAtPOI005"
     },
     {
-      "title": "Hörmuschel",
-      "html": "<p>Die Hörmuschel bildet gemeinsam mit dem Sprechtrichter die Sprecheinrichtung. Über diese kann die Telefonistin je nach Position des Schalters sowohl den Gesprächswunsch entgegennehmen als auch den Anruf anmelden.</p>",
+      "title": "Shell-shaped earpiece",
+      "html": "<p>The operator communicated with the caller via the cone mouthpiece and the shell-shaped earpiece. By changing the flip switch’s position, the operator could either communicate with the subscriber or the line requested.</p>",
       "camera": "LookingAtPOI006"
     },
     {
-      "title": "Schwarzer Verbindungsstöpsel",
-      "html": "<p>Die Telefonistin steckt den schwarzen Verbindungsstöpsel in den entsprechenden Klinkenanschluss des gewünschten Anschlusses im Stöpselbrett. Anschließend drückt sie den Schalter in Richtung Stöpselbrett in die hintere Position und betätigt mit der Kurbel den Induktorkasten. Dadurch klingelt der angerufene Telefonanschluss.</p>",
+      "title": "Black jack plug",
+      "html": "<p>The operator inserted the black jack plug into the jack with the requested line. Afterwards, the operator moved the flip switch to the position closest to the jack board and turned the inductor box crank. The current generated rang a signal bell on the telephone of the line requested.</p>",
       "camera": "LookingAtPOI007"
     },
     {
-      "title": "Induktorkasten",
-      "html": "<p>Der mit einer Kurbel betriebene Induktor ist ein elektrischer Generator, mit dem die Telefonistin den angerufenen Telefonanschluss per Klingelzeichen über den Anrufwunsch informiert.</p>",
+      "title": "Inductor box",
+      "html": "<p>The crank-driven inductor was an electric generator allowing the operator to ring a signal bell on the telephone of the line requested, announcing a call.</p>",
       "camera": "LookingAtPOI008"
     },
     {
-      "title": "Schalter",
-      "html": "<p>Ein Schalter verfügt über drei Positionen. In der vorderen Position kann die Telefonistin mit den Anrufenden sprechen und die gewünschte Rufnummer erfragen. In der hinteren Position meldet sie den Anruf an. Steht der Schalter in der mittleren Position, ist die Verbindung hergestellt und Kommunikation möglich.</p>",
+      "title": "Switch",
+      "html": "<p>The flip switch had three positions. With the switch in the forward position, the operator could speak to the caller and ask for the number to be called. When the switch was in the back position, the operator could talk to the subscriber requested. In the central position, the flip switch connected the two lines and the subscribers could talk to each other.</p>",
       "camera": "LookingAtPOI009"
     },
     {
-      "title": "Kontrollklappen",
-      "html": "<p>Ist das Gespräch beendet, wird dies der Telefonistin angezeigt, indem die Kontrollklappe herunterfällt. Dies wird je nach Telefonmodell dadurch ausgelöst, dass der/die Anrufer:in den Kurbelinduktor erneut betätigt, oder den Telefonhörer auflegt. Anschließend werden die gesteckten Verbindungsstöpsel entfernt und von den Gewichten wieder in die Ausgangsstellung gezogen.</p>",
+      "title": "Call indicator flap",
+      "html": "<p>When the call indicator flap dropped down, the operator knew the call had ended. Depending on the type of telephone, the flap might be activated by the caller turning the hand crank again or simply putting down the receiver. Afterwards, the jack plug was removed from the connection and weights pulled the jack’s cable back into the start position.</p>",
       "camera": "LookingAtPOI010"
     },
     {
-      "title": "Gewichte",
-      "html": "<p>Die Gewichte am Ende der Verbindungs- und Abfragestöpsel sorgen dafür, dass sich die Kabel nicht verheddern und die Verbindungsstöpsel wieder in die Ausgangsstellung gezogen werden.</p>",
+      "title": "Weights",
+      "html": "<p>The weights on the end of the jack plug cables pulled them smoothly back into the starting position without becoming entangled.</p>",
       "camera": "LookingAtPOI011"
     },
     {
-      "title": "Gegenwartsbezug",
-      "html": "<p>Vermittlungsstellen sind auch heute zum Telefonieren unerlässlich. Allerdings funktioniert die Vermittlung nicht mehr analog über Klappenschränke, sondern digital und voll automatisiert über Computer. Die Vermittlung läuft jedoch weiterhin über Kabelleitungen, zumeist Glasfasern, die vom Telefonanschluss bis zum Hauptverteiler laufen. Bei Smartphones dagegen werden die Funksignale verschlüsselt an antennenförmige Mobilfunkanlagen übertragen. Dort angekommen wird das Funksignal decodiert und über Kabel oder Radiowellen an Rechnerzentralen vermittelt. Anschließend wandert das Signal weiter und wird erneut über Mobilfunkanlagen an die Empfänger:innen ausgespielt. Diese unterschiedlichen Formen der Telefonie wirken sich auch auf die Alltagssprache aus. Bis zum Beginn des 21. Jh. wurde in der Regel schlicht vom „Telefonnetz“ gesprochen. Der Begriff „Festnetz“ hat sich erst als Abgrenzung zur kabellosen Mobiltelefonie etabliert.</p><div><img src='https://3d-objekte.museumsstiftung.de/app/images/klappschrank/3.Digitale_Fernsprechvermittlungsstelle.png' alt='3.Digitale_Fernsprechvermittlungsstelle.png'></div><p>Digitale Fernsprechvermittlungsstelle, SEL System 12, Alcatel SEL AG (1992 - 2006) © MSPT</p>",
+      "title": "Communication today",
+      "html": "<p>Today, exchanges also play an essential role in telephoning. But rather than using analogue switchboards, modern exchanges are digital and fully computerised. Nonetheless, calls from a telephone connection to a digital exchange still travel via cables, though these are usually made of optical fibres. In contrast, mobile devices send encoded radio signals to a network of antenna-like base stations. There, the radio signal is decoded and then forwarded by cable or a radio link to a central exchange. The signal is then sent on and transmitted by another base station antenna to the recipient. These different forms of telephony have also had an impact on everyday language. Until the early 2000s, people generally talked of a ‘phone network’. The word ‘landline’ only became common when it was important to differentiate fixed lines from mobile phone lines.</p><div><img src='https://3d-objekte.museumsstiftung.de/app/images/klappschrank/3.Digitale_Fernsprechvermittlungsstelle.png' alt='3.Digitale_Fernsprechvermittlungsstelle.png'></div><p>Digital telephone exchange, SEL System 12, Alcatel SEL AG (1992 - 2006) © MSPT</p>",
       "camera": "LookingAtPOIpresent001"
     }
   ],

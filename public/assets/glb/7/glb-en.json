@@ -1,64 +1,64 @@
 {
-  "title": "Telefon von Philipp Reis – Geber und Empfänger",
+  "title": "Reis telephone",
   "content": [
     {
-      "title": "Erfindungs- und Nutzungsgeschichte",
-      "html": "<p>Der deutsche Lehrer Philipp Reis entwickelte einen Apparat, der einen Meilenstein bei der Konstruktion eines gebrauchsfähigen Telefons darstellte. Erstmals stellte er seine Erfindung 1861 beim Physikalischen Verein in Frankfurt am Main vor. Um zu beweisen, dass seine Erfindung funktioniert und Nachrichten verständlich übermittelt, nutzte Reis dabei Sätze wie „das Pferd frisst keinen Gurkensalat“, die man nicht erraten konnte.</p>",
+      "title": "Erfindungs- und Nutzungsgeschichte???",
+      "html": "<p>German teacher Philipp Reis developed an apparatus which stands as a milestone in the construction of a serviceable telephone. In 1861, he first publicly presented his invention to the Physical Society of Frankfurt am Main. To prove his telephone was functional and could transmit comprehensible messages, Reis used sentences such as ‘the horse does not eat cucumber salad’ which could not be guessed from the context.</p>",
       "camera": "LookingAtPOIhistory001"
     },
     {
       "title": "",
-      "html": "<p>Ab 1863 ließ Reis eine kleine Serie seines Telefons bauen, alles Unikate. Heute existieren weltweit noch acht Stück, vier davon befinden sich in der Sammlung der Museumsstiftung. Darunter ist Reis‘ eigenes Exemplar. Auch wenn Reis selbst nie die Früchte seiner Forschung erntete, so übte seine Arbeit doch einen erheblichen Einfluss auf die Entwicklung des Telefons aus und inspirierte Erfinder weltweit – unter anderem den Amerikaner Alexander Graham Bell.</p><div><img src='https://3d-objekte.museumsstiftung.de/app/images/reis/1.Philipp_Reis_mit_seinem_Telefon_1913.png' alt='1.Philipp_Reis_mit_seinem_Telefon_1913.png'/></div><p>Büste von Philipp Reis mit seinen Telefonen, Ansichtspostkarte, 1913 © MSPT</p>",
+      "html": "<p>From 1863, Reis had a small series of his telephones made, all unique items. Today, only eight of these are known to exist worldwide, and four are in the Museum Foundation collection, including Reis‘s own series telephone. Even if Reis could never harvest the fruit of his research, his work still had a decisive influence on the telephone’s development, inspiring inventors around the world – including Scottish-born American inventor Alexander Graham Bell.</p><div><img src='https://3d-objekte.museumsstiftung.de/app/images/reis/1.Philipp_Reis_mit_seinem_Telefon_1913.png' alt='1.Philipp_Reis_mit_seinem_Telefon_1913.png'/></div><p>Portrait bust of Philipp Reis with his telephones © MSPT</p>",
       "camera": "LookingAtPOIhistory002"
     },
     {
       "title": "",
-      "html": "<p>Die Bedeutung des Reis-Telefons wurde erst offenbar, als Alexander Graham Bell 15 Jahre später nach Inspiration durch Reis ein marktreifes Telefonmodell entwickelt hatte. Auch die Mitarbeiter des Reichspostmuseums, des Vorgängers des Museums für Kommunikation Berlin, erkannten die Bedeutung dieses Ereignisses und entschlossen sich, ein Reis-Telefon für die Sammlung zu erwerben. Heute gehören die Reis-Telefone zu den Highlights in der Sammlung der Museen für Kommunikation.</p>",
+      "html": "<p>The Reis telephone’s importance first became apparent 15 years later when Alexander Graham Bell was inspired by Reis’s work to create a practical telephone. The staff in the Imperial Postal Museum, the predecessor of today’s Museum of Communication Berlin, also recognised the significance of Reis’s discovery and decided to acquire one of his telephones for the collection. The Reis telephone is now among the highlights in the museum’s collection.</p>",
       "camera": "LookingAtPOIhistory003"
     },
     {
-      "title": "Technische Funktionsweise (Geber (allgemein))",
-      "html": "<p>Der Geber dient der Aufnahme und Sendung der gesprochenen Nachricht. Dieses Bauteil bezeichnete Reis als „Telephon“. Den notwendigen Strom liefert eine angeschlossene Batterie. Die Nutzer:innen sprechen die Nachricht in den Sprechtrichter.</p>",
+      "title": "Transmitter (general)",
+      "html": "<p>The transmitter captures the sound and transmits the spoken message. Reis called this component the ‘Telephon’. It is connected to a battery to provide the necessary electrical power. The user speaks the message into the mouthpiece.</p>",
       "camera": "LookingAtPOI001"
     },
     {
-      "title": "Membran",
-      "html": "<p>Die Schallwellen der in den Trichter gesprochenen Nachricht versetzen eine Membran aus Schweinedarm oder Schweinsblase in Schwingungen, an der Platinkontakte angebracht sind. Um die Membran in Schwingung zu versetzen, muss direkt in den Trichter gesprochen werden.</p>",
+      "title": "Membrane",
+      "html": "<p>Platinum contacts are attached to a membrane of pig’s bladder or intestine. Words spoken into the mouthpiece then make the membrane vibrate, although only when said directly into the mouthpiece.</p>",
       "camera": "LookingAtPOI002"
     },
     {
-      "title": "Platinkontakte",
-      "html": "<p>Das mittig auf der Membran befindliche Platinplättchen gerät durch deren Schwingungen in Bewegung und berührt dabei wiederholt den darüberliegenden Messingwinkel. Mittels eines Platinstreifens ist dieser Winkel mit einer Klemmschraube verbunden. Über diese besteht ein Stromkreis mit einer angeschlossenen Batterie, sodass die Platinkontakte die Vibrationen in Stromimpulse umwandeln, die je nach Druck der Schallwellen variieren. Die elektrischen Schwingungen werden über eine Leitung an den Empfänger weitergeleitet.</p>",
+      "title": "Platinum contact",
+      "html": "<p>As the membrane vibrates, a little platinum contact at its centre also moves, repeatedly touching an angular piece of brass set above it. A platinum strip connects the brass with a binding screw. A conducting wire connects the binding screw to a battery enabling the platinum contact to transform the membrane’s vibrations into electrical pulses. These vary depending on the pressure of the sound waves. The electrical resonances are then transferred by a wire to the receiver.</p>",
       "camera": "LookingAtPOI003"
     },
     {
-      "title": "Empfänger mit Drahtspule",
-      "html": "<p>Der Empfänger wandelt die vom Geber eingehenden Stromimpulse in akustisch wahrnehmbare Signale um. Reis bezeichnete ihn daher als „Reproductionsapparat“ (Reproduktion = Wiederherstellung). Die unregelmäßigen Stromimpulse des Gebers fließen in die Spule. Das dabei entstehende Magnetfeld wirkt sich auf die in der Spule befindliche eiserne Stricknadel aus.</p>",
+      "title": "Receiver with wire coil",
+      "html": "<p>Since the receiver turns the electrical pulses from the transmitter into audible signals, Reis called it a ‘reproduction apparatus’ (in the sense of reproducing or reconstituting the sound). As the transmitter’s irregular electrical pulses flow into the coil, they create a magnetic field making the iron knitting needle at the centre vibrate.</p>",
       "camera": "LookingAtPOI004"
     },
     {
-      "title": "Stricknadel",
-      "html": "<p>Das Magnetfeld der Spule versetzt die Stricknadel in Schwingungen. Diese Schwingungen werden vom Holzkasten aufgenommen.</p>",
+      "title": "Iron knitting needle",
+      "html": "<p>The coil’s magnetic field makes the needle vibrate. The vibrations pass into the wooden sounding box.</p>",
       "camera": "LookingAtPOI005"
     },
     {
-      "title": "Holzkasten",
-      "html": "<p>Der Holzkasten dient als Resonanzkörper. Er nimmt die Schwingungen der Stricknadel auf und macht sie als Schallwellen hörbar.</p>",
+      "title": "Wooden box",
+      "html": "<p>The wooden sounding box serves as a resonating chamber. It absorbs the knitting needle’s vibrations and converts them into audible sound waves.</p>",
       "camera": "LookingAtPOI006"
     },
     {
-      "title": "Signaltaster Empfänger",
-      "html": "<p>Dieser Taster dient dazu, sich während des Gesprächs telegrafische Kurznachrichten zukommen zu lassen. Durch Betätigung des Tasters öffnet bzw. schließt man den Stromkreis und kann mit diesen Signalen den Gesprächspartner:innen abgesprochene Zeichen geben, zum Beispiel ob alles gut verstanden wurde oder ob man sprechen möchte.</p>",
+      "title": "Telegraph key receiver",
+      "html": "<p>The telegraph key provides a means of communication while receiving a spoken message. Operating the key opens or closes the electrical circuit and could send an agreed signal between the transmitting and receiving stations to indicate, for instance, whether everything was properly understood or to let the other party know you wanted to speak.</p>",
       "camera": "LookingAtPOI007"
     },
     {
-      "title": "Signaltaster Geber",
-      "html": "<p>Dieser Taster dient dazu, sich während des Gesprächs telegrafische Kurznachrichten zukommen zu lassen. Durch Betätigung des Tasters öffnet bzw. schließt man den Stromkreis und kann mit diesen Signalen den Gesprächspartner:innen abgesprochene Zeichen geben, zum Beispiel ob alles gut verstanden wurde oder ob man sprechen möchte.</p>",
+      "title": "Telegraph key transmitter",
+      "html": "<p>The telegraph key provides a means of communication while receiving a spoken message. Operating the key opens or closes the electrical circuit and could send an agreed signal between the transmitting and receiving stations to indicate, for instance, whether everything was properly understood or to let the other party know you wanted to speak.</p>",
       "camera": "LookingAtPOI008"
     },
     {
-      "title": "Gegenwartsbezug",
-      "html": "<p>113 Jahre später sollte ein Prototyp erneut das Kommunikationsverhalten des Menschen beeinflussen. Am 3. April 1973 führte Martin „Marty“ Cooper das erste Gespräch mit einem tragbaren Funktelefon: die Geburtsstunde des Handys. Als Gesprächspartner suchte sich Cooper niemand anderen als seinen Konkurrenten Bell Laboratories aus, einen Nachfolger des von Alexander Graham Bell gegründeten Unternehmens American Bell Telephone Company. Zehn Jahre später wurde das erste Handy verkauft und der Rest ist Geschichte.</p><div><img src='https://3d-objekte.museumsstiftung.de/app/images/reis/2.Martin_Cooper.png' alt='2.Martin_Cooper.png'/></div><p>Martin „Marty“ Cooper mit erstem tragbarem Funktelefon © Mark Berry, CC BY 2.0</p>",
+      "title": "Communication today",
+      "html": "<p>One hundred and thirteen years later, a prototype once again had a similar influence on our communicative behaviour. On 3 April 1973, Martin ‘Marty’ Cooper made the first call on a handheld cellular phone – the birth of the mobile. Cooper decided to call no one other than his rivals at Bell Labs, a successor to the American Bell Telephone Company founded by Alexander Graham Bell. Ten years later, the first cell phone was sold – and the rest, as they say, is history.</p><div><img src='https://3d-objekte.museumsstiftung.de/app/images/reis/2.Martin_Cooper.png' alt='2.Martin_Cooper.png'/></div><p>Martin ‘Marty‘ Cooper with the first portable cellular phone © Mark Berry, CC BY 2.0</p>",
       "camera": "LookingAtPOIpresent001"
     }
   ],
