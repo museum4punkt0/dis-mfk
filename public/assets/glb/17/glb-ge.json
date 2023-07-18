@@ -2,6 +2,11 @@
   "title": "Rotor-Chiffriermaschine Enigma M4",
   "content": [
     {
+      "title": "Intro Text",
+      "html": "<p>Die Rotor-Chiffriermaschine Enigma (von griech. „Rätsel“) M4 kam ab 1942 bei der deutschen Kriegsmarine zum Einsatz. Die Chiffriermaschine, die zur Kommunikation mit der U-Boot-Flotte eingesetzt wurde, war legendär und galt als unknackbar. Nach erheblichem Aufwand gelang es dem Team um den Briten Alan Turing schließlich, die Enigma M4 zu entschlüsseln. Dies hatte großen Einfluss auf den Ausgang des Zweiten Weltkriegs.</p><br/><p><strong>Jahr</strong>: 1944</p><p><strong>Maße</strong>: 28,5 x 35,5 x 16 cm</p><p><strong>Gewicht</strong>: 12 kg</p>",
+      "camera": "LookingAtPOIhistory000"
+    },
+    {
       "title": "Erfindungs- und Nutzungsgeschichte",
       "html": "<p>Die Enigma wurde ab 1918 von dem Berliner Erfinder Arthur Scherbius entwickelt. Ab 1926 kam sie beim deutschen Militär zum Einsatz. Im Zweiten Weltkrieg wurden verschiedene Enigma-Modelle verwendet. Heer und Luftwaffe nutzten die Enigma I, die Marine zuerst die Enigma M3 und ab 1942 die Enigma M4. Sie galt als besonders sicher, da sie im Gegensatz zu den übrigen Enigma-Modellen über vier statt nur drei Rotoren verfügte. Dies erweiterte die Verschlüsselungskombinationen erheblich.</p><div><img src='https://3d-objekte.museumsstiftung.de/app/images/enigma/1.Generaloberst_Heinz_Wilhelm_Guderian.png' alt='1.Generaloberst_Heinz_Wilhelm_Guderian.png'></div><p>Generaloberst Heinz Wilhelm Guderian und Funker im Funkpanzerwagen mit der Enigma © MSPT</p>",
       "camera": "LookingAtPOIhistory001"
@@ -97,6 +102,7 @@
       "id": "history",
       "title": "",
       "cameras": [
+        "LookingAtPOIhistory000",
         "LookingAtPOIhistory001",
         "LookingAtPOIhistory002",
         "LookingAtPOIhistory003",

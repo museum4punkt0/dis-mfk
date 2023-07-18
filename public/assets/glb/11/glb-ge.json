@@ -2,6 +2,11 @@
   "title": "Klappenschrank für 100 Telefonanschlüsse",
   "content": [
     {
+      "title": "Intro Text",
+      "html": "<p>Die ersten Telefonapparate hatten keine Wählscheibe oder Tasten, sondern eine Kurbel. Mit ihr wurde die Vermittlungsstelle im Fernsprechamt angerufen, die die gewünschte Verbindung per Hand herstellte. Das entsprechende Verbindungsinstrument war der Klappenschrank.</p><br/><p><strong>Hersteller</strong>: Telephon-Apparate-Fabrik Franz Welles</p><p><strong>Jahr</strong>: 1886</p><p><strong>Maße</strong>: 58 x 175 x 54 cm</p><p><strong>Gewicht</strong>: 53 kg</p>",
+      "camera": "LookingAtPOIhistory000"
+    },
+    {
       "title": "Erfindungs- und Nutzungsgeschichte",
       "html": "<p>Mit der Eröffnung der ersten städtischen Telefonzentralen 1881 begann die Geschichte des öffentlichen Telefonbetriebs in Deutschland. Klappenschränke aus Telefonzentralen sind Zeugen aus der Anfangszeit der Telefonie.</p><div><img src='https://3d-objekte.museumsstiftung.de/app/images/klappschrank/1.Handvermittlung_in_Stettin_im_Jahr_1893.png' alt='1.Handvermittlung_in_Stettin_im_Jahr_1893.png'></div><p>Handvermittlung in Stettin im Jahr, Fotografie, 1893 © MSPT</p>",
       "camera": "LookingAtPOIhistory001"
@@ -76,7 +81,11 @@
     {
       "id": "history",
       "title": "",
-      "cameras": ["LookingAtPOIhistory001", "LookingAtPOIhistory002"]
+      "cameras": [
+        "LookingAtPOIhistory000",
+        "LookingAtPOIhistory001",
+        "LookingAtPOIhistory002"
+      ]
     },
     {
       "id": "information",

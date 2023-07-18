@@ -2,6 +2,11 @@
   "title": "Zinnfolienphonograph nach Thomas Alva Edison",
   "content": [
     {
+      "title": "Intro Text",
+      "html": "<p>Während das gedruckte oder geschriebene Wort immer wieder gelesen werden kann, ist das gesprochene Wort flüchtig. Um es aufzuzeichnen und wieder hörbar zu machen, brauchte es ein Gerät zur Speicherung von Schall und dessen Wiedergabe. Dies gelang Ende des 19. Jh. mit der Erfindung des Phonographen.</p><br/><p><strong>Hersteller</strong>: Alfred Költzow, Berlin</p><p><strong>Jahr</strong>: 1890</p><p><strong>Maße</strong>: 37 x 25 x 23 cm</p><p><strong>Gewicht</strong>: 9,7 kg</p>",
+      "camera": "LookingAtPOIhistory000"
+    },
+    {
       "title": "Erfindungs- und Nutzungsgeschichte",
       "html": "<p>Phonographen sind Instrumente zur Aufzeichnung und Wiedergabe von Schallwellen. Sie wurden ab der Mitte des 19. Jh. genutzt. Dem US-Amerikaner Thomas A. Edison gelang es 1877 mit dem Zinnfolienphonographen erstmals, Töne akustisch-mechanisch aufzunehmen, zu speichern und auch wiederzugeben.</p><div><img src='https://3d-objekte.museumsstiftung.de/app/images/zinngraphen/1.US-Patent_für_den_Phonographen_1878.png' alt='1.US-Patent_für_den_Phonographen_1878.png'></div><p>US-Patent für den Phonographen, 1878 © MSPT</p>",
       "camera": "LookingAtPOIhistory001"
@@ -62,6 +67,7 @@
       "id": "history",
       "title": "",
       "cameras": [
+        "LookingAtPOIhistory000",
         "LookingAtPOIhistory001",
         "LookingAtPOIhistory002",
         "LookingAtPOIhistory003",
