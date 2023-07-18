@@ -1,6 +1,11 @@
 {
-  "title": "Reis telephone",
+  "title": "Philipp Reis telephone – transmitter and receiver",
   "content": [
+    {
+      "title": "Intro Text",
+      "html": "<p>Even though the argument over who ultimately invented the telephone has not been finally resolved, German inventor Philipp Reis (1834–1874) undoubtedly played a major role in its development. Not only did he successfully construct the first functioning electrical telephone connection, but he also invented the word ‘telephone’ (Greek for ‘distant voice/sound’)</p><br/><p><strong>Accession number</strong>: 4.0.33663.0</p><p><strong>Manufacturer</strong>: Philipp Reis</p><p><strong>Year</strong>: 1863</p><p><strong>Measurements</strong>: 13 x 12 x 20 cm</p><p><strong>Weight</strong>: 0.25 kg</p>",
+      "camera": "LookingAtPOIhistory000"
+    },
     {
       "title": "Erfindungs- und Nutzungsgeschichte???",
       "html": "<p>German teacher Philipp Reis developed an apparatus which stands as a milestone in the construction of a serviceable telephone. In 1861, he first publicly presented his invention to the Physical Society of Frankfurt am Main. To prove his telephone was functional and could transmit comprehensible messages, Reis used sentences such as ‘the horse does not eat cucumber salad’ which could not be guessed from the context.</p>",
@@ -67,6 +72,7 @@
       "id": "history",
       "title": "",
       "cameras": [
+        "LookingAtPOIhistory000",
         "LookingAtPOIhistory001",
         "LookingAtPOIhistory002",
         "LookingAtPOIhistory003"

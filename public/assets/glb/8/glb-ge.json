@@ -2,6 +2,11 @@
   "title": "Telefon von Alexander Graham Bell mit Schnittmodell eines Fernsprechers nach Bell",
   "content": [
     {
+      "title": "Intro Text",
+      "html": "<p>Der US-amerikanische Erfinder Alexander Graham Bell entwickelte das erste marktfähige Telefon, für das er 1876 ein Patent erlangte. Nur ein Jahr später erwarb der Generalpostmeister und Gründer des Reichspostmuseums (heute Museum für Kommunikation Berlin) Heinrich von Stephan zwei Bell-Telefone. Am 26. Oktober 1877 führte er damit in Berlin das erste Telefongespräch Deutschlands: der Beginn der Telefonie in Deutschland.</p><br/><p><strong>Hersteller</strong>: Alexander Graham Bell, Erfinder</p><p><strong>Jahr</strong>: 1877</p><p><strong>Maße</strong>: 80 x 160 mm</p><p><strong>Gewicht</strong>: 0,8 kg</p><br/><h2>Schnittmodell eines Fernsprechers nach Bell</h2><p><strong>Hersteller</strong>: Telegraphen Bau-Anstalt Siemens & Halske oHG, Berlin</p><p><strong>Jahr</strong>: 1877</p><p><strong>Maße</strong>: 70 x 155 mm</p><p><strong>Gewicht</strong>: 0,2 kg</p>",
+      "camera": "LookingAtPOIhistory000"
+    },
+    {
       "title": "Erfindungs- und Nutzungsgeschichte",
       "html": "<p>Der Erfinder Alexander Graham Bell (1847–1922) verhalf der Entwicklung des Telefons und dessen internationaler Vermarktung zum Durchbruch. Maßgeblichen Einfluss übte dabei der Reis’sche Telefonapparat aus. 1876 erhielt Bell das Patent für sein Telefonmodell und setzte dieses auch gerichtlich gegen die Ansprüche anderer Erfinder durch.</p><div><img src='https://3d-objekte.museumsstiftung.de/app/images/bell/1.Foto_von_Alexander_Graham_Bel.png' alt='1.Foto_von_Alexander_Graham_Bel.png'></div><p>Foto von Alexander Graham Bell, ca. 1914 © CC 0 1.0</p>",
       "camera": "LookingAtPOIhistory001"
@@ -62,6 +67,7 @@
       "id": "history",
       "title": "",
       "cameras": [
+        "LookingAtPOIhistory000",
         "LookingAtPOIhistory001",
         "LookingAtPOIhistory002",
         "LookingAtPOIhistory003",

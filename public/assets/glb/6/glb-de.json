@@ -2,6 +2,11 @@
   "title": "Telegrafenstation mit Stiftschreiber und Morsetaste",
   "content": [
     {
+      "title": "Intro Text",
+      "html": "<p>Die Telegrafie nimmt in der Entwicklung der Kommunikationstechnologie einen besonderen Platz ein: Mit ihr wurde in der ersten Hälfte des 19. Jh. erstmals eine unkörperliche Kommunikation möglich. Statt wie bisher mit Boten oder Briefen wurden Nachrichten nun elektrisch übertragen. Basierend auf dem Morsecode erreichten Nachrichten ihre Empfänger:innen per Telegramm auf der ganzen Welt, und das innerhalb weniger Stunden.</p><br/><p><strong>Hersteller</strong>: Siemens & Halske oHG Telegraphenbauanstalt</p><p><strong>Jahr</strong>: 1850–1852</p><p><strong>Maße</strong>: 65 x 40 x 23,4 cm</p><p><strong>Gewicht</strong>: 10,96 kg</p><div><img src='https://3d-objekte.museumsstiftung.de/app/images/telegraph/1.1.Kupferstich_Bureau_du_télégraphe.png' alt='1.1.Kupferstich_Bureau_du_télégraphe.png'></div><p>Kupferstich „Bureau du télégraphe électrique; appareils de Morse“, um 1860 © MSPT</p>",
+      "camera": "LookingAtPOIhistory000"
+    },
+    {
       "title": "Erfindungs- und Nutzungsgeschichte",
       "html": "<p>Ab 1835 wurde die elektrische Telegrafie genutzt. Sie war die erste technische Anwendung elektrischen Stroms in der Nachrichtenübertragung. Eine Weiterentwicklung war ab 1837 die Morsetelegrafie. Ab 1848 überzog ein Netz von Telegrafenlinien ganz Europa, 1866 waren Europa und Nordamerika verbunden und bereits 1873 folgte Ostasien.</p><div><img src='https://3d-objekte.museumsstiftung.de/app/images/telegraph/2.1.Telegraphen-Karte_von_Europa.png' alt='2.1.Telegraphen-Karte_von_Europa.png'> <img src='https://3d-objekte.museumsstiftung.de/app/images/telegraph/2.2.Weltkarte_zur_Darstellung_der_drahtlosen.png' alt='2.2.Weltkarte_zur_Darstellung_der_drahtlosen.png'></div><p>Links: „Telegraphen-Karte von Europa. Bearbeitet nach den neuesten Special-Telegraphen-Karten sämtlicher Staaten Europa’s im Central-Telegraphen-Bureau zu Berlin“, 1858 © MSPT</p><br/><p>Rechts: Weltkarte zur Darstellung der drahtlosen und drahtgebundenen Telegrafie, 1911 © MSPT</p>",
       "camera": "LookingAtPOIhistory001"
@@ -57,6 +62,7 @@
       "id": "history",
       "title": "",
       "cameras": [
+        "LookingAtPOIhistory000",
         "LookingAtPOIhistory001",
         "LookingAtPOIhistory002",
         "LookingAtPOIhistory003",

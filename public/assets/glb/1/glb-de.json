@@ -2,6 +2,11 @@
   "title": "Erdglobus mit den Reiserouten geografischer Entdecker, vorwiegend des 18. Jh.",
   "content": [
     {
+      "title": "Intro Text",
+      "html": "<p>Seit Urzeiten haben Menschen Entdeckungsfahrten unternommen. Je mehr Erfahrungen sie in Nautik und Schiffbau sammelten, desto besser konnten sie die Ozeane erkunden. Bereits im 17. Jh. wurden Kontinente und Meere in ihren Umrissen auf Erdgloben weitgehend richtig dargestellt. Ab dem 18. Jh. vervollständigten Entdeckungsreisen den europäischen Blick auf die Welt. Sie förderten den weltweiten Handel und die kontinentübergreifende Kommunikation, aber auch die Unterwerfung und Zerstörung von Kulturen und Lebensräumen.</p><br/><p><strong>Hersteller</strong>: Daniel Friedrich Sotzmann (Autor, Berlin) und Johann Georg Franz (Verleger, Nürnberg)</p><p><strong>Jahr</strong>: 1808</p><p><strong>Maße</strong>: 72 x 127 x 72 cm</p><p><strong>Gewicht</strong>: 16 kg</p>",
+      "camera": "LookingAtPOIhistory000"
+    },
+    {
       "title": "Nutzungs/Erfindungsgeschichte",
       "html": "<p>Der um 1500 ausgetragene Wettstreit Portugals und Spaniens um die Entdeckung der Weltmeere gilt als Startpunkt der Globalisierung. Vor allem die Atlantiküberquerung des im Dienste Spaniens segelnden Christoph Kolumbus, die zur (Neu-)Entdeckung Amerikas führte, wird heute als Beginn des „globalen Zeitalters“ gesehen.</p><div><img src='https://3d-objekte.museumsstiftung.de/app/images/sotzmann/1.Christoph_Kolumbus_Porträt.png' alt='1.Christoph_Kolumbus_Porträt.png'></div><p>Christoph Kolumbus, Porträt von Sebastiano del Piombo, 1519, Metropolitan Museum of Art, New York © CC 0 1.0</p>",
       "camera": "LookingAtPOIhistory001"
@@ -47,6 +52,7 @@
       "id": "history",
       "title": "",
       "cameras": [
+        "LookingAtPOIhistory000",
         "LookingAtPOIhistory001",
         "LookingAtPOIhistory002",
         "LookingAtPOIhistory003",

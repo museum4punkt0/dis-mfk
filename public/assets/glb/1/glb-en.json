@@ -1,6 +1,11 @@
 {
-  "title": "Sotzmann Globe",
+  "title": "A terrestrial globe showing the routes taken by geographical explorers, primarily in the 18th century",
   "content": [
+    {
+      "title": "Intro Text",
+      "html": "<p>Even the very earliest peoples went on voyages of discovery. As their experience of navigation and shipbuilding grew, they could explore more of the oceans. As early as the 17th century, globes largely depicted the contours of the continents and oceans correctly. From the 18th century, voyages of discovery completed the European view of the world. Such voyages fostered global trade and transcontinental communication, but also led to the suppression and destruction of cultures and habitats.</p><br/><p><strong>Accession number</strong>: 3.2007.1204</p><p><strong>Manufacturer</strong>: Daniel Friedrich Sotzmann (author) and Johann Georg Franz (publisher)</p><p><strong>Year</strong>: 1808</p><p><strong>Measurements</strong>: 72 x 127 x 72 cm</p><p><strong>Weight</strong>: 16 kg</p>",
+      "camera": "LookingAtPOIhistory000"
+    },
     {
       "title": "Nutzungs/Erfindungsgeschichte",
       "html": "<p>The origins of globalisation are usually dated to around 1500 when Portugal and Spain were racing to explore the world’s oceans. Today, in particular, Christoph Columbus’s Atlantic crossing in the service of the Spanish crown and his (re-) discovery of the Americas is seen as marking the dawn of the ‘global age’.</p><div><img src='https://3d-objekte.museumsstiftung.de/app/images/sotzmann/1.Christoph_Kolumbus_Porträt.png' alt='1.Christoph_Kolumbus_Porträt.png'></div><p>Portrait of Christoph Columbus, Sebastiano del Piombo, 1519, Metropolitan Museum of Art, New York, © CC 0 1.0</p>",
@@ -47,6 +52,7 @@
       "id": "history",
       "title": "",
       "cameras": [
+        "LookingAtPOIhistory000",
         "LookingAtPOIhistory001",
         "LookingAtPOIhistory002",
         "LookingAtPOIhistory003",

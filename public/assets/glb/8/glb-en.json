@@ -2,6 +2,11 @@
   "title": "Bell telephone and cutaway model: Everyone their own telephone",
   "content": [
     {
+      "title": "Intro Text",
+      "html": "<p>Scottish-born American inventor Alexander Graham Bell developed the first marketable telephone and patented it in 1876. One year later, Heinrich von Stephan, Postmaster General and founder of the Imperial Postal Museum, today’s Museum of Communication Berlin, acquired two Bell telephones. On 26 October 1877 in Berlin, he made Germany’s first phone call – the start of telephony in the county.</p><br/><p><strong>Accession number</strong>: 4.0.27946</p><p><strong>Manufacturer</strong>: Alexander Graham Bell, inventor</p><p><strong>Year</strong>: 1877</p><p><strong>Measurements</strong>: 80 x 160 mm</p><p><strong>Weight</strong>: 0.8 kg</p><br/><h2>Cutaway model of a Bell telephone</h2><p><strong>Accession number</strong>: 4.0.27838</p><p><strong>Manufacturer</strong>: Telegraphen Bau-Anstalt Siemens & Halske oHG, Berlin</p><p><strong>Year</strong>: 1877</p><p><strong>Measurements</strong>: 70 x 155 cm</p><p><strong>Weight</strong>: 0.2 kg</p>",
+      "camera": "LookingAtPOIhistory000"
+    },
+    {
       "title": "Erfindungs- und Nutzungsgeschichte???",
       "html": "<p>Inventor Alexander Graham Bell (1847–1922) helped achieve a breakthrough in the phone’s development and its international marketing. In this process, the Reis telephone was a significant influence. After being granted a patent for his prototype telephone in 1876, Bell invested considerable time and effort in defending his patent against other inventors, also by taking them to court.</p><div><img src='https://3d-objekte.museumsstiftung.de/app/images/bell/1.Foto_von_Alexander_Graham_Bel.png' alt='1.Foto_von_Alexander_Graham_Bel.png'></div><p>Photograph of Alexander Graham Bell © CC 0 1.0</p>",
       "camera": "LookingAtPOIhistory001"
@@ -62,6 +67,7 @@
       "id": "history",
       "title": "",
       "cameras": [
+        "LookingAtPOIhistory000",
         "LookingAtPOIhistory001",
         "LookingAtPOIhistory002",
         "LookingAtPOIhistory003",

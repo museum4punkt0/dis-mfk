@@ -2,6 +2,11 @@
   "title": "Telefon von Philipp Reis – Geber und Empfänger",
   "content": [
     {
+      "title": "Intro Text",
+      "html": "<p>Auch wenn umstritten ist, wer letztlich als Erfinder des Telefons gelten darf, so hatte der deutsche Erfinder Philipp Reis (1834–1874) erheblichen Anteil an der Entwicklung. Ihm gelang es erstmals, eine funktionierende elektrische Fernsprechverbindung aufzubauen. Außerdem ist er der Schöpfer des Wortes „Telephon“ (griech. „ferne Stimme“, „ferner Klang“).</p><br/><p><strong>Hersteller</strong>: Philipp Reis</p><p><strong>Jahr</strong>: 1863</p><p><strong>Maße</strong>: 13 x 12 x 20 cm</p><p><strong>Gewicht</strong>: 0,25 kg</p>",
+      "camera": "LookingAtPOIhistory000"
+    },
+    {
       "title": "Erfindungs- und Nutzungsgeschichte",
       "html": "<p>Der deutsche Lehrer Philipp Reis entwickelte einen Apparat, der einen Meilenstein bei der Konstruktion eines gebrauchsfähigen Telefons darstellte. Erstmals stellte er seine Erfindung 1861 beim Physikalischen Verein in Frankfurt am Main vor. Um zu beweisen, dass seine Erfindung funktioniert und Nachrichten verständlich übermittelt, nutzte Reis dabei Sätze wie „das Pferd frisst keinen Gurkensalat“, die man nicht erraten konnte.</p>",
       "camera": "LookingAtPOIhistory001"
@@ -67,6 +72,7 @@
       "id": "history",
       "title": "",
       "cameras": [
+        "LookingAtPOIhistory000",
         "LookingAtPOIhistory001",
         "LookingAtPOIhistory002",
         "LookingAtPOIhistory003"
