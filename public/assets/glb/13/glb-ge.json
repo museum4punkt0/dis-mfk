@@ -2,6 +2,11 @@
   "title": "Modell des Kabeldampfers „Stephan“",
   "content": [
     {
+      "title": "Intro Text",
+      "html": "<p>Seit über 150 Jahren verbinden Unterseekabel Länder und Kontinente. Mit ihnen gelang im letzten Drittel des 19. Jh. die Vernetzung der Welt. Plötzlich war es möglich, in wenigen Minuten Nachrichten von einem Kontinent zum anderen zu senden. Daher stehen die Unterseekabel aus Kupferdrähten für den Beginn der globalen Kommunikation. Im Seekabelwesen vereinen sich die Disziplinen Ozeanforschung, Schiffbau, Nautik und Nachrichtentechnik. Die Verlegung und Reparatur der Kabel erforderten manövrierfähige Spezialschiffe, wie den Kabeldampfer „Stephan“.</p><div><img src='https://3d-objekte.museumsstiftung.de/app/images/kabeldampfer/1.Eastern_Telegraph_Cable_System.png' alt='1.Eastern_Telegraph_Cable_System.png'></div><p>Seekabel der Eastern Telegraph Gesellschaft, 1901 © CC 0 1.0</p><br/><h3>Modell:</h3><p><strong>Jahr</strong>: 1902</p><p><strong>Maße</strong>: 201 x 26 x 96 cm</p><p><strong>Gewicht</strong>: 50 kg</p><h3>Schiff:</h3><p>Aktiengesellschaft „Vulcan“ in Stettin für die Norddeutschen Seekabelwerke AG in Nordenham</p><p>119,43 x 14,71 x 9,09 m</p><p><strong>Bruttoregistertonnen</strong>: 4.630</p><p><strong>Knoten</strong>: 11,5</p><p><strong>PS</strong>: 2.400</p><p><strong>Antrieb</strong>: 2 Schiffsschrauben</p><p><strong>Stapellauf</strong>: 29. Dezember 1902</p>",
+      "camera": "LookingAtPOIhistory000"
+    },
+    {
       "title": "Entstehungs- und Nutzungsgeschichte",
       "html": "<p>Die Pioniertat der Verlegung von Unterseekabeln startete 1850. Verlegt wurden Seekabel zur Übertragung von Telegrammen zwischen Dover und Calais. Es ließen sich zwar erstmals Telegrafenzeichen übertragen, jedoch wurde das Kabel nach wenigen Tagen von einem Fischerboot zerstört. Nur ein Jahr später wurden die Kabel besser isoliert und verstärkt erneut zu Wasser gelassen. Es war die Geburtsstunde des Seekabelwesens. Mit ihm veränderte sich der internationale Handel, denn die ersten über Seekabel transportierten Nachrichten waren aktuelle Börsenkurse.</p><div><img src='https://3d-objekte.museumsstiftung.de/app/images/kabeldampfer/2.Steam_Frigate_Niagara_1857.png' alt='2.Steam_Frigate_Niagara_1857.png'></div><p>Souvenir aus einem Stück Unterseekabel vom 1. gescheiterten Versuch der Verlegung von Unterseekabeln, Vertrieb. Tiffany & Co., Hersteller R.S. Newall & Co., 1858 © MSPT</p>",
       "camera": "LookingAtPOIhistory001"
@@ -77,6 +82,7 @@
       "id": "history",
       "title": "",
       "cameras": [
+        "LookingAtPOIhistory000",
         "LookingAtPOIhistory001",
         "LookingAtPOIhistory002",
         "LookingAtPOIhistory003",

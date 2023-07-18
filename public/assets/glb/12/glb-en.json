@@ -1,6 +1,11 @@
 {
-  "title": "Tinfoil phonograph: ‘It talks! It sings! It laughs!’",
+  "title": "Tinfoil phonograph after Thomas Alva Edison",
   "content": [
+    {
+      "title": "Intro Text",
+      "html": "<p>While the printed or written word can be read time and again, the spoken word is transitory by nature. To record and make a voice audible again, a device was needed to store and replay sound – and the Phonograph, invented in the late 1800s, could do just that.</p><br/><p><strong>Accession number</strong>: 4.2020.305</p><p><strong>Manufacturer</strong>: Alfred Költzow, Berlin</p><p><strong>Year</strong>: 1890</p><p><strong>Dimensions</strong>: 37 x 25 x 23 cm</p><p><strong>Weight</strong>: 9.7 kg</p>",
+      "camera": "LookingAtPOIhistory000"
+    },
     {
       "title": "Erfindungs- und Nutzungsgeschichte???",
       "html": "<p>The search for devices to record and reproduce sound waves began in earnest around the 1850s. In 1877, renowned American inventor Thomas A. Edison came up with the idea of a tinfoil phonograph – the first acoustic and mechanical device to successfully record, store and replay sound.</p><div><img src='https://3d-objekte.museumsstiftung.de/app/images/zinngraphen/1.US-Patent_für_den_Phonographen_1878.png' alt='1.US-Patent_für_den_Phonographen_1878.png'></div><p>US patent for the Phonograph, 1878 © MSPT</p>",
@@ -62,6 +67,7 @@
       "id": "history",
       "title": "",
       "cameras": [
+        "LookingAtPOIhistory000",
         "LookingAtPOIhistory001",
         "LookingAtPOIhistory002",
         "LookingAtPOIhistory003",

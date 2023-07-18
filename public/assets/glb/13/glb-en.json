@@ -2,6 +2,11 @@
   "title": "Model of the Cable Steamship Stephan",
   "content": [
     {
+      "title": "Intro Text",
+      "html": "<p>For over 150 years, submarine communications cables have connected countries and continents. From around 1870 to 1900, these cables succeeded in networking the world. Suddenly, messages could be sent from one continent to another in just a few minutes. In that sense, submarine copper wire cables mark the start of global communications. The submarine cable industry combines the disciplines of ocean research, shipbuilding, nautical sciences and communications engineering. Laying and repairing the cables required special manoeuvrable ships such as the CS Stephan, a cable steamship.</p><div><img src='https://3d-objekte.museumsstiftung.de/app/images/kabeldampfer/1.Eastern_Telegraph_Cable_System.png' alt='1.Eastern_Telegraph_Cable_System.png'></div><p>Seekabel der Eastern Telegraph Gesellschaft, 1901 © CC 0 1.0</p><br/><h3>Model:</h3><p><strong>Accession number</strong>: 3.0.4089</p><p><strong>Year</strong>: 1902</p><p><strong>Measurements</strong>: 201 x 26 x 96 cm</p><p><strong>Weight</strong>: 50 kg</p><p><strong>Scale</strong>: 1:50</p><h3>Ship:</h3><p>Made by the Vulcan Stettin company for the Norddeutsche Seekabelwerke AG, Nordenham</p><p>119.43 x 14.71 x 9.09 m</p><p><strong>Gross tonnage</strong>: 4,630</p><p><strong>Knots</strong>: 11.5</p><p><strong>Propulsion</strong>: Twin screw propellers</p><p><strong>Launched</strong>: 29 December 1902</p>",
+      "camera": "LookingAtPOIhistory000"
+    },
+    {
       "title": "Entstehungs- und Nutzungsgeschichte???",
       "html": "<p>The pioneering venture in laying submarine cables came in 1850. A telegram cable was laid across the English Channel between Dover and Calais. But although this successfully transmitted the first submarine telegraph signals, the cable was broken after a few days by a fishing boat. One year later, a new cable was laid, this time better isolated and protected with iron wire armouring. But this was not just the birth of the submarine cable industry. Since the first cable messages were current stock market quotations, this was also a step change in international trade.</p><div><img src='https://3d-objekte.museumsstiftung.de/app/images/kabeldampfer/2.Steam_Frigate_Niagara_1857.png' alt='2.Steam_Frigate_Niagara_1857.png'></div><p>Photo: ‘View on Board the American Steam Frigate, Niagara’, 1857 © MSPT</p>",
       "camera": "LookingAtPOIhistory001"
@@ -77,6 +82,7 @@
       "id": "history",
       "title": "",
       "cameras": [
+        "LookingAtPOIhistory000",
         "LookingAtPOIhistory001",
         "LookingAtPOIhistory002",
         "LookingAtPOIhistory003",

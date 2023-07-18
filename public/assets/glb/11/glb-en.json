@@ -1,6 +1,11 @@
 {
-  "title": "Telephone switchboard",
+  "title": "Switchboard for 100 telephone lines",
   "content": [
+    {
+      "title": "Intro Text",
+      "html": "<p>The first telephones had neither a rotary dial nor a keypad, but a crank handle. Turning the handle generated a current to signal the switchboard operator in the telephone exchange. The operator then made the desired connection by hand using the switchboard’s system of cords and jacks.</p><br/><p><strong>Accession number</strong>: 4.0.35692</p><p><strong>Manufacturer</strong>: Telephon-Apparate-Fabrik Franz Welles</p><p><strong>Year</strong>: 1886</p><p><strong>Dimensions</strong>: 58 x 175 x 54 cm</p><p><strong>Weight</strong>: 53 kg</p>",
+      "camera": "LookingAtPOIhistory000"
+    },
     {
       "title": "Erfindungs- und Nutzungsgeschichte???",
       "html": "<p>The history of Germany’s public telephone network began when the first city telephone exchange was opened in 1881. The switchboards from telephone exchanges tell the history of telephony’s early years.</p><div><img src='https://3d-objekte.museumsstiftung.de/app/images/klappschrank/1.Handvermittlung_in_Stettin_im_Jahr_1893.png' alt='1.Handvermittlung_in_Stettin_im_Jahr_1893.png'></div><p>Manually operated switchboard in Stettin, 1893 © MSPT</p>",
@@ -76,7 +81,11 @@
     {
       "id": "history",
       "title": "",
-      "cameras": ["LookingAtPOIhistory001", "LookingAtPOIhistory002"]
+      "cameras": [
+        "LookingAtPOIhistory000",
+        "LookingAtPOIhistory001",
+        "LookingAtPOIhistory002"
+      ]
     },
     {
       "id": "information",

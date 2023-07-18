@@ -2,6 +2,11 @@
   "title": "The Telehor television receiver with a Nipkow disk",
   "content": [
     {
+      "title": "Intro Text",
+      "html": "<p>In Germany, inventor Paul Nipkow is regarded as the ‘father of television’. In 1884, he submitted a patent for his ‘electric telescope’ system to transmit moving images. His invention was based on the spiral-perforated disk named after him. The patent lapsed unused. It took another 40 years before the Nipkow disk transmitted moving pictures – as part of the Telehor, the first television system developed by Hungarian inventor Dénes von Mihály.</p><br/><p><strong>Accession number</strong>: 4.0.32565</p><p><strong>Manufacturer</strong>: Telehor AG, Berlin</p><p><strong>Year</strong>: 1928</p><p><strong>Measurements</strong>: 45 x 38 x 32.5 cm</p><p><strong>Weight</strong>: 10 kg</p>",
+      "camera": "LookingAtPOIhistory000"
+    },
+    {
       "title": "Erfindungs- und Nutzungsgeschichte???",
       "html": "<p>In 1883, Paul Nipkow was still a student when he had the ingenious idea of using a rotating perforated disk to divide a moving picture into a series of points, convert them into an electrical signal transmitted down a wire, and then reassemble the image in the receiver.</p><div><img src='https://3d-objekte.museumsstiftung.de/app/images/nipkow/1.Paul_Nipkow.png' alt='1.Paul_Nipkow.png'></div><p>Paul Nipkow © MSPT</p>",
       "camera": "LookingAtPOIhistory001"
@@ -52,6 +57,7 @@
       "id": "history",
       "title": "",
       "cameras": [
+        "LookingAtPOIhistory000",
         "LookingAtPOIhistory001",
         "LookingAtPOIhistory002",
         "LookingAtPOIhistory003"

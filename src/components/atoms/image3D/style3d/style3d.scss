@@ -31,6 +31,9 @@
         font-size: var.$fontBody;
       }
     }
+    h3 {
+      margin-bottom: 0
+    }
     //Chapters navigation
     @import 'chapters';
   }
