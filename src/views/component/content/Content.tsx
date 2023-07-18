@@ -70,7 +70,7 @@ export const Content = (props: Props) => {
                   data: item.glbJson
                     ? //each .glb file with information in related json should be located in separate folder.
                       //folder name is the id of current object from mockData
-                      `${item.id}/${item.glbJson[currentLang as langType]}`
+                      `${item.id}/glb-${currentLang as langType}.json`
                     : undefined,
                   title: `${item.title[currentLang as langType]} (${setDate(
                     item.startDate,

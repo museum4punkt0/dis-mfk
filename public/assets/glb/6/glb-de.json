@@ -1,0 +1,84 @@
+{
+  "title": "Telegrafenstation mit Stiftschreiber und Morsetaste",
+  "content": [
+    {
+      "title": "Erfindungs- und Nutzungsgeschichte",
+      "html": "<p>Ab 1835 wurde die elektrische Telegrafie genutzt. Sie war die erste technische Anwendung elektrischen Stroms in der Nachrichtenübertragung. Eine Weiterentwicklung war ab 1837 die Morsetelegrafie. Ab 1848 überzog ein Netz von Telegrafenlinien ganz Europa, 1866 waren Europa und Nordamerika verbunden und bereits 1873 folgte Ostasien.</p><div><img src='https://3d-objekte.museumsstiftung.de/app/images/telegraph/2.1.Telegraphen-Karte_von_Europa.png' alt='2.1.Telegraphen-Karte_von_Europa.png'> <img src='https://3d-objekte.museumsstiftung.de/app/images/telegraph/2.2.Weltkarte_zur_Darstellung_der_drahtlosen.png' alt='2.2.Weltkarte_zur_Darstellung_der_drahtlosen.png'></div><p>Links: „Telegraphen-Karte von Europa. Bearbeitet nach den neuesten Special-Telegraphen-Karten sämtlicher Staaten Europa’s im Central-Telegraphen-Bureau zu Berlin“, 1858 © MSPT</p><br/><p>Rechts: Weltkarte zur Darstellung der drahtlosen und drahtgebundenen Telegrafie, 1911 © MSPT</p>",
+      "camera": "LookingAtPOIhistory001"
+    },
+    {
+      "title": "",
+      "html": "<p>Vor seiner Karriere als Erfinder war Samuel Morse als Kunstmaler erfolgreich. Während einer Schiffsreise sah er 1832 einen Elektromagneten. Davon angeregt, konstruierte er 1837 den ersten Morsetelegrafen. Nach einigen Verbesserungen überzeugte Morse den US-Kongress vom Bau einer ersten Telegrafenlinie. 1844 wurde die Strecke zwischen Washington und Baltimore eingerichtet – der Siegeszug der Morsetelegrafie begann. Nun konnten Menschen unabhängig von der Entfernung sofort miteinander in Kontakt treten.</p><div><img src='https://3d-objekte.museumsstiftung.de/app/images/telegraph/3.Porträtfotografie_Morse.png' alt='3.Porträtfotografie_Morse.png'></div><p>Porträtfotografie von Samuel Finley Breese Morse, ca. 1850–1857 © MSPT</p>",
+      "camera": "LookingAtPOIhistory002"
+    },
+    {
+      "title": "",
+      "html": "<p>Der Apparat von Samuel Morse wurde in Europa nicht patentiert. Das nutzten die findigen US-Unternehmer William Robinson und sein Stiefsohn Charles aus. 1847 vermarkteten sie Morses Erfindung in Deutschland. Hergestellt wurden die Apparate unter anderem von der Firma Siemens & Halske, die dadurch zu einem der größten Elektronikunternehmen Deutschlands wurde. Denn die Technik des Telegrafierens stieß weltweit auf große Begeisterung, vor allem in Börse und Handel, Presse und Politik.</p><div><img src='https://3d-objekte.museumsstiftung.de/app/images/telegraph/4.Morsestreifen_mit_Telegrammtext.png' alt='4.Morsestreifen_mit_Telegrammtext.png'></div><p>Morsestreifen mit Telegrammtext in Morseschrift, 1905, Kaiserliche Reichspost, Oberpostdirektion Danzig © MSPT</p>",
+      "camera": "LookingAtPOIhistory003"
+    },
+    {
+      "title": "",
+      "html": "<p>Der Fernschreiber von Samuel Morse nutzte einen Elektromagneten und einen Stift, um die empfangenen Signale als Punkt-Strich-Code auf einem Papierstreifen aufzuzeichnen. Sein Mitarbeiter Alfred Vail entwickelte den Code daraufhin weiter und entwarf eine bestimmte Kombination von Punkten und Strichen für jeden Buchstaben des Alphabets. Doch diese Zeichen ließen sich auf dem Papierstreifen nicht gut erkennen. Der Telegrafist Friedrich Clemens Gerke reduzierte das Morsealphabet 1849 auf Punkte, Striche und Pausen. Seine Version wurde 1851 vom Deutsch-Österreichischen Telegraphenverein übernommen und verbreitete sich so international.</p><div><img src='https://3d-objekte.museumsstiftung.de/app/images/telegraph/5.Entwurf_von_Friedrich_Clemens_Gerke.png' alt='5.Entwurf_von_Friedrich_Clemens_Gerke.png'/></div><p>Entwurf von Friedrich Clemens Gerke für eine Überarbeitung des weiterentwickelten Morsealphabets von Alfred Vail, 1851 © MSPT</p>",
+      "camera": "LookingAtPOIhistory004"
+    },
+    {
+      "title": "Technische Funktionsweise (Morsetaster)",
+      "html": "<p>Mit dem Morsetaster lassen sich die in Kombinationen von langen und kurzen Signalen übersetzten Nachrichten per Druckausübung übertragen. Wird der Taster gedrückt, entsteht ein Stromkreis zwischen dem Gerät des Senders und dem des Empfängers. Je nach Dauer des Drückens entstehen so kurze oder lange Stromkreisverbindungen.</p><div><img src='https://3d-objekte.museumsstiftung.de/app/images/telegraph/6.In_einem_Telegraphenbüro_Holzstich.png' alt='6.In_einem_Telegraphenbüro_Holzstich.png'/></div><p>Holzstich „In einem Telegraphenbüro. Aufgabe der Depesche“, Verlag Otto Spamer, ca. 1848–1852 © MSPT</p>",
+      "camera": "LookingAtPOI001"
+    },
+    {
+      "title": "Hebelanker",
+      "html": "<p>Der durch Drücken des Morsetasters geschlossene Stromkreis erzeugt in dem Relais einen Stromimpuls. Dies führt zu einer magnetischen Anziehung der Eisenkerne (schwarze Zylinder am Ende des Hebelankers). Dadurch bewegt sich der Hebelanker im entsprechenden Rhythmus der eingehenden Signale des Senders auf und ab.</p>",
+      "camera": "LookingAtPOI002"
+    },
+    {
+      "title": "Prägestift",
+      "html": "<p>Am anderen Ende des Hebelankers presst sich je nachdem, ob kurze oder lange Stromimpulse eingehen, der Prägestift auf den langsam durchlaufenden Papierstreifen und erzeugt so ein lesbares Relief, ähnlich einer Blindenschrift.</p>",
+      "camera": "LookingAtPOI003"
+    },
+    {
+      "title": "Papierstreifen",
+      "html": "<p>Der Papierstreifen wird über ein Zahnrad durch ein fallendes Gewicht angetrieben, das an einer Kette befestigt ist, die über ein Kettenrad auf der Hauptantriebswelle läuft. Er bewegt sich gleichmäßig am Prägestift entlang. Wird der Stromkreis nur kurz geschlossen, entsteht hierauf ein Punkt. Ein Strich erscheint, wenn der Taster länger gedrückt wird.</p>",
+      "camera": "LookingAtPOI004"
+    },
+    {
+      "title": "Flügelankerrelais",
+      "html": "<p>Vorn am Gerät sitzt das Flügelankerrelais. Dieses dient dazu, die ankommenden Signale zu verstärken bzw. zu regenerieren. Es ist mit einer geladenen Batterie verbunden. Wenn der Morseimpuls über die Leitung eintrifft (Linienstrom), bewegt er das Relais, sodass sich der Stromkreis mit der frischen Batterie (Lokalstrom) schließt. Dieser Strom fließt durch die Spulen des Schreibapparats.</p>",
+      "camera": "LookingAtPOI005"
+    },
+    {
+      "title": "Gegenwartsbezug",
+      "html": "<p>Die Telegrafie gilt als bedeutender Ausgangspunkt weiterer technischer Entwicklungen in der Kommunikationstechnologie. Der Aufbau des telegrafischen Weltnetzes, der mit Morses Erfindung Mitte des 19. Jh. begann, symbolisierte den Weg in eine global vernetzte Welt. Der damit einhergehende Fortschritt ist mit dem Internetboom der 1990er Jahre vergleichbar. Die Telegrafie ist somit eine Art Vorläufer des heutigen World Wide Web und war bis weit ins 20. Jh. ein wichtiges Kommunikationsmittel. Mit dem Aufkommen von Fax und später E-Mail verlor sie jedoch an Bedeutung. Am 1. Januar 2023 wurde der Versand von Telegrammen in Deutschland komplett eingestellt. Heute wir der Begriff vor allem in Bezug auf moderne Messanger-Dienste verwendet.</p>",
+      "camera": "LookingAtPOIpresent001"
+    }
+  ],
+  "chapters": [
+    {
+      "id": "history",
+      "title": "",
+      "cameras": [
+        "LookingAtPOIhistory001",
+        "LookingAtPOIhistory002",
+        "LookingAtPOIhistory003",
+        "LookingAtPOIhistory004"
+      ]
+    },
+    {
+      "id": "information",
+      "title": "",
+      "cameras": [
+        "LookingAtPOI001",
+        "LookingAtPOI002",
+        "LookingAtPOI003",
+        "LookingAtPOI004",
+        "LookingAtPOI005"
+      ]
+    },
+    {
+      "id": "present",
+      "title": "",
+      "cameras": ["LookingAtPOIpresent001"]
+    }
+  ],
+  "gltfUrl": "assets/glb/6/telegraph.glb"
+}

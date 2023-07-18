@@ -11,9 +11,7 @@ export type mockDataType = {
   description: {
     [key in langType]: string;
   };
-  glbJson?: {
-    [key in langType]: string;
-  };
+  glbJson?: boolean;
 }[];
 
 export type ComponentProps = {
