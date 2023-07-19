@@ -4,77 +4,92 @@
     {
       "title": "Intro Text",
       "html": "<p>For over 150 years, submarine communications cables have connected countries and continents. From around 1870 to 1900, these cables succeeded in networking the world. Suddenly, messages could be sent from one continent to another in just a few minutes. In that sense, submarine copper wire cables mark the start of global communications. The submarine cable industry combines the disciplines of ocean research, shipbuilding, nautical sciences and communications engineering. Laying and repairing the cables required special manoeuvrable ships such as the CS Stephan, a cable steamship.</p><div><img src='https://3d-objekte.museumsstiftung.de/app/images/kabeldampfer/1.Eastern_Telegraph_Cable_System.png' alt='1.Eastern_Telegraph_Cable_System.png'></div><p>Seekabel der Eastern Telegraph Gesellschaft, 1901 © CC 0 1.0</p><br/><h3>Model:</h3><p><strong>Accession number</strong>: 3.0.4089</p><p><strong>Year</strong>: 1902</p><p><strong>Measurements</strong>: 201 x 26 x 96 cm</p><p><strong>Weight</strong>: 50 kg</p><p><strong>Scale</strong>: 1:50</p><h3>Ship:</h3><p>Made by the Vulcan Stettin company for the Norddeutsche Seekabelwerke AG, Nordenham</p><p>119.43 x 14.71 x 9.09 m</p><p><strong>Gross tonnage</strong>: 4,630</p><p><strong>Knots</strong>: 11.5</p><p><strong>Propulsion</strong>: Twin screw propellers</p><p><strong>Launched</strong>: 29 December 1902</p>",
-      "camera": "LookingAtPOIhistory000"
+      "camera": "LookingAtPOIhistory000",
+      "sprite": "assets/sprite/1.svg"
     },
     {
       "title": "Entstehungs- und Nutzungsgeschichte???",
       "html": "<p>The pioneering venture in laying submarine cables came in 1850. A telegram cable was laid across the English Channel between Dover and Calais. But although this successfully transmitted the first submarine telegraph signals, the cable was broken after a few days by a fishing boat. One year later, a new cable was laid, this time better isolated and protected with iron wire armouring. But this was not just the birth of the submarine cable industry. Since the first cable messages were current stock market quotations, this was also a step change in international trade.</p><div><img src='https://3d-objekte.museumsstiftung.de/app/images/kabeldampfer/2.Steam_Frigate_Niagara_1857.png' alt='2.Steam_Frigate_Niagara_1857.png'></div><p>Photo: ‘View on Board the American Steam Frigate, Niagara’, 1857 © MSPT</p>",
-      "camera": "LookingAtPOIhistory001"
+      "camera": "LookingAtPOIhistory001",
+      "sprite": "assets/sprite/2.svg"
     },
     {
       "title": "",
       "html": "<p>In 1858, the first cable’s success inspired American entrepreneur Cyrus W. Field to the bold plan of laying a transatlantic telegraph cable between North America and Europe. At that time, engineers knew almost nothing about the deep ocean and the condition of the seabed, and very little about electrical laws. The undertaking failed spectacularly several times, with the cable breaking, burning through, and then tearing again. Around 20 billion euros in today’s money was – literally – sunk into the venture. With a more durable cable laid in 1866, communication was finally established – a triumph and a source of vast profits.</p><div><img src='https://3d-objekte.museumsstiftung.de/app/images/kabeldampfer/3.The_Atlantic_Telegraph.png' alt='3.The_Atlantic_Telegraph.png'></div><p>‘The Atlantic Telegraph’, broadsheet with hand-coloured engravings describing the laying of the first successful transatlantic telegraph cable, 1866 © MSPT</p>",
-      "camera": "LookingAtPOIhistory002"
+      "camera": "LookingAtPOIhistory002",
+      "sprite": "assets/sprite/3.svg"
     },
     {
       "title": "",
       "html": "<p>The submarine cable technology created a furore around the world. By the early 20th century, the cable laid by these steamships had connected all the world’s regions – from South America to Africa, Asia and around the Indian Ocean. Since most of these cables belonged to Anglo-American companies, the Norddeutsche Seekabelwerke (North German Submarine Cable Works) was founded in 1899. Today known as NSW, the company still produces submarine and offshore cables.</p><div><img src='https://3d-objekte.museumsstiftung.de/app/images/kabeldampfer/4.Fotografie_Landing_space_cable_Yap_Island.png' alt='4.Fotografie_Landing_space_cable_Yap_Island.png'></div><p>Photograph: Landing space cable, Yap Island, 1904 © MSPT</p>",
-      "camera": "LookingAtPOIhistory003"
+      "camera": "LookingAtPOIhistory003",
+      "sprite": "assets/sprite/4.svg"
     },
     {
       "title": "",
       "html": "<p>In 1902, a second transatlantic Azores cable was to be laid. By establishing a telegraphic connection to North America circumventing Great Britain, the German Empire was looking to ensure its greater independence. The project required a new cable-laying ship since the ‘von Podbielski’, the predecessor ship, was too small to carry the length of cable needed. The CS Stephan was the first cable ship to be built in a German shipyard by the Norddeutsche Seekabelwerke. When it was launched in 1902, it was the third largest cable ship in the world.</p>",
-      "camera": "LookingAtPOIhistory004"
+      "camera": "LookingAtPOIhistory004",
+      "sprite": "assets/sprite/5.svg"
     },
     {
       "title": "",
       "html": "<p>In 1903, the CS Stephan set out on its maiden voyage to lay the second German transatlantic cable from Emden to the Azores and then from the Azores to New York (1904). In 1905 it was then active in South-east Asia and West-Africa. With the outbreak of the First World War, the Stephan was converted into a transport ship for war material. In 1926, it was finally sold for scrap.</p><div><img src='https://3d-objekte.museumsstiftung.de/app/images/kabeldampfer/5.Ansichtspostkarte_Kabeldampfer.png' alt='5.Ansichtspostkarte_Kabeldampfer.png'></div><p>Postcard, the Stephan of the Kaiserlich Deutsche Reichspost; postally unused, 1910 © MSPT</p>",
-      "camera": "LookingAtPOIhistory005"
+      "camera": "LookingAtPOIhistory005",
+      "sprite": "assets/sprite/6.svg"
     },
     {
       "title": "",
       "html": "<p>The Museum Foundation’s collection includes samples of the first submarine cable laid from Dover to Calais in 1851, as well as parts of the first and second German transatlantic cable from 1900 and 1903. The decorative cable boxes of various cable manufactures and societies testify to the importance of these ventures.</p><div><img src='https://3d-objekte.museumsstiftung.de/app/images/kabeldampfer/6.Schaukasten_mit_6_Kabelproben.png' alt='6.Schaukasten_mit_6_Kabelproben.png'></div><p>Display case with six cable samples from the second transatlantic cable Borkum–Faial–New York (Azores cable) © MSPT</p>",
-      "camera": "LookingAtPOIhistory006"
+      "camera": "LookingAtPOIhistory006",
+      "sprite": "assets/sprite/7.svg"
     },
     {
       "title": "Deckhouse",
       "html": "<p>The CS Stephan had five decks: a false floor, between-decks, main deck, spar deck and boat deck. The deckhouse contained the quarters for the officers and engineers. All the quarters were equipped with electric lighting and steam heating.</p>",
-      "camera": "LookingAtPOI001"
+      "camera": "LookingAtPOI001",
+      "sprite": "assets/sprite/1.svg"
     },
     {
       "title": "Boiler room",
       "html": "<p>The steam needed as power and heating was generated by a double and single boiler. The ship had to carry 690 tons of coal to fuel the boilers.</p><div><img src='https://3d-objekte.museumsstiftung.de/app/images/kabeldampfer/7.Decksplan_und_Längsriss_der_Stephan_1903.png' alt='7.Decksplan_und_Längsriss_der_Stephan_1903.png'></div><p>Section and deck plan, CS Stephan © CC 0 1.0</p>",
-      "camera": "LookingAtPOI002"
+      "camera": "LookingAtPOI002",
+      "sprite": "assets/sprite/2.svg"
     },
     {
       "title": "Bow sheaves",
       "html": "<p>The characteristic bow sheaves on the spar deck aided the controlled raising or lowering of the submarine cable.</p><div><img src='https://3d-objekte.museumsstiftung.de/app/images/kabeldampfer/8.Doppelschrauben_Kabeldampfer_Stephan.png' alt='8.Doppelschrauben_Kabeldampfer_Stephan.png'></div><p>Article: ‘The twin-screw cable steamer CS Stephan’, in: Zeitschrift des Vereines Deutscher Ingenieure, Vol 44 (1903), p. 1581 © MSPT</p>",
-      "camera": "LookingAtPOI003"
+      "camera": "LookingAtPOI003",
+      "sprite": "assets/sprite/3.svg"
     },
     {
       "title": "Stern rudder",
       "html": "<p>A special stern rudder improved the ship’s manoeuvrability, giving it the flexibility needed in rough seas to lay the cable accurately.</p>",
-      "camera": "LookingAtPOI004"
+      "camera": "LookingAtPOI004",
+      "sprite": "assets/sprite/4.svg"
     },
     {
       "title": "Cable routing starboard side",
       "html": "<p>From the cable tanks inside the ship, the cables were transported over a number of cable drums through an opening on the boat deck, passing the deckhouse on the port side (left). The cable was paid out aft and picked up at the bow, assisted by guide rollers and blocks, dynamometers and winches. A protective structure for the cable machine was located on the front spar deck.</p><div><img src='https://3d-objekte.museumsstiftung.de/app/images/kabeldampfer/9.Artikel_Der_Doppelschrauben_Kabeldampfer_Stephan.png' alt='9.Artikel_Der_Doppelschrauben_Kabeldampfer_Stephan.png'></div><p>Article: ‘The twin-screw cable steamer CS Stephan’, in: Zeitschrift des Vereines Deutscher Ingenieure, Vol 44 (1903), p. 1581 © MSPT</p>",
-      "camera": "LookingAtPOI005"
+      "camera": "LookingAtPOI005",
+      "sprite": "assets/sprite/5.svg"
     },
     {
       "title": "Cable tanks for 5000 tons of cable",
       "html": "<p>With a diameter of 11 to 13 metres and a depth of 6.3 metres, the four cable tanks under deck had the necessary space to transport the kilometres of heavy copper cable needed. The conical shapes in the centre of the cable tanks were used to store water.</p><div><img src='https://3d-objekte.museumsstiftung.de/app/images/kabeldampfer/10.Holzstich_Coiling_Atlantic_Telegraph_Cable.png' alt='10.Holzstich_Coiling_Atlantic_Telegraph_Cable.png'></div><p>Woodcut, ‘The Coiling of the Atlantic Telegraph Cable on Board H.M.S. Agamemnon’ (The Illustrated London News), 1857 © CC 0 1.0</p>",
-      "camera": "LookingAtPOI006"
+      "camera": "LookingAtPOI006",
+      "sprite": "assets/sprite/6.svg"
     },
     {
       "title": "‘Stephan’ ship’s name",
       "html": "<p>The new ship was named after Heinrich von Stephan, Germany’s Postmaster General and the founder of the Imperial Postal Museum, today’s Museum of Communication Berlin. Emperor William I congratulated personally by telegram on the launch of the first German cable steamer.</p>",
-      "camera": "LookingAtPOI007"
+      "camera": "LookingAtPOI007",
+      "sprite": "assets/sprite/7.svg"
     },
     {
       "title": "Communication today",
       "html": "<p>In the 1950s, British cable ships laid a new generation of submarine cables. These had integrated repeater amplifiers and, from 1956, could also carry intercontinental telephone calls. The first transatlantic fibre-optic cable went into operation in 1988. Optical signal transmission facilitated modern communications via the telephone and internet. Cable ships are still sailing the world’s oceans to lay and repair these deep sea data highways. If a single cable tears, it can paralyse internet access across entire countries. Just as in the past, today’s cable ships are very specialised high-tech vessels, and without them the bits and bytes of modern global communications would be impossible. After all, despite satellites and clouds, nearly all our data is transferred through cables lying on the floor of the world’s oceans.</p><div><img src='https://3d-objekte.museumsstiftung.de/app/images/kabeldampfer/11.Glasfaserkabel_bzw_Lichtwellenreiter_1980.png' alt='11.Glasfaserkabel_bzw_Lichtwellenreiter_1980.png'></div><p>Fibre optic cable and glass fibre cable from the 1980s, Germany © MSPT</p>",
-      "camera": "LookingAtPOIpresent001"
+      "camera": "LookingAtPOIpresent001",
+      "sprite": "assets/sprite/1.svg"
     }
   ],
   "chapters": [
