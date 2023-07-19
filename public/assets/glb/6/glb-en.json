@@ -4,57 +4,68 @@
     {
       "title": "Intro Text",
       "html": "<p>Telegraphy has a special place in the development of communication technologies. In the first half of the 19th century, telegraphy allowed messages to be separated from the movement of physical objects for the first time. News could now be conveyed via electrical signals rather than, as previously, by messenger or letter. A telegram sent in Morse code could reach recipients all over the world in just a few hours.</p><br/><p><strong>Accession number</strong>: 4.2009.1389</p><p><strong>Manufacturer</strong>: Siemens & Halske oHG Telegraphenbauanstalt</p><p><strong>Year</strong>: 1850–1852</p><p><strong>Dimensions</strong>: 65 x 40 x 23.4 cm</p><p><strong>Weight</strong>: 10.96 kg</p><div><img src='https://3d-objekte.museumsstiftung.de/app/images/telegraph/1.1.Kupferstich_Bureau_du_télégraphe.png' alt='1.1.Kupferstich_Bureau_du_télégraphe.png'></div><p>‘Bureau du télégraphe électrique; appareils de Morse’, engraving ca. 1860 © MSPT</p>",
-      "camera": "LookingAtPOIhistory000"
+      "camera": "LookingAtPOIhistory000",
+      "sprite": "assets/sprite/1.svg"
     },
     {
       "title": "Erfindungs- und Nutzungsgeschichte",
       "html": "<p>In use from 1835, electrical telegraphy was the first technical application of an electric current in communications. The development of the Morse telegraph began two years later. From 1848, a network of telegraph lines spread across the entire continent of Europe. In 1866, Europe and North America were connected, with lines to East Asia established as early as 1873.</p><div><img src='https://3d-objekte.museumsstiftung.de/app/images/telegraph/2.1.Telegraphen-Karte_von_Europa.png' alt='2.1.Telegraphen-Karte_von_Europa.png'> <img src='https://3d-objekte.museumsstiftung.de/app/images/telegraph/2.2.Weltkarte_zur_Darstellung_der_drahtlosen.png' alt='2.2.Weltkarte_zur_Darstellung_der_drahtlosen.png'></div><p>Left: ‘Telegraph map of Europe. Edited according to the latest special telegraph maps of all European states in the Central Telegraph Office Berlin’, 1858 © MSPT</p><br/><p>Right: World map of wireless and cable telegraphy, 1911 © MSPT</p>",
-      "camera": "LookingAtPOIhistory001"
+      "camera": "LookingAtPOIhistory001",
+      "sprite": "assets/sprite/2.svg"
     },
     {
       "title": "",
       "html": "<p>Before Samuel Morse started his career as an inventor, he was a successful painter. While travelling by ship in 1832, he saw various experiments with an electromagnet which inspired him to construct the first Morse telegraph in 1837. After several improvements, he convinced the US Congress to fund the construction of a first telegraph line. In 1844, a telegraph line was opened between Washington and Baltimore – the start of the Morse telegraph’s triumphant success. Now no matter what the distance between them, people could still quickly contact each other.</p><div><img src='https://3d-objekte.museumsstiftung.de/app/images/telegraph/3.Porträtfotografie_Morse.png' alt='3.Porträtfotografie_Morse.png'></div><p>Portrait photograph of Samuel Finley Breese Morse, ca. 1850–1857 © MSPT</p>",
-      "camera": "LookingAtPOIhistory002"
+      "camera": "LookingAtPOIhistory002",
+      "sprite": "assets/sprite/3.svg"
     },
     {
       "title": "",
       "html": "<p>Since Samuel Morse’s telegraphic apparatus was not patented in Europe, the resourceful American entrepreneur William Robinson and his stepson Charles sensed a business opportunity. In 1847, they began marketing Morse’s invention in Germany. The equipment was manufactured by several companies, including Siemens & Halske which then grew into one of Germany’s largest electronics company. All over the world, the telegraph technology met with great enthusiasm, particularly in stock markets and trade, the media and politics.</p><div><img src='https://3d-objekte.museumsstiftung.de/app/images/telegraph/4.Morsestreifen_mit_Telegrammtext.png' alt='4.Morsestreifen_mit_Telegrammtext.png'></div><p>Morse code strips with telegram text in Morse code, 1905, Imperial Post, Danzig Main Post Office © MSPT</p>",
-      "camera": "LookingAtPOIhistory003"
+      "camera": "LookingAtPOIhistory003",
+      "sprite": "assets/sprite/4.svg"
     },
     {
       "title": "",
       "html": "<p>The Morse code writer used an electromagnet and a stylus to emboss a strip of paper with the dot-and-dash code from the signals received. Morse’s associate Alfred Vail developed the code further, designing particular sequences of dots and different lengths of dashes for each letter of the alphabet. But these signs were difficult to identify on the strips of paper. As a result in 1849 Friedrich Clemens Gerke, a German telegraphy pioneer, condensed the Morse alphabet into just dots, dashes and intervals. When the German-Austrian Telegraph Union adopted his version in 1851, it also spread internationally.</p><div><img src='https://3d-objekte.museumsstiftung.de/app/images/telegraph/5.Entwurf_von_Friedrich_Clemens_Gerke.png' alt='5.Entwurf_von_Friedrich_Clemens_Gerke.png'/></div><p>Friedrich Clemens Gerke’s draft for revising Alfred Vail’s development of Morse Code, 1851 © MSPT</p>",
-      "camera": "LookingAtPOIhistory004"
+      "camera": "LookingAtPOIhistory004",
+      "sprite": "assets/sprite/5.svg"
     },
     {
       "title": "Morse key ",
       "html": "<p>By on-off pressing and releasing, the Morse key can convey messages in combinations of long and short signals. When the key is pressed, it creates an electrical circuit between the receiver’s device and the sender’s. So depending on how long the key is pressed down, the circuit is closed for a longer or shorter time, creating a longer or shorter electrical signal.</p><div><img src='https://3d-objekte.museumsstiftung.de/app/images/telegraph/6.In_einem_Telegraphenbüro_Holzstich.png' alt='6.In_einem_Telegraphenbüro_Holzstich.png'/></div><p>Woodcut, ‘In a telegraph office. Sending a telegram’, Otto Spamer Press, ca. 1848–1852 © MSPT</p>",
-      "camera": "LookingAtPOI001"
+      "camera": "LookingAtPOI001",
+      "sprite": "assets/sprite/1.svg"
     },
     {
       "title": "Armature",
       "html": "<p>Pressing down the Morse key and closing the circuit creates an electrical pulse in the relay. This magnetises the core of the electromagnet (the black cylinder at the end of the armature), making the pivoted armature move up and down in a rhythm corresponding to the sender’s signal.</p>",
-      "camera": "LookingAtPOI002"
+      "camera": "LookingAtPOI002",
+      "sprite": "assets/sprite/2.svg"
     },
     {
       "title": "Stylus",
       "html": "<p>The stylus on the other end of the armature presses itself into a slowly moving paper strip. The pressure determined by the short or long electrical pulses creates a legible relief, rather like Braille.</p>",
-      "camera": "LookingAtPOI003"
+      "camera": "LookingAtPOI003",
+      "sprite": "assets/sprite/3.svg"
     },
     {
       "title": "Paper strip",
       "html": "<p>The cogwheel mechanism to move the paper strip is driven by a falling weight attached to a chain passing over a sprocket on the main drive shaft. It moves at a uniform pace past the stylus. When an electrical pulse is short, the stylus embosses a dot, and if the key is pressed longer, it produces a dash.</p>",
-      "camera": "LookingAtPOI004"
+      "camera": "LookingAtPOI004",
+      "sprite": "assets/sprite/4.svg"
     },
     {
       "title": "Double armature relay",
       "html": "<p>The double armature relay at the front of the device serves to strengthen or regenerate the incoming signal. The relay is connected to a charged battery. When the electrical impulse comes down the wire (line current) it moves the relay so the circuit is closed with the charged battery (local current). This current then flows through the coils of the ink writer.</p>",
-      "camera": "LookingAtPOI005"
+      "camera": "LookingAtPOI005",
+      "sprite": "assets/sprite/5.svg"
     },
     {
       "title": "Communication today",
       "html": "<p>Telegraphy is viewed as a seminal starting point in the further development of communication technologies. The growth of the global telegraphic network starting with Morse’s invention in the mid-19th century symbolises the path to a globally networked world. Since it fuelled advances comparable to the internet boom in the 1990s, telegraphy can be seen as a precursor of today’s World Wide Web. It remained a major means of communication well into the 20th century, though its importance declined with the emergence of the fax and later the email. On 1 January 2023, Germany closed its telegram services completely.</p>",
-      "camera": "LookingAtPOIpresent001"
+      "camera": "LookingAtPOIpresent001",
+      "sprite": "assets/sprite/1.svg"
     }
   ],
   "chapters": [

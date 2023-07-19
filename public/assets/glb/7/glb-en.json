@@ -4,67 +4,80 @@
     {
       "title": "Intro Text",
       "html": "<p>Even though the argument over who ultimately invented the telephone has not been finally resolved, German inventor Philipp Reis (1834–1874) undoubtedly played a major role in its development. Not only did he successfully construct the first functioning electrical telephone connection, but he also invented the word ‘telephone’ (Greek for ‘distant voice/sound’)</p><br/><p><strong>Accession number</strong>: 4.0.33663.0</p><p><strong>Manufacturer</strong>: Philipp Reis</p><p><strong>Year</strong>: 1863</p><p><strong>Measurements</strong>: 13 x 12 x 20 cm</p><p><strong>Weight</strong>: 0.25 kg</p>",
-      "camera": "LookingAtPOIhistory000"
+      "camera": "LookingAtPOIhistory000",
+      "sprite": "assets/sprite/1.svg"
     },
     {
       "title": "Erfindungs- und Nutzungsgeschichte???",
       "html": "<p>German teacher Philipp Reis developed an apparatus which stands as a milestone in the construction of a serviceable telephone. In 1861, he first publicly presented his invention to the Physical Society of Frankfurt am Main. To prove his telephone was functional and could transmit comprehensible messages, Reis used sentences such as ‘the horse does not eat cucumber salad’ which could not be guessed from the context.</p>",
-      "camera": "LookingAtPOIhistory001"
+      "camera": "LookingAtPOIhistory001",
+      "sprite": "assets/sprite/2.svg"
     },
     {
       "title": "",
       "html": "<p>From 1863, Reis had a small series of his telephones made, all unique items. Today, only eight of these are known to exist worldwide, and four are in the Museum Foundation collection, including Reis‘s own series telephone. Even if Reis could never harvest the fruit of his research, his work still had a decisive influence on the telephone’s development, inspiring inventors around the world – including Scottish-born American inventor Alexander Graham Bell.</p><div><img src='https://3d-objekte.museumsstiftung.de/app/images/reis/1.Philipp_Reis_mit_seinem_Telefon_1913.png' alt='1.Philipp_Reis_mit_seinem_Telefon_1913.png'/></div><p>Portrait bust of Philipp Reis with his telephones © MSPT</p>",
-      "camera": "LookingAtPOIhistory002"
+      "camera": "LookingAtPOIhistory002",
+      "sprite": "assets/sprite/3.svg"
     },
     {
       "title": "",
       "html": "<p>The Reis telephone’s importance first became apparent 15 years later when Alexander Graham Bell was inspired by Reis’s work to create a practical telephone. The staff in the Imperial Postal Museum, the predecessor of today’s Museum of Communication Berlin, also recognised the significance of Reis’s discovery and decided to acquire one of his telephones for the collection. The Reis telephone is now among the highlights in the museum’s collection.</p>",
-      "camera": "LookingAtPOIhistory003"
+      "camera": "LookingAtPOIhistory003",
+      "sprite": "assets/sprite/4.svg"
     },
     {
       "title": "Transmitter (general)",
       "html": "<p>The transmitter captures the sound and transmits the spoken message. Reis called this component the ‘Telephon’. It is connected to a battery to provide the necessary electrical power. The user speaks the message into the mouthpiece.</p>",
-      "camera": "LookingAtPOI001"
+      "camera": "LookingAtPOI001",
+      "sprite": "assets/sprite/1.svg"
     },
     {
       "title": "Membrane",
       "html": "<p>Platinum contacts are attached to a membrane of pig’s bladder or intestine. Words spoken into the mouthpiece then make the membrane vibrate, although only when said directly into the mouthpiece.</p>",
-      "camera": "LookingAtPOI002"
+      "camera": "LookingAtPOI002",
+      "sprite": "assets/sprite/2.svg"
     },
     {
       "title": "Platinum contact",
       "html": "<p>As the membrane vibrates, a little platinum contact at its centre also moves, repeatedly touching an angular piece of brass set above it. A platinum strip connects the brass with a binding screw. A conducting wire connects the binding screw to a battery enabling the platinum contact to transform the membrane’s vibrations into electrical pulses. These vary depending on the pressure of the sound waves. The electrical resonances are then transferred by a wire to the receiver.</p>",
-      "camera": "LookingAtPOI003"
+      "camera": "LookingAtPOI003",
+      "sprite": "assets/sprite/3.svg"
     },
     {
       "title": "Receiver with wire coil",
       "html": "<p>Since the receiver turns the electrical pulses from the transmitter into audible signals, Reis called it a ‘reproduction apparatus’ (in the sense of reproducing or reconstituting the sound). As the transmitter’s irregular electrical pulses flow into the coil, they create a magnetic field making the iron knitting needle at the centre vibrate.</p>",
-      "camera": "LookingAtPOI004"
+      "camera": "LookingAtPOI004",
+      "sprite": "assets/sprite/4.svg"
     },
     {
       "title": "Iron knitting needle",
       "html": "<p>The coil’s magnetic field makes the needle vibrate. The vibrations pass into the wooden sounding box.</p>",
-      "camera": "LookingAtPOI005"
+      "camera": "LookingAtPOI005",
+      "sprite": "assets/sprite/5.svg"
     },
     {
       "title": "Wooden box",
       "html": "<p>The wooden sounding box serves as a resonating chamber. It absorbs the knitting needle’s vibrations and converts them into audible sound waves.</p>",
-      "camera": "LookingAtPOI006"
+      "camera": "LookingAtPOI006",
+      "sprite": "assets/sprite/6.svg"
     },
     {
       "title": "Telegraph key receiver",
       "html": "<p>The telegraph key provides a means of communication while receiving a spoken message. Operating the key opens or closes the electrical circuit and could send an agreed signal between the transmitting and receiving stations to indicate, for instance, whether everything was properly understood or to let the other party know you wanted to speak.</p>",
-      "camera": "LookingAtPOI007"
+      "camera": "LookingAtPOI007",
+      "sprite": "assets/sprite/7.svg"
     },
     {
       "title": "Telegraph key transmitter",
       "html": "<p>The telegraph key provides a means of communication while receiving a spoken message. Operating the key opens or closes the electrical circuit and could send an agreed signal between the transmitting and receiving stations to indicate, for instance, whether everything was properly understood or to let the other party know you wanted to speak.</p>",
-      "camera": "LookingAtPOI008"
+      "camera": "LookingAtPOI008",
+      "sprite": "assets/sprite/8.svg"
     },
     {
       "title": "Communication today",
       "html": "<p>One hundred and thirteen years later, a prototype once again had a similar influence on our communicative behaviour. On 3 April 1973, Martin ‘Marty’ Cooper made the first call on a handheld cellular phone – the birth of the mobile. Cooper decided to call no one other than his rivals at Bell Labs, a successor to the American Bell Telephone Company founded by Alexander Graham Bell. Ten years later, the first cell phone was sold – and the rest, as they say, is history.</p><div><img src='https://3d-objekte.museumsstiftung.de/app/images/reis/2.Martin_Cooper.png' alt='2.Martin_Cooper.png'/></div><p>Martin ‘Marty‘ Cooper with the first portable cellular phone © Mark Berry, CC BY 2.0</p>",
-      "camera": "LookingAtPOIpresent001"
+      "camera": "LookingAtPOIpresent001",
+      "sprite": "assets/sprite/1.svg"
     }
   ],
   "chapters": [

@@ -4,77 +4,92 @@
     {
       "title": "Intro Text",
       "html": "<p>Seit über 150 Jahren verbinden Unterseekabel Länder und Kontinente. Mit ihnen gelang im letzten Drittel des 19. Jh. die Vernetzung der Welt. Plötzlich war es möglich, in wenigen Minuten Nachrichten von einem Kontinent zum anderen zu senden. Daher stehen die Unterseekabel aus Kupferdrähten für den Beginn der globalen Kommunikation. Im Seekabelwesen vereinen sich die Disziplinen Ozeanforschung, Schiffbau, Nautik und Nachrichtentechnik. Die Verlegung und Reparatur der Kabel erforderten manövrierfähige Spezialschiffe, wie den Kabeldampfer „Stephan“.</p><div><img src='https://3d-objekte.museumsstiftung.de/app/images/kabeldampfer/1.Eastern_Telegraph_Cable_System.png' alt='1.Eastern_Telegraph_Cable_System.png'></div><p>Seekabel der Eastern Telegraph Gesellschaft, 1901 © CC 0 1.0</p><br/><h3>Modell:</h3><p><strong>Jahr</strong>: 1902</p><p><strong>Maße</strong>: 201 x 26 x 96 cm</p><p><strong>Gewicht</strong>: 50 kg</p><h3>Schiff:</h3><p>Aktiengesellschaft „Vulcan“ in Stettin für die Norddeutschen Seekabelwerke AG in Nordenham</p><p>119,43 x 14,71 x 9,09 m</p><p><strong>Bruttoregistertonnen</strong>: 4.630</p><p><strong>Knoten</strong>: 11,5</p><p><strong>PS</strong>: 2.400</p><p><strong>Antrieb</strong>: 2 Schiffsschrauben</p><p><strong>Stapellauf</strong>: 29. Dezember 1902</p>",
-      "camera": "LookingAtPOIhistory000"
+      "camera": "LookingAtPOIhistory000",
+      "sprite": "assets/sprite/1.svg"
     },
     {
       "title": "Entstehungs- und Nutzungsgeschichte",
       "html": "<p>Die Pioniertat der Verlegung von Unterseekabeln startete 1850. Verlegt wurden Seekabel zur Übertragung von Telegrammen zwischen Dover und Calais. Es ließen sich zwar erstmals Telegrafenzeichen übertragen, jedoch wurde das Kabel nach wenigen Tagen von einem Fischerboot zerstört. Nur ein Jahr später wurden die Kabel besser isoliert und verstärkt erneut zu Wasser gelassen. Es war die Geburtsstunde des Seekabelwesens. Mit ihm veränderte sich der internationale Handel, denn die ersten über Seekabel transportierten Nachrichten waren aktuelle Börsenkurse.</p><div><img src='https://3d-objekte.museumsstiftung.de/app/images/kabeldampfer/2.Steam_Frigate_Niagara_1857.png' alt='2.Steam_Frigate_Niagara_1857.png'></div><p>Souvenir aus einem Stück Unterseekabel vom 1. gescheiterten Versuch der Verlegung von Unterseekabeln, Vertrieb. Tiffany & Co., Hersteller R.S. Newall & Co., 1858 © MSPT</p>",
-      "camera": "LookingAtPOIhistory001"
+      "camera": "LookingAtPOIhistory001",
+      "sprite": "assets/sprite/2.svg"
     },
     {
       "title": "",
       "html": "<p>Die Erfolge der ersten Kabel inspirierten den US-Unternehmer Cyrus W. Field 1858 zu dem wagemutigen Plan, ein Seekabel zwischen Europa und Nordamerika zu verlegen. Die Ingenieure wussten noch nichts über die Tiefsee und die Beschaffenheit des Meeresgrunds. Von elektrischen Gesetzmäßigkeiten hatten sie kaum eine Ahnung. Mehrfach scheiterte das Unternehmen spektakulär: Das Kabel brach, schmorte durch und riss beim nächsten Mal erneut. Umgerechnet 20 Milliarden Euro wurden buchstäblich versenkt. Als die Verbindung 1866 endlich funktionierte, war sie ein Triumph und Quelle gewaltiger Gewinne.</p><div><img src='https://3d-objekte.museumsstiftung.de/app/images/kabeldampfer/3.The_Atlantic_Telegraph.png' alt='3.The_Atlantic_Telegraph.png'></div><p>„The Atlantic Telegraph“, illustrierter Sonderdruck zur ersten Transatlantikkabelverlegung 1866 © MSPT</p>",
-      "camera": "LookingAtPOIhistory002"
+      "camera": "LookingAtPOIhistory002",
+      "sprite": "assets/sprite/3.svg"
     },
     {
       "title": "",
       "html": "<p>Die Seekabeltechnologie sorgte weltweit für Furore. Bis Anfang des 20. Jh. wurden mithilfe von Kabeldampfern Verbindungen in alle Gegenden der Welt verlegt – nach Südamerika, Afrika, Asien und in den Indischen Ozean. Die meisten Kabel gehörten angloamerikanischen Gesellschaften. Dies führte 1899 zur Gründung der heute noch bestehenden Norddeutschen Seekabelwerke.</p><div><img src='https://3d-objekte.museumsstiftung.de/app/images/kabeldampfer/4.Fotografie_Landing_space_cable_Yap_Island.png' alt='4.Fotografie_Landing_space_cable_Yap_Island.png'></div><p>Fotografie „Landing space cable, Yap Island“, 1904 © MSPT</p>",
-      "camera": "LookingAtPOIhistory003"
+      "camera": "LookingAtPOIhistory003",
+      "sprite": "assets/sprite/4.svg"
     },
     {
       "title": "",
       "html": "<p>1902 sollte das zweite transatlantische Kabel von Emden nach New York über die Azoren verlegt werden. Ziel war es, das deutsche Kaiserreich noch unabhängiger zu machen, da diese neue telegrafische Verbindung nach Nordamerika nicht über Großbritannien lief. Dafür war der Bau eines neuen Kabellegers notwendig, denn das Vorgängermodell „von Podbielski“ war zu klein für die Kabelmassen. Mit „Stephan“ wurde durch die Norddeutschen Seekabelwerke erstmals ein Kabelschiff in einer deutschen Werft gebaut. Bei seinem Stapellauf 1902 ist es das drittgrößte der Welt.</p>",
-      "camera": "LookingAtPOIhistory004"
+      "camera": "LookingAtPOIhistory004",
+      "sprite": "assets/sprite/5.svg"
     },
     {
       "title": "",
       "html": "<p>Die Jungfernfahrt trat „Stephan“ 1903 an, um für die Deutsch-Atlantische Telegraphengesellschaft das transatlantische Kabel zu verlegen. Ab 1904 war das Schiff unter anderem an der Kabelverlegung in Süd-Ostasien und Westafrikas beteiligt.  Mit Ausbruch des Ersten Weltkriegs wurde „Stephan“ zu einem Transportschiff für Kriegsgerät umgerüstet und 1926 abgewrackt.</p><div><img src='https://3d-objekte.museumsstiftung.de/app/images/kabeldampfer/5.Ansichtspostkarte_Kabeldampfer.png' alt='5.Ansichtspostkarte_Kabeldampfer.png'></div><p>Ansichtspostkarte, Kabeldampfer der Kaiserlich Deutschen Reichspost „Stephan“, ungelaufen, 1910 © MSPT</p>",
-      "camera": "LookingAtPOIhistory005"
+      "camera": "LookingAtPOIhistory005",
+      "sprite": "assets/sprite/6.svg"
     },
     {
       "title": "",
       "html": "<p>In der Sammlung befinden sich unter anderem Proben des ersten Seekabels von Dover nach Calais von 1851 sowie Teile des ersten und zweiten deutschen Transatlantikkabels von 1900 und 1903.  Schmuckvoll gearbeitete Kabelkästen verschiedener Kabelhersteller und -gesellschaften zeugen von der Bedeutung dieser Unternehmungen.</p><div><img src='https://3d-objekte.museumsstiftung.de/app/images/kabeldampfer/6.Schaukasten_mit_6_Kabelproben.png' alt='6.Schaukasten_mit_6_Kabelproben.png'></div><p>Schaukasten mit sechs Kabelproben des zweiten Transatlantik-Seekabels Borkum–Faial–New York (Azorenkabel) © MSPT</p>",
-      "camera": "LookingAtPOIhistory006"
+      "camera": "LookingAtPOIhistory006",
+      "sprite": "assets/sprite/7.svg"
     },
     {
       "title": "Technische Funktionsweise (Deckshaus)",
       "html": "<p>Die „Stephan“ verfügte über fünf Decks: Doppelboden, Zwischendeck, Hauptdeck, Spardeck und Bootsdeck. Im Deckshaus waren die Wohnräume für die Offiziere und Ingenieure eingerichtet. Alle Quartiere verfügten über Dampfheizungen sowie elektrische Beleuchtung.</p>",
-      "camera": "LookingAtPOI001"
+      "camera": "LookingAtPOI001",
+      "sprite": "assets/sprite/1.svg"
     },
     {
       "title": "Kesselraum",
       "html": "<p>Der für Antrieb und Heizung erforderliche Dampf wurde im Inneren durch Doppel- und Einfachkessel erzeugt. 690 Tonnen Kohle mussten dafür mitgeführt werden.</p><div><img src='https://3d-objekte.museumsstiftung.de/app/images/kabeldampfer/7.Decksplan_und_Längsriss_der_Stephan_1903.png' alt='7.Decksplan_und_Längsriss_der_Stephan_1903.png'></div><p>Decksplan und Längsriss der „Stephan“, Zeichnung, Archiv für Post und Telegraphie, 1903 © CC 0 1.0</p>",
-      "camera": "LookingAtPOI002"
+      "camera": "LookingAtPOI002",
+      "sprite": "assets/sprite/2.svg"
     },
     {
       "title": "Bugrollen",
       "html": "<p>Die markanten Bugrollen auf dem Spardeck dienten dem kontrollierten Zu-Wasser-Lassen oder Heraufholen der Seekabel.</p><div><img src='https://3d-objekte.museumsstiftung.de/app/images/kabeldampfer/8.Doppelschrauben_Kabeldampfer_Stephan.png' alt='8.Doppelschrauben_Kabeldampfer_Stephan.png'></div><p>Artikel „Der Doppelschrauben-Kabeldampfer ,Stephan‘“, in: Zeitschrift des Vereines Deutscher Ingenieure, H. 44 (1903), S. 1581 © MSPT</p>",
-      "camera": "LookingAtPOI003"
+      "camera": "LookingAtPOI003",
+      "sprite": "assets/sprite/3.svg"
     },
     {
       "title": "Heckruder",
       "html": "<p>Ein spezielles Ruder am Heck des Schiffes verbesserte die Manövrierfähigkeit, die der Dampfer bei der exakten Kabelverlegung auf rauer See benötigte.</p>",
-      "camera": "LookingAtPOI004"
+      "camera": "LookingAtPOI004",
+      "sprite": "assets/sprite/4.svg"
     },
     {
       "title": "Kabelführung Backbordseite",
       "html": "<p>Aus den Kabeltanks im Inneren des Schiffes wurden die Kabel durch Öffnungen auf dem Bootsdeck über eine Vielzahl von Kabeltrommeln transportiert. Dabei wurden sie backbordseitig (links) am Deckshaus vorbeigeführt. Die Kabel wurden am Heck ausgelegt und am Bug aufgenommen. Als Hilfsmittel dienten dafür Leitrollen, Leitösen, Dynamometer sowie Winden. Auf dem vorderen Spardeck befand sich auch das Schutzhaus für die Kabelmaschine.</p><div><img src='https://3d-objekte.museumsstiftung.de/app/images/kabeldampfer/9.Artikel_Der_Doppelschrauben_Kabeldampfer_Stephan.png' alt='9.Artikel_Der_Doppelschrauben_Kabeldampfer_Stephan.png'></div><p>Artikel „Der Doppelschrauben-Kabeldampfer ,Stephan‘“, in: Zeitschrift des Vereines Deutscher Ingenieure, H. 44 (1903), S. 1581 © MSPT</p>",
-      "camera": "LookingAtPOI005"
+      "camera": "LookingAtPOI005",
+      "sprite": "assets/sprite/5.svg"
     },
     {
       "title": "Kabeltanks für bis zu 5000 Tonnen Kabel",
       "html": "<p>Die vier Kabeltanks unter Deck hatten mit einem Durchmesser von je 11 bis 13 m und einer Tiefe von 6,3 m die notwendige Kapazität, um die tonnenschweren und kilometerlangen Kupferkabel zu transportieren. Die konische Aussparung im Inneren der Kabeltanks diente der Trinkwasserspeicherung.</p><div><img src='https://3d-objekte.museumsstiftung.de/app/images/kabeldampfer/10.Holzstich_Coiling_Atlantic_Telegraph_Cable.png' alt='10.Holzstich_Coiling_Atlantic_Telegraph_Cable.png'></div><p>Holzstich „The Coiling of the Atlantic Telegraph Cable on Board H.M.S. Agamemnon“ , The Illustrated London News, 1857 © CC 0 1.0</p>",
-      "camera": "LookingAtPOI006"
+      "camera": "LookingAtPOI006",
+      "sprite": "assets/sprite/6.svg"
     },
     {
       "title": "Schriftzug „Stephan“",
       "html": "<p>Das neue Schiff wurde nach dem 1897 verstorbenen Generalpostmeister und Gründer des Reichspostmuseums, des heutigen Museums für Kommunikation Berlin, Heinrich von Stephan benannt. Kaiser Wilhelm I. gratulierte per Telegramm persönlich zum Stapellauf des ersten deutschen Kabeldampfers.</p>",
-      "camera": "LookingAtPOI007"
+      "camera": "LookingAtPOI007",
+      "sprite": "assets/sprite/7.svg"
     },
     {
       "title": "Gegenwartsbezug",
       "html": "<p>In den 1950er Jahren verlegten britische Kabelschiffe eine neue Generation von Unterseekabeln: Sie besaßen eingebaute Verstärker und ermöglichten ab 1956 interkontinentale Ferngespräche. 1988 ging das erste transatlantische Glasfaserkabel in Betrieb. Die optische Signalübertragung ermöglicht die moderne Internet- und Telefonkommunikation. Zur Verlegung und Reparatur der Datenautobahnen in der Tiefsee sind noch immer Kabelschiffe auf den Weltmeeren unterwegs. Der Riss eines einzigen Kabels kann die Internetversorgung ganzer Länder lahmlegen. Damals wie heute handelt es sich um hoch spezialisierte Hightech-Schiffe. Ohne sie wäre unsere heutige globale Kommunikation per Bits und Bytes nicht möglich. Denn trotz Satelliten und Clouds – unsere Daten laufen fast alle über den Grund der Weltmeere.</p><div><img src='https://3d-objekte.museumsstiftung.de/app/images/kabeldampfer/11.Glasfaserkabel_bzw_Lichtwellenreiter_1980.png' alt='11.Glasfaserkabel_bzw_Lichtwellenreiter_1980.png'></div><p>Glasfaserkabel bzw. Lichtwellenleiter aus den 1980er Jahren, Deutschland © MSPT</p>",
-      "camera": "LookingAtPOIpresent001"
+      "camera": "LookingAtPOIpresent001",
+      "sprite": "assets/sprite/1.svg"
     }
   ],
   "chapters": [

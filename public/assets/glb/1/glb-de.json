@@ -4,47 +4,56 @@
     {
       "title": "Intro Text",
       "html": "<p>Seit Urzeiten haben Menschen Entdeckungsfahrten unternommen. Je mehr Erfahrungen sie in Nautik und Schiffbau sammelten, desto besser konnten sie die Ozeane erkunden. Bereits im 17. Jh. wurden Kontinente und Meere in ihren Umrissen auf Erdgloben weitgehend richtig dargestellt. Ab dem 18. Jh. vervollständigten Entdeckungsreisen den europäischen Blick auf die Welt. Sie förderten den weltweiten Handel und die kontinentübergreifende Kommunikation, aber auch die Unterwerfung und Zerstörung von Kulturen und Lebensräumen.</p><br/><p><strong>Hersteller</strong>: Daniel Friedrich Sotzmann (Autor, Berlin) und Johann Georg Franz (Verleger, Nürnberg)</p><p><strong>Jahr</strong>: 1808</p><p><strong>Maße</strong>: 72 x 127 x 72 cm</p><p><strong>Gewicht</strong>: 16 kg</p>",
-      "camera": "LookingAtPOIhistory000"
+      "camera": "LookingAtPOIhistory000",
+      "sprite": "assets/sprite/1.svg"
     },
     {
       "title": "Nutzungs/Erfindungsgeschichte",
       "html": "<p>Der um 1500 ausgetragene Wettstreit Portugals und Spaniens um die Entdeckung der Weltmeere gilt als Startpunkt der Globalisierung. Vor allem die Atlantiküberquerung des im Dienste Spaniens segelnden Christoph Kolumbus, die zur (Neu-)Entdeckung Amerikas führte, wird heute als Beginn des „globalen Zeitalters“ gesehen.</p><div><img src='https://3d-objekte.museumsstiftung.de/app/images/sotzmann/1.Christoph_Kolumbus_Porträt.png' alt='1.Christoph_Kolumbus_Porträt.png'></div><p>Christoph Kolumbus, Porträt von Sebastiano del Piombo, 1519, Metropolitan Museum of Art, New York © CC 0 1.0</p>",
-      "camera": "LookingAtPOIhistory001"
+      "camera": "LookingAtPOIhistory001",
+      "sprite": "assets/sprite/2.svg"
     },
     {
       "title": "",
       "html": "<p>Der Portugiese Vasco da Gama entdeckte als erster Seefahrer 1498 eine Passage nach Indien um das Kap der Guten Hoffnung herum. Dieses hatte 1488 aber bereits sein Landsmann Bartolomeu Dias umsegelt.</p><div><img src='https://3d-objekte.museumsstiftung.de/app/images/sotzmann/2.Vasco_da_Gama_Porträt.png' alt='2.Vasco_da_Gama_Porträt.png'></div><p>Vasco da Gama, Porträt von Gregorio Lopes, ca. 1524 © CC 0 1.0</p>",
-      "camera": "LookingAtPOIhistory002"
+      "camera": "LookingAtPOIhistory002",
+      "sprite": "assets/sprite/3.svg"
     },
     {
       "title": "",
       "html": "<p>Die Weltumsegelung konnte Spanien für sich beanspruchen, auch wenn der Entdecker selbst ein Portugiese war: Ferdinand Magellan. 1519 eigentlich aufgebrochen, um auf den Spuren Kolumbus’ eine Westroute zu den Gewürzinseln (Indonesien) zu finden, segelte er an Feuerland vorbei einmal um die Welt und erbrachte so den letzten Beweis für die Kugelgestalt der Erde.</p><div><img src='https://3d-objekte.museumsstiftung.de/app/images/sotzmann/3.Ferdinand_Magellan.png' alt='3.Ferdinand_Magellan.png'></div><p>Ferdinand Magellan, unbekannter Künstler, 16. oder 17. Jh., Marinemuseum, Newport News © CC 01.0</p>",
-      "camera": "LookingAtPOIhistory003"
+      "camera": "LookingAtPOIhistory003",
+      "sprite": "assets/sprite/4.svg"
     },
     {
       "title": "",
       "html": "<p>Die Entdeckung der Südsee gelang jedoch einem Briten. Der Seefahrer James Cook brach 1768 zu seiner ersten Südseereise auf, der zwischen 1772 und 1780 zwei weitere folgen sollten. Der Seefahrer und Kartograf fertigte dabei erstmals detaillierte Karten von Neuseeland, Australien und den Inseln des Südpazifik an.</p><div><img src='https://3d-objekte.museumsstiftung.de/app/images/sotzmann/4.James_Cook.png' alt='4.James_Cook.png'></div><p>James Cook, Porträt von Nathaniel Dance-Holland, 1776, National Maritime Museum, London © CC 0 1.0</p>",
-      "camera": "LookingAtPOIhistory004"
+      "camera": "LookingAtPOIhistory004",
+      "sprite": "assets/sprite/5.svg"
     },
     {
       "title": "",
       "html": "<p>Bereits im 18. Jh. verkehrten Schiffe um die ganze Welt. Und weitere 100 Jahre später war die Globalisierung in Form von weltweiter Kommunikation, freiem Handel, Geldverkehr, Migration, Weltwährungssystem vollbracht.</p>",
-      "camera": "LookingAtPOIhistory005"
+      "camera": "LookingAtPOIhistory005",
+      "sprite": "assets/sprite/6.svg"
     },
     {
       "title": "Technische Funktionsweise (Der Globus)",
       "html": "<p>Ein Globus ist ein verkleinertes, kugelförmiges Modell der Erde. Man unterscheidet Himmels- und Erdgloben. Erstere dienen zur Darstellung der Himmelskörper, Letztere der Erde. Oft wurden sie paarweise hergestellt. Je nach Größe unterscheidet man zwischen einem Taschen-, Tisch-, Stand- und Riesenglobus.</p>",
-      "camera": "LookingAtPOI001"
+      "camera": "LookingAtPOI001",
+      "sprite": "assets/sprite/1.svg"
     },
     {
       "title": "Daniel Sotzmann",
       "html": "<p>1. Der Erdglobus von Daniel Sotzmann, gefertigt 1808, zeigt Routen der wichtigsten Entdeckungsfahrten. Als Geograf der Königlich Preußischen Akademie der Wissenschaften zu Berlin gehörte Sotzmann zu den bedeutendsten deutschen Kartografen. Mit insgesamt 36 detaillierten Reiserouten ist der Globus ein wichtiger Beitrag zur Entdeckungsgeschichte des 18. und frühen 19. Jh. Der Globus ist nach einer Inschrift auf der Kugel vom Nürnberger Verleger dem Bayrischen König Maximilian Josef (1806 – 1825) gewidmet.</p><div><img src='https://3d-objekte.museumsstiftung.de/app/images/sotzmann/5.Daniel_F._Sotzmann.png' alt='5.Daniel_F._Sotzmann.png'></div><p>Daniel F. Sotzmann, Porträt als Kupferstich von Conrad Westermayr, 1800 © CC 0 1.0</p><br/><p>2. Für den Adel und die Kirche wurden bereits im 15. Jh. prunkvolle und detailreiche Globen gefertigt. Das Interesse der Herrschenden an der Wissenschaft sollte geweckt werden, damit sie aufwendige Entdeckungsreisen finanzieren. Die mit dem Aufstieg des Bürgertums wachsende Nachfrage führte ab dem frühen 19. Jh. zu einer Art Serienproduktion. Wie auch beim Sotzmann-Globus wurden meist im Kupferstichverfahren erstellte Globenstreifen auf den aus zwei hohlen Halbkugeln zusammengesetzten Globuskorpus aufgezogen und verleimt. Die Kugel bestand in der Regel aus Pappmaché, auf die eine Gipsschicht aufgetragen wurde.</p><br/><p>3. Der Globus ist mit einem Messing-Meridianring in einer Drehachse befestigt, in dem er sich in alle Richtungen drehen lässt. Der Meridianring hat auf einer Seite eine Gradeinteilung, die parallel zu den auf dem Globus gedruckten Meridianen verläuft.</p><br/><p>4. Drei Säulen stützen durch eine Kreuzverstrebung den breiten hölzernen Ring. Dieser bildet den Horizont, der die Tierkreiszeichen anzeigt. Dadurch kann man erkennen, in welchem Bereich eines Tierkreises die Sonne an den einzelnen Tagen des Jahres steht.</p><br/><p>5. Um 1700 wurde es üblich, noch nicht bekannte Gebiete frei zu lassen, wie hier beim Sotzmann-Globus von 1808 einen Teil der Südküste Australiens. Und das, obwohl die 1800 gestartete Expedition des französischen Seefahrers Nicolas Baudin zur Erkundung der Küsten Australiens erfolgreich beendet war. Wahrscheinlich lag zwar der Reisebericht vor, aber die dazugehörigen Karten waren noch nicht veröffentlicht worden.</p>",
-      "camera": "LookingAtPOI002"
+      "camera": "LookingAtPOI002",
+      "sprite": "assets/sprite/2.svg"
     },
     {
       "title": "Gegenwartsbezug",
       "html": "<p>Die Entdeckungsreisen früherer Zeiten bildeten die Grundlage des weltweiten Handels und der Globalisierung. Die Notwendigkeit umfassender Nachrichtenübermittlung gab der Entwicklung von Kommunikationstechnik entscheidenden Auftrieb. Die Welt wurde kleiner. Gefährliche und entbehrungsreiche Entdeckungsfahrten sind heute nicht mehr nötig. Die gesamte Erdkugel ist durch Satellitenaufnahmen in größtem Detailreichtum für jede:n auf dem Handyscreen sichtbar. Der heutige Globus besteht nicht mehr aus Pappmaché, sondern aus Daten.</p><div><img src='https://3d-objekte.museumsstiftung.de/app/images/sotzmann/6.Routen_B.S.Halpern.png' alt='6.Routen_B.S.Halpern.png'></div><p>Schifffahrts- und Handelsrouten im Jahr 2012, Tomislav Hengl: Halpern, B. S., et al. 2008. A Global Map of Human Impact on Marine Ecosystems. Scale 1 Km, <a href='https://www.science.org/doi/10.1126/science.1149345' target='_blank'>https://dx.doi.org/10.1126/science.1149345</a>, University of California, National Center for Ecological Analysis and Synthesis © B.S. Halpern (T.Hengl; D. Groll), BY-SA 3.0</p>",
-      "camera": "LookingAtPOIpresent001"
+      "camera": "LookingAtPOIpresent001",
+      "sprite": "assets/sprite/1.svg"
     }
   ],
   "chapters": [
