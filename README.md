@@ -1,46 +1,88 @@
-# Getting Started with dis-mfk
+# Wellen Codes und Kabel(salat) – Wie die Kommunikation in die Hosentasche kamEin Tandemprojekt der Staatlichen Museen zu Berlin – Preußischer Kulturbesitz (SMB) und der Museumsstiftung Post und Telekommunikation (MSPT)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Die Web App-Anwendung ermöglicht den Nutzer:innen mit Hilfe von 3D-Modellen
+und Animationen technische Sammlungs-Objekte neu zu erfahren. Objekte
+drehen, aus allen Richtungen betrachten und winzige Bauteile und Details
+erkennen, bietet einen Mehrwert in der digitalen Vermittlung. Dadurch wird die
+bloße physische Präsenz der Objekte, meist unzugänglich in der Vitrine, um die
+multiperspektivische Ansicht erweitert. Je nach Interesse lassen sich am Objekt
+die Kapitel Nutzungsgeschichte, technische Funktionsweise oder Bezug zur
+Gegenwart auswählen. Wichtige Meilensteine der Kommunikationsgeschichte
+können dadurch sowohl im Museum als auch von zu Hause aus erkundet werden.
+So wird die Bedeutung der Objekte für die Geschichte der Kommunikation noch
+deutlicher.
 
-## Available Scripts
+## Kurzbeschreibung
 
-In the project directory, you can run:
+Mit Hilfe der Web App lassen sich anhand von Objekten aus der Sammlung der
+MSPT Meilensteine der Kommunikationsgeschichte erkunden. Das geht sowohl
+vor Ort im Museum durch an den Objektvitrinen angebrachten QR-Codes als auch
+mobil und außerhalb der Öffnungszeiten. Den Nutzer:innen wird dadurch ein
+völlig neuer Zugang zu ausgewählten Sammlungsobjekten ermöglicht
 
-### `npm start`
+## Installation
 
-Runs the app in the development mode.\
+[Node.js](https://nodejs.org/en) version 18.0.0 is needed for the Project and needs to be installed.
+
+### `npm i`
+
+It will install all needed pacjages to `node_modules` folder
+
+## File Structure
+
+### Timeline
+
+Entries for the generated Timeline can be created by editing the file `src/api/data.ts` corresponding images are stored in the `public/assets` folder of the project.\
+Images have to be named after the Timeline entries. Language are contained in the language specific `src/locales/[LANGUAGE_NAME]` folder.
+
+### 3D Objects
+
+3D objects in `glb` format are stored in the `public/glb/[FOLDER_WITH_THE_NAME_AS_ID]` folder, ID refers to the corresponding Timeline entry name.
+Each 3D object folder contains the according language files following the naming: `glb-[LANG_NAME].json` and the actual `glb` file.
+
+## Usage
+
+Run `npm start` to start application locally. This command runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
+Run `npm run build`, it builds the app for production to the `build` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
 
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
+Copy the contents of the /build folder to a webserver.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Entstehungskontext
 
-### `npm run eject`
+Die Progressive Web App Wellen, Codes und Kabel(salat) – Wie die
+Kommunikation in die Hosentasche kam ist im Rahmen des
+museum4punkt0-Projekts „(De-)Coding Culture Extended. Digitale Kompetenzen
+in kulturellen Räumen“ im Tandem mit den SMB entstanden. Das Ziel war die
+Nachnutzung und Weiterentwicklung des von den SMB entwickelten Web App
+Baukastens „display“. Dieses für Kunstmuseen entwickelte Framework soll dabei
+an die Bedürfnisse eines technikhistorischen Museums angepasst werden, das
+die Objektspezifika berücksichtigt und aus dem Entwicklungsprozess heraus
+dokumentiert.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Förderung
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Das Projekt museum4punkt0 wird gefördert durch die Beauftragte der
+Bundesregierung für Kultur und Medien aufgrund eines Beschlusses des
+Deutschen Bundestages.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Credits
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Auftraggeber/Rechteinhaber: Museumsstiftung Post und Telekommunikation
+Texte: Sara Oslislo, Johanna Geßner, Dr. Tina Kubot, Frank Gnegel, Lioba Nägele\
+Scan 3D-Modelle und Animationen: Scanmore GmbH, Scanmotion\
+Konzept, Programmierung & Gestaltung der Web App: Playersjourney UG und das
+Team der MSPT\
+Projektleitung: Anja Schaluschke und Sara Oslislo \
+Projektassistenz: Johanna Geßner und Lena Katharina Streckert\
+Unter Mitwirkung von museum4punkt0 und Staatliche Museen zu Berlin –
+Preußischer Kulturbesitz\
+Kontaktinformation: museum4punkt0 / Museumsstiftung Post und
+Telekommunikation:
+Lena Katharina Streckert mfk-berlin@mspt.de\
