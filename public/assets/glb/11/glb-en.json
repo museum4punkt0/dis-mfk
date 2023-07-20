@@ -4,83 +4,80 @@
     {
       "title": "Intro Text",
       "html": "<p>The first telephones had neither a rotary dial nor a keypad, but a crank handle. Turning the handle generated a current to signal the switchboard operator in the telephone exchange. The operator then made the desired connection by hand using the switchboard’s system of cords and jacks.</p><br/><p><strong>Accession number</strong>: 4.0.35692</p><p><strong>Manufacturer</strong>: Telephon-Apparate-Fabrik Franz Welles</p><p><strong>Year</strong>: 1886</p><p><strong>Dimensions</strong>: 58 x 175 x 54 cm</p><p><strong>Weight</strong>: 53 kg</p>",
-      "camera": "LookingAtPOIhistory000",
-      "sprite": "assets/sprite/1.svg"
+      "camera": "LookingAtPOIhistory000"
     },
     {
       "title": "Erfindungs- und Nutzungsgeschichte???",
       "html": "<p>The history of Germany’s public telephone network began when the first city telephone exchange was opened in 1881. The switchboards from telephone exchanges tell the history of telephony’s early years.</p><div><img src='https://3d-objekte.museumsstiftung.de/app/images/klappschrank/1.Handvermittlung_in_Stettin_im_Jahr_1893.png' alt='1.Handvermittlung_in_Stettin_im_Jahr_1893.png'></div><p>Manually operated switchboard in Stettin, 1893 © MSPT</p>",
-      "camera": "LookingAtPOIhistory001",
-      "sprite": "assets/sprite/2.svg"
+      "camera": "LookingAtPOIhistory001"
     },
     {
       "title": "",
       "html": "<p>Subscribers phoned the exchange and spoke directly to operators who then manually connected them to the desired number. From 1889, the switchboards were largely staffed by women. Independently of the line quality, the higher pitch of women’s voices made them easier to understand. As became apparent, women were also more patient and friendly to callers – and, since women were paid less than men, they were cheaper. Moreover, the women recruited as switchboard operators were expected to be young, well-educated, and single. As a result, the colloquial term for an operator in German was ‘Fräulein vom Amt’ (‘Young woman from the exchange’).</p><div><img src='https://3d-objekte.museumsstiftung.de/app/images/klappschrank/2.Postbeamtin_bei_der_Handvermittlung_von_Ferngesprächen.png' alt='2.Postbeamtin_bei_der_Handvermittlung_von_Ferngesprächen.png'></div><p>Female post office clerk operating a manual switchboard around 1900 © MSPT</p>",
-      "camera": "LookingAtPOIhistory002",
-      "sprite": "assets/sprite/3.svg"
+      "camera": "LookingAtPOIhistory002"
     },
     {
-      "title": "Drop flap indicator",
+      "title": "1. Drop flap indicator",
       "html": "<p>To establish a telephone connection, the subscriber lifted the telephone receiver and turned the crank on the side of the phone. The current generated activated an electromagnet behind the drop flap indicator which then lifted the trip latch so the flap dropped down allowing the operator to see the caller’s telephone number.</p>",
       "camera": "LookingAtPOI001",
       "sprite": "assets/sprite/1.svg"
     },
     {
-      "title": "Bell alarm",
+      "title": "2. Bell alarm",
       "html": "<p>The bell served as a supplementary audible alarm to signal a subscriber was calling the exchange.</p>",
       "camera": "LookingAtPOI002",
       "sprite": "assets/sprite/2.svg"
     },
     {
-      "title": "Red jack plug",
+      "title": "3. Red jack plug",
       "html": "<p>As soon as switchboard operators noticed the fallen flap indicator, they set up the flap again and connected the switchboard’s red jack plug to the subscriber’s line with the same number as the flap indicator. The operator then pulled the flip switch into the forward position and, using the mouthpiece, asked the caller which number they wanted to ring.</p>",
       "camera": "LookingAtPOI003",
       "sprite": "assets/sprite/3.svg"
     },
     {
-      "title": "Jack board",
+      "title": "4. Jack board",
       "html": "<p>The jack board had all the connections for telephone lines served by the manual switchboard. The numbers over the jacks also referred to the telephone numbers behind the drop flaps.</p>",
       "camera": "LookingAtPOI004",
       "sprite": "assets/sprite/4.svg"
     },
     {
-      "title": "Cone mouthpiece",
+      "title": "5. Cone mouthpiece",
       "html": "<p>The operator communicated with the caller via the cone mouthpiece and shell-shaped earpiece. By changing the flip switch’s position, the operator could either communicate with the subscriber or the line requested.</p>",
       "camera": "LookingAtPOI005",
       "sprite": "assets/sprite/5.svg"
     },
     {
-      "title": "Shell-shaped earpiece",
+      "title": "6. Shell-shaped earpiece",
       "html": "<p>The operator communicated with the caller via the cone mouthpiece and the shell-shaped earpiece. By changing the flip switch’s position, the operator could either communicate with the subscriber or the line requested.</p>",
       "camera": "LookingAtPOI006",
       "sprite": "assets/sprite/6.svg"
     },
     {
-      "title": "Black jack plug",
+      "title": "7. Black jack plug",
       "html": "<p>The operator inserted the black jack plug into the jack with the requested line. Afterwards, the operator moved the flip switch to the position closest to the jack board and turned the inductor box crank. The current generated rang a signal bell on the telephone of the line requested.</p>",
       "camera": "LookingAtPOI007",
       "sprite": "assets/sprite/7.svg"
     },
     {
-      "title": "Inductor box",
+      "title": "8. Inductor box",
       "html": "<p>The crank-driven inductor was an electric generator allowing the operator to ring a signal bell on the telephone of the line requested, announcing a call.</p>",
       "camera": "LookingAtPOI008",
       "sprite": "assets/sprite/8.svg"
     },
     {
-      "title": "Switch",
+      "title": "9. Switch",
       "html": "<p>The flip switch had three positions. With the switch in the forward position, the operator could speak to the caller and ask for the number to be called. When the switch was in the back position, the operator could talk to the subscriber requested. In the central position, the flip switch connected the two lines and the subscribers could talk to each other.</p>",
       "camera": "LookingAtPOI009",
       "sprite": "assets/sprite/9.svg"
     },
     {
-      "title": "Call indicator flap",
+      "title": "10. Call indicator flap",
       "html": "<p>When the call indicator flap dropped down, the operator knew the call had ended. Depending on the type of telephone, the flap might be activated by the caller turning the hand crank again or simply putting down the receiver. Afterwards, the jack plug was removed from the connection and weights pulled the jack’s cable back into the start position.</p>",
       "camera": "LookingAtPOI010",
       "sprite": "assets/sprite/10.svg"
     },
     {
-      "title": "Weights",
+      "title": "11. Weights",
       "html": "<p>The weights on the end of the jack plug cables pulled them smoothly back into the starting position without becoming entangled.</p>",
       "camera": "LookingAtPOI011",
       "sprite": "assets/sprite/11.svg"
@@ -88,8 +85,7 @@
     {
       "title": "Communication today",
       "html": "<p>Today, exchanges also play an essential role in telephoning. But rather than using analogue switchboards, modern exchanges are digital and fully computerised. Nonetheless, calls from a telephone connection to a digital exchange still travel via cables, though these are usually made of optical fibres. In contrast, mobile devices send encoded radio signals to a network of antenna-like base stations. There, the radio signal is decoded and then forwarded by cable or a radio link to a central exchange. The signal is then sent on and transmitted by another base station antenna to the recipient. These different forms of telephony have also had an impact on everyday language. Until the early 2000s, people generally talked of a ‘phone network’. The word ‘landline’ only became common when it was important to differentiate fixed lines from mobile phone lines.</p><div><img src='https://3d-objekte.museumsstiftung.de/app/images/klappschrank/3.Digitale_Fernsprechvermittlungsstelle.png' alt='3.Digitale_Fernsprechvermittlungsstelle.png'></div><p>Digital telephone exchange, SEL System 12, Alcatel SEL AG (1992 - 2006) © MSPT</p>",
-      "camera": "LookingAtPOIpresent001",
-      "sprite": "assets/sprite/1.svg"
+      "camera": "LookingAtPOIpresent001"
     }
   ],
   "chapters": [

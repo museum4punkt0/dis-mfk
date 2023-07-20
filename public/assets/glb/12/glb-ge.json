@@ -4,65 +4,59 @@
     {
       "title": "Intro Text",
       "html": "<p>Während das gedruckte oder geschriebene Wort immer wieder gelesen werden kann, ist das gesprochene Wort flüchtig. Um es aufzuzeichnen und wieder hörbar zu machen, brauchte es ein Gerät zur Speicherung von Schall und dessen Wiedergabe. Dies gelang Ende des 19. Jh. mit der Erfindung des Phonographen.</p><br/><p><strong>Hersteller</strong>: Alfred Költzow, Berlin</p><p><strong>Jahr</strong>: 1890</p><p><strong>Maße</strong>: 37 x 25 x 23 cm</p><p><strong>Gewicht</strong>: 9,7 kg</p>",
-      "camera": "LookingAtPOIhistory000",
-      "sprite": "assets/sprite/1.svg"
+      "camera": "LookingAtPOIhistory000"
     },
     {
       "title": "Erfindungs- und Nutzungsgeschichte",
       "html": "<p>Phonographen sind Instrumente zur Aufzeichnung und Wiedergabe von Schallwellen. Sie wurden ab der Mitte des 19. Jh. genutzt. Dem US-Amerikaner Thomas A. Edison gelang es 1877 mit dem Zinnfolienphonographen erstmals, Töne akustisch-mechanisch aufzunehmen, zu speichern und auch wiederzugeben.</p><div><img src='https://3d-objekte.museumsstiftung.de/app/images/zinngraphen/1.US-Patent_für_den_Phonographen_1878.png' alt='1.US-Patent_für_den_Phonographen_1878.png'></div><p>US-Patent für den Phonographen, 1878 © MSPT</p>",
-      "camera": "LookingAtPOIhistory001",
-      "sprite": "assets/sprite/2.svg"
+      "camera": "LookingAtPOIhistory001"
     },
     {
       "title": "",
       "html": "<p>„Es spricht! Es singt! Es lacht!“ Die verblüffenden Behauptungen dieses großen Holzstichplakats aus der Zeit um 1878 lockten zweifellos die Neugierigen zu Vorführungen von Edisons Phonographen, den er zunächst selbst als „Talking Machine“ (Sprechmaschine) beschrieb. Einen eigenen Apparat konnten sich zumindest in Deutschland jedoch nur wenige leisten. 1901 kostete ein Phonograph 90 Mark, während der Monatslohn eines Arbeiters bei 70 bis 100 Mark lag.</p><div><img src='https://3d-objekte.museumsstiftung.de/app/images/zinngraphen/2.Thomas_Alva_Edison.png' alt='2.Thomas_Alva_Edison.png'></div><p>Thomas Alva Edison, kolorierter Holzschnitt von Alfred S. Seer Engraver, 1878, National Portrait Gallery, Smithsonian Institution © CC 0 1.0</p>",
-      "camera": "LookingAtPOIhistory002",
-      "sprite": "assets/sprite/3.svg"
+      "camera": "LookingAtPOIhistory002"
     },
     {
       "title": "",
       "html": "<p>Edison war ein produktiver Erfinder, der 1.093 US-Patente erhielt. Er ist bekannt für die Entwicklung des automatischen Telegrafen (1870–74), des Phonographen (1877), der ersten praktischen Glühbirne (1879) und einer frühen Filmkamera namens Kinetograph (1888–91).</p><div><img src='https://3d-objekte.museumsstiftung.de/app/images/zinngraphen/3.Büste_von_Thomas_Alva_Edison_1890.png' alt='3.Büste_von_Thomas_Alva_Edison_1890.png'></div><p>Büste von Thomas Alva Edison, 1890 © MSPT</p>",
-      "camera": "LookingAtPOIhistory003",
-      "sprite": "assets/sprite/4.svg"
+      "camera": "LookingAtPOIhistory003"
     },
     {
       "title": "",
       "html": "<p>Der Unternehmer Edison etablierte einen neuen unternehmerischen Prozess für Forschung und Entwicklung. Er baute zwei große Laborkomplexe in New Jersey und beschäftigte Dutzende von Mitarbeiter:innen. Stetig verbesserten Edison und sein Team die bestehende Technologie, um sie kommerziell rentabler zu machen. Die 1878 gegründete Edison Speaking Phonograph Company diente dem weltweiten Vertrieb des Apparats. Auch das erste Zentralkraftwerk für Gleichstromtechnik nahm er 1882 in New York in Betrieb.</p><div><img src='https://3d-objekte.museumsstiftung.de/app/images/zinngraphen/4.Holzstich_Edisons_Elektrizitätswerk.png' alt='4.Holzstich_Edisons_Elektrizitätswerk.png'></div><p>Holzstich „Edisons Elektrizitätswerk zu Brooklyn“, 1892 © MSPT</p>",
-      "camera": "LookingAtPOIhistory004",
-      "sprite": "assets/sprite/5.svg"
+      "camera": "LookingAtPOIhistory004"
     },
     {
       "title": "",
       "html": "<p>Die schlechte Tonqualität, die geringe Speicherzeit der Walze sowie das dadurch häufige Wechseln der Walze ließen den Absatz der Phonographen schnell ins Stocken geraten. Das Problem erkannten auch die Amerikaner Chichester Bell (ein Cousin des Telefonerfinders Alexander Graham Bell) und Charles Sumner Tainter. Ihr Graphophon stellte eine Weiterentwicklung des Phonographen dar, wurde aber ebenfalls durch das Grammophon und letztlich den Schallplattenspieler abgelöst, die Schellackplatten statt Walzen nutzen. 1929 musste Edison aufgrund der Weltwirtschaftskrise die Herstellung von Phonographen einstellen, er verstarb 1931 an Diabetes.</p><div><img src='https://3d-objekte.museumsstiftung.de/app/images/zinngraphen/5.Trichtergrammophon_Monarch.png' alt='5.Trichtergrammophon_Monarch.png'></div><p>Trichtergrammophon Monarch de Luxe No. 15b, Gramophone & Typewriter Ltd., 1907, nach Erfindung von Emil Berliner © MSPT</p>",
-      "camera": "LookingAtPOIhistory005",
-      "sprite": "assets/sprite/6.svg"
+      "camera": "LookingAtPOIhistory005"
     },
     {
-      "title": "Technische Funktionsweise (Walze)",
+      "title": "1. Walze",
       "html": "<p>Speichermedium ist die mit Zinnfolie bezogene Walze. Wird sie über die Kurbel gedreht und zugleich in den Trichter gesprochen, erfolgt die Aufnahme der Tonspur als Tiefenschrift. Die Abspieldauer einer Walze betrug nur zwei Minuten, je nach Geschwindigkeit der Aufnahme. Oft wurden die Walzen mit persönlichen Grüßen als Geschenke an Verwandte und Freund:innen versendet. 1887 ersetzte Edison die Zinnfolien- durch eine Wachswalze. Dies verbesserte die Klangqualität erheblich und bewahrte die Walzen vor zu schneller Abnutzung.</p><div><img src='https://3d-objekte.museumsstiftung.de/app/images/zinngraphen/6.Zinnfolienphonograph_mit_Seitenansicht.png' alt='6.Zinnfolienphonograph_mit_Seitenansicht.png'></div><p>Zinnfolienphonograph mit Seitenansicht der Walze, nach Thomas Alva Edison, hergestellt von Edme Hardy, 1878, Paris © MSPT</p>",
       "camera": "LookingAtPOI001",
       "sprite": "assets/sprite/1.svg"
     },
     {
-      "title": "Schalldose",
+      "title": "2. Schalldose",
       "html": "<p>An der Walze ist eine Schalldose befestigt. Sie dient der Aufnahme und Wiedergabe der Töne. Auf der Schalldose befindet sich eine dünne Membran, die sich durch den Schall auf und ab bewegt.</p>",
       "camera": "LookingAtPOI002",
       "sprite": "assets/sprite/2.svg"
     },
     {
-      "title": "Nadel",
+      "title": "3. Nadel",
       "html": "<p>An der Membran ist eine stumpfe Nadel befestigt. Entsprechend den erzeugten Schallwellen entsteht über die Membran eine Vibration. Die Nadel gerät dadurch in Schwingungen und graviert Vertiefungen in die Zinnfolie, die den Lauten entsprechen, während die Walze per Kurbel gedreht wird.</p>",
       "camera": "LookingAtPOI003",
       "sprite": "assets/sprite/3.svg"
     },
     {
-      "title": "Mundstück/Trichter",
+      "title": "4. Mundstück/Trichter",
       "html": "<p>Um den Schall zu bündeln, wird an der Schalldose ein Trichter angebracht. Durch diesen können Töne aufgenommen und ausgegeben werden.</p>",
       "camera": "LookingAtPOI004",
       "sprite": "assets/sprite/4.svg"
     },
     {
-      "title": "Kurbel",
+      "title": "5. Kurbel",
       "html": "<p>Um die aufgezeichneten Laute wiederzugeben, wird die Schalldose zurückgeklappt und die Walze mit der Kurbel rückwärtsgedreht. Das versetzt den Stift und das Mundstück in die Ursprungslage. Dreht man nun wieder an der Kurbel, so folgt der Stift den Vertiefungen in der Walze, während die Membran Schwingungen erzeugt, die über den Trichter hörbar sind.</p>",
       "camera": "LookingAtPOI005",
       "sprite": "assets/sprite/5.svg"
@@ -70,8 +64,7 @@
     {
       "title": "Gegenwartsbezug",
       "html": "<p>Trotz der enormen Bedeutung als erstes Gerät zur Tonaufzeichnung und -wiedergabe war Edisons Walzentechnologie nach rund zehn Jahren bereits veraltet. Die von Emil Berliner 1887 erfundene Schallplatte wurde das über Jahrzehnte führende Medium für die Tonwiedergabe. Später kamen Magnetbänder, Tonbandkassetten und CDs hinzu. Als digitales Speichermedium für Tonwiedergabe eroberte ab 2000 die MP3-Datei den Musikmarkt. Heute ist auf dem PC oder Smartphone die gesamte Musikwelt jederzeit abspielbar. Auch die Stimmaufzeichnung übernimmt meist das Handy, zum Beispiel in Form von Sprachnachrichten. Dennoch erlebt die Vinylschallplatte zurzeit ein Revival. Musikliebhaber:innen schätzen die besondere Haptik und Langlebigkeit des analogen Tonträgers.</p>",
-      "camera": "LookingAtPOIpresent001",
-      "sprite": "assets/sprite/1.svg"
+      "camera": "LookingAtPOIpresent001"
     }
   ],
   "chapters": [

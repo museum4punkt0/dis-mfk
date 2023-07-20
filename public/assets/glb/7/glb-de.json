@@ -4,71 +4,67 @@
     {
       "title": "Intro Text",
       "html": "<p>Auch wenn umstritten ist, wer letztlich als Erfinder des Telefons gelten darf, so hatte der deutsche Erfinder Philipp Reis (1834–1874) erheblichen Anteil an der Entwicklung. Ihm gelang es erstmals, eine funktionierende elektrische Fernsprechverbindung aufzubauen. Außerdem ist er der Schöpfer des Wortes „Telephon“ (griech. „ferne Stimme“, „ferner Klang“).</p><br/><p><strong>Hersteller</strong>: Philipp Reis</p><p><strong>Jahr</strong>: 1863</p><p><strong>Maße</strong>: 13 x 12 x 20 cm</p><p><strong>Gewicht</strong>: 0,25 kg</p>",
-      "camera": "LookingAtPOIhistory000",
-      "sprite": "assets/sprite/1.svg"
+      "camera": "LookingAtPOIhistory000"
     },
     {
       "title": "Erfindungs- und Nutzungsgeschichte",
       "html": "<p>Der deutsche Lehrer Philipp Reis entwickelte einen Apparat, der einen Meilenstein bei der Konstruktion eines gebrauchsfähigen Telefons darstellte. Erstmals stellte er seine Erfindung 1861 beim Physikalischen Verein in Frankfurt am Main vor. Um zu beweisen, dass seine Erfindung funktioniert und Nachrichten verständlich übermittelt, nutzte Reis dabei Sätze wie „das Pferd frisst keinen Gurkensalat“, die man nicht erraten konnte.</p>",
-      "camera": "LookingAtPOIhistory001",
-      "sprite": "assets/sprite/2.svg"
+      "camera": "LookingAtPOIhistory001"
     },
     {
       "title": "",
       "html": "<p>Ab 1863 ließ Reis eine kleine Serie seines Telefons bauen, alles Unikate. Heute existieren weltweit noch acht Stück, vier davon befinden sich in der Sammlung der Museumsstiftung. Darunter ist Reis‘ eigenes Exemplar. Auch wenn Reis selbst nie die Früchte seiner Forschung erntete, so übte seine Arbeit doch einen erheblichen Einfluss auf die Entwicklung des Telefons aus und inspirierte Erfinder weltweit – unter anderem den Amerikaner Alexander Graham Bell.</p><div><img src='https://3d-objekte.museumsstiftung.de/app/images/reis/1.Philipp_Reis_mit_seinem_Telefon_1913.png' alt='1.Philipp_Reis_mit_seinem_Telefon_1913.png'/></div><p>Büste von Philipp Reis mit seinen Telefonen, Ansichtspostkarte, 1913 © MSPT</p>",
-      "camera": "LookingAtPOIhistory002",
-      "sprite": "assets/sprite/3.svg"
+      "camera": "LookingAtPOIhistory002"
     },
     {
       "title": "",
       "html": "<p>Die Bedeutung des Reis-Telefons wurde erst offenbar, als Alexander Graham Bell 15 Jahre später nach Inspiration durch Reis ein marktreifes Telefonmodell entwickelt hatte. Auch die Mitarbeiter des Reichspostmuseums, des Vorgängers des Museums für Kommunikation Berlin, erkannten die Bedeutung dieses Ereignisses und entschlossen sich, ein Reis-Telefon für die Sammlung zu erwerben. Heute gehören die Reis-Telefone zu den Highlights in der Sammlung der Museen für Kommunikation.</p>",
-      "camera": "LookingAtPOIhistory003",
-      "sprite": "assets/sprite/4.svg"
+      "camera": "LookingAtPOIhistory003"
     },
     {
-      "title": "Technische Funktionsweise (Geber (allgemein))",
+      "title": "1. Geber (allgemein)",
       "html": "<p>Der Geber dient der Aufnahme und Sendung der gesprochenen Nachricht. Dieses Bauteil bezeichnete Reis als „Telephon“. Den notwendigen Strom liefert eine angeschlossene Batterie. Die Nutzer:innen sprechen die Nachricht in den Sprechtrichter.</p>",
       "camera": "LookingAtPOI001",
       "sprite": "assets/sprite/1.svg"
     },
     {
-      "title": "Membran",
+      "title": "2. Membran",
       "html": "<p>Die Schallwellen der in den Trichter gesprochenen Nachricht versetzen eine Membran aus Schweinedarm oder Schweinsblase in Schwingungen, an der Platinkontakte angebracht sind. Um die Membran in Schwingung zu versetzen, muss direkt in den Trichter gesprochen werden.</p>",
       "camera": "LookingAtPOI002",
       "sprite": "assets/sprite/2.svg"
     },
     {
-      "title": "Platinkontakte",
+      "title": "3. Platinkontakte",
       "html": "<p>Das mittig auf der Membran befindliche Platinplättchen gerät durch deren Schwingungen in Bewegung und berührt dabei wiederholt den darüberliegenden Messingwinkel. Mittels eines Platinstreifens ist dieser Winkel mit einer Klemmschraube verbunden. Über diese besteht ein Stromkreis mit einer angeschlossenen Batterie, sodass die Platinkontakte die Vibrationen in Stromimpulse umwandeln, die je nach Druck der Schallwellen variieren. Die elektrischen Schwingungen werden über eine Leitung an den Empfänger weitergeleitet.</p>",
       "camera": "LookingAtPOI003",
       "sprite": "assets/sprite/3.svg"
     },
     {
-      "title": "Empfänger mit Drahtspule",
+      "title": "4. Empfänger mit Drahtspule",
       "html": "<p>Der Empfänger wandelt die vom Geber eingehenden Stromimpulse in akustisch wahrnehmbare Signale um. Reis bezeichnete ihn daher als „Reproductionsapparat“ (Reproduktion = Wiederherstellung). Die unregelmäßigen Stromimpulse des Gebers fließen in die Spule. Das dabei entstehende Magnetfeld wirkt sich auf die in der Spule befindliche eiserne Stricknadel aus.</p>",
       "camera": "LookingAtPOI004",
       "sprite": "assets/sprite/4.svg"
     },
     {
-      "title": "Stricknadel",
+      "title": "5. Stricknadel",
       "html": "<p>Das Magnetfeld der Spule versetzt die Stricknadel in Schwingungen. Diese Schwingungen werden vom Holzkasten aufgenommen.</p>",
       "camera": "LookingAtPOI005",
       "sprite": "assets/sprite/5.svg"
     },
     {
-      "title": "Holzkasten",
+      "title": "6. Holzkasten",
       "html": "<p>Der Holzkasten dient als Resonanzkörper. Er nimmt die Schwingungen der Stricknadel auf und macht sie als Schallwellen hörbar.</p>",
       "camera": "LookingAtPOI006",
       "sprite": "assets/sprite/6.svg"
     },
     {
-      "title": "Signaltaster Empfänger",
+      "title": "7. Signaltaster Empfänger",
       "html": "<p>Dieser Taster dient dazu, sich während des Gesprächs telegrafische Kurznachrichten zukommen zu lassen. Durch Betätigung des Tasters öffnet bzw. schließt man den Stromkreis und kann mit diesen Signalen den Gesprächspartner:innen abgesprochene Zeichen geben, zum Beispiel ob alles gut verstanden wurde oder ob man sprechen möchte.</p>",
       "camera": "LookingAtPOI007",
       "sprite": "assets/sprite/7.svg"
     },
     {
-      "title": "Signaltaster Geber",
+      "title": "8. Signaltaster Geber",
       "html": "<p>Dieser Taster dient dazu, sich während des Gesprächs telegrafische Kurznachrichten zukommen zu lassen. Durch Betätigung des Tasters öffnet bzw. schließt man den Stromkreis und kann mit diesen Signalen den Gesprächspartner:innen abgesprochene Zeichen geben, zum Beispiel ob alles gut verstanden wurde oder ob man sprechen möchte.</p>",
       "camera": "LookingAtPOI008",
       "sprite": "assets/sprite/8.svg"
@@ -76,8 +72,7 @@
     {
       "title": "Gegenwartsbezug",
       "html": "<p>113 Jahre später sollte ein Prototyp erneut das Kommunikationsverhalten des Menschen beeinflussen. Am 3. April 1973 führte Martin „Marty“ Cooper das erste Gespräch mit einem tragbaren Funktelefon: die Geburtsstunde des Handys. Als Gesprächspartner suchte sich Cooper niemand anderen als seinen Konkurrenten Bell Laboratories aus, einen Nachfolger des von Alexander Graham Bell gegründeten Unternehmens American Bell Telephone Company. Zehn Jahre später wurde das erste Handy verkauft und der Rest ist Geschichte.</p><div><img src='https://3d-objekte.museumsstiftung.de/app/images/reis/2.Martin_Cooper.png' alt='2.Martin_Cooper.png'/></div><p>Martin „Marty“ Cooper mit erstem tragbarem Funktelefon © Mark Berry, CC BY 2.0</p>",
-      "camera": "LookingAtPOIpresent001",
-      "sprite": "assets/sprite/1.svg"
+      "camera": "LookingAtPOIpresent001"
     }
   ],
   "chapters": [
