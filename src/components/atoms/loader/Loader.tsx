@@ -3,17 +3,39 @@ import { ComponentProps } from "types";
 
 import "./style.scss";
 
-export const Loader = (props: ComponentProps) => {
-  const { identifier } = props;
+type Props = {
+  /**
+   * Type of Loader (1 - general, 2 - animated 3D)
+   */
+  type?: 1 | 2;
+} & ComponentProps;
+
+const circleLength = 15;
+
+export const Loader = (props: Props) => {
+  const { identifier, type = 1 } = props;
   return (
     <div className="mfk-loader" data-testid={identifier}>
-      <RotatingLines
-        strokeColor="#042f70"
-        strokeWidth="3"
-        animationDuration="1"
-        width="80"
-        visible={true}
-      />
+      {type === 1 ? (
+        <RotatingLines
+          strokeColor="#042f70"
+          strokeWidth="3"
+          animationDuration="1"
+          width="80"
+          visible={true}
+        />
+      ) : (
+        <>
+          {Array(circleLength)
+            .fill("")
+            .map((_, idx) => (
+              <div
+                key={`circ-${idx + 1}`}
+                className={`circ circ-${idx + 1}`}
+              ></div>
+            ))}
+        </>
+      )}
     </div>
   );
 };
