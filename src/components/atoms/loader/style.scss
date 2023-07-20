@@ -5,4 +5,53 @@
   align-items: center;
   justify-content: center;
   padding-top: var.$spacing * 10;
+  .circ {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    position: absolute;
+    transform-style: preserve-3d;
+    backdrop-filter: blur(0.5px);
+    border: 1.9px solid;
+    border-top-color: var.$primaryBgGradient;
+    border-bottom-color: var.$primary;
+    border-left-color: #008cb7;
+    border-right-color: #000;
+    opacity:0;
+    @for $i from 1 through 7 {
+      &.circ-#{$i} {
+        transform: rotate3d(0, 1, 0, calc(360deg / 15) * $i);
+        animation: rotate 2s linear infinite;
+        animation-delay: calc(1/ 7.5) * $i + s;
+      }
+    }
+    @for $i from 8 through 15 {
+      &.circ-#{$i} {
+        transform: rotate3d(1, 0, 0, calc(360deg / 15) * $i);
+        animation: rotate-2 3s linear infinite;
+        animation-delay: calc(1 / 7.5) * $i + s;
+      }
+    }
+  }
+}
+
+@keyframes rotate {
+  from {
+    opacity:1;
+    transform: rotate3d(0, 1, 1, 360deg);
+  }
+  to {
+    transform: rotate3d(0, 1, 1, 0deg);
+    opacity:1;
+  }
+}
+@keyframes rotate-2 {
+  from {
+    opacity:1;
+    transform: rotate3d(1, 0, 1, 0deg);
+  }
+  to {
+    opacity:1;
+    transform: rotate3d(1, 0, 1, 360deg);
+  }
 }

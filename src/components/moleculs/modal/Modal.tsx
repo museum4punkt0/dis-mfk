@@ -32,6 +32,7 @@ export const Modal = (props: Props) => {
   const [isFullScreen, setIsFullScreen] = useState<Boolean>(false);
   const [isToggled, setIsToggled] = useState<Boolean>(false);
   const [is3dObjectloaded, setIs3dObjectloaded] = useState<Boolean>(false);
+  const [isLoadingText, setIsLoadingText] = useState<Boolean>(false);
 
   const toggleFullScreen = () => setIsFullScreen((oldState) => !oldState);
   const toggleDescription = () => setIsToggled((oldState) => !oldState);
@@ -51,6 +52,10 @@ export const Modal = (props: Props) => {
         setIs3dObjectloaded(true);
       }, 1000);
     }
+    //setTimeout need to show Loader text if glb is havy and need more then 5 seconds for loading
+    setTimeout(() => {
+      setIsLoadingText(true);
+    }, 5000);
   }, [ViewerWrapper]);
 
   return (
@@ -87,7 +92,12 @@ export const Modal = (props: Props) => {
           </>
         ) : (
           <div className="mfk-modal--loader">
-            <Loader />
+            <Loader type={2} />
+            {isLoadingText && (
+              <Text type="subtitle2">
+                3D Element is still loading, don't worry...
+              </Text>
+            )}
           </div>
         )}
       </div>
