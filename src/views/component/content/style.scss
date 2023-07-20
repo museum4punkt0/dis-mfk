@@ -63,6 +63,18 @@ $date-spacing: -$date-size - 10px;
       direction: rtl;
       .mfk-card--wrapper {
         margin-right: -8px;
+        @media screen and (min-width: (var.$mobile + 1)) {
+          &.mfk-type-text {
+            .mfk-card--title {
+              padding-right: 0;
+              padding-left: var.$spacing * 2.5;
+            }
+          }
+          .mfk-card--description {
+            direction: ltr;
+            text-align: right;
+          }
+        }
       }
     }
     &:hover {

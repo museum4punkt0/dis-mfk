@@ -4,83 +4,80 @@
     {
       "title": "Intro Text",
       "html": "<p>Die ersten Telefonapparate hatten keine Wählscheibe oder Tasten, sondern eine Kurbel. Mit ihr wurde die Vermittlungsstelle im Fernsprechamt angerufen, die die gewünschte Verbindung per Hand herstellte. Das entsprechende Verbindungsinstrument war der Klappenschrank.</p><br/><p><strong>Hersteller</strong>: Telephon-Apparate-Fabrik Franz Welles</p><p><strong>Jahr</strong>: 1886</p><p><strong>Maße</strong>: 58 x 175 x 54 cm</p><p><strong>Gewicht</strong>: 53 kg</p>",
-      "camera": "LookingAtPOIhistory000",
-      "sprite": "assets/sprite/1.svg"
+      "camera": "LookingAtPOIhistory000"
     },
     {
       "title": "Erfindungs- und Nutzungsgeschichte",
       "html": "<p>Mit der Eröffnung der ersten städtischen Telefonzentralen 1881 begann die Geschichte des öffentlichen Telefonbetriebs in Deutschland. Klappenschränke aus Telefonzentralen sind Zeugen aus der Anfangszeit der Telefonie.</p><div><img src='https://3d-objekte.museumsstiftung.de/app/images/klappschrank/1.Handvermittlung_in_Stettin_im_Jahr_1893.png' alt='1.Handvermittlung_in_Stettin_im_Jahr_1893.png'></div><p>Handvermittlung in Stettin im Jahr, Fotografie, 1893 © MSPT</p>",
-      "camera": "LookingAtPOIhistory001",
-      "sprite": "assets/sprite/2.svg"
+      "camera": "LookingAtPOIhistory001"
     },
     {
       "title": "",
       "html": "<p>In den Telefonzentralen nahmen Telefonist:innen die Gesprächswünsche an und stellten die Telefonverbindung manuell her. Ab 1889 kam vorwiegend weibliches Personal zum Einsatz. Die höherfrequenten Frauenstimmen waren unabhängig von der Leitungsqualität besser zu verstehen. Zudem zeigte sich, dass Frauen geduldiger und freundlicher mit den Anrufer:innen kommunizierten. Außerdem waren sie billiger, denn Frauen wurden schlechter bezahlt als Männer. Umgangssprachlich setzte sich der Begriff „Fräulein vom Amt“ als Bezeichnung durch, da die Frauen nicht nur jung und gebildet, sondern auch ledig sein mussten.</p><div><img src='https://3d-objekte.museumsstiftung.de/app/images/klappschrank/2.Postbeamtin_bei_der_Handvermittlung_von_Ferngesprächen.png' alt='2.Postbeamtin_bei_der_Handvermittlung_von_Ferngesprächen.png'></div><p>Postbeamtin bei der Handvermittlung von Ferngesprächen an einem Klappenschrank um 1900 © MSPT</p>",
-      "camera": "LookingAtPOIhistory002",
-      "sprite": "assets/sprite/3.svg"
+      "camera": "LookingAtPOIhistory002"
     },
     {
-      "title": "Technische Funktionsweise (Anrufklappe)",
+      "title": "1. Anrufklappe",
       "html": "<p>Um eine Telefonverbindung herzustellen, nimmt der/die Anrufer:in den Hörer des Telefons ab und dreht die am Telefon befindliche Kurbel. Der dadurch ausgelöste Stromfluss aktiviert den hinter der Anrufklappe verbauten Elektromagneten, der wiederum den Haltehaken der geschlossenen Anrufklappe anhebt. Die Klappe fällt herunter und zeigt der Telefonistin die Telefonnummer des/der Anrufenden an.</p>",
       "camera": "LookingAtPOI001",
       "sprite": "assets/sprite/1.svg"
     },
     {
-      "title": "Wecker",
+      "title": "2. Wecker",
       "html": "<p>Der Wecker dient als akustische Ergänzung der Anrufklappe, um der Telefonistin einen Gesprächswunsch zu signalisieren.</p>",
       "camera": "LookingAtPOI002",
       "sprite": "assets/sprite/2.svg"
     },
     {
-      "title": "Roter Abfragestöpsel",
+      "title": "3. Roter Abfragestöpsel",
       "html": "<p>Sobald die Telefonistin durch die heruntergefallene Anrufklappe den eingehenden Gesprächswunsch erkennt, stellt sie die Klappe wieder auf und verbindet den roten Abfragestöpsel mit dem Anschluss (der/des Anrufenden) im Stöpselbrett, der dieselbe Nummer hat wie die Anrufklappe. Nun zieht sie den Schalter zu sich in die vordere Position und kann über ihre Sprecheinrichtung nach dem Gesprächswunsch fragen.</p>",
       "camera": "LookingAtPOI003",
       "sprite": "assets/sprite/3.svg"
     },
     {
-      "title": "Stöpselbrett",
+      "title": "4. Stöpselbrett",
       "html": "<p>Auf dem Stöpselbrett befinden sich die Klinkenanschlüsse für die mit dem Klappenschrank verbundenen Anschlüsse. Die Nummern über den Klinkenanschlüssen beziehen sich auf die Telefonnummern hinter den Anrufklappen.</p>",
       "camera": "LookingAtPOI004",
       "sprite": "assets/sprite/4.svg"
     },
     {
-      "title": "Sprechtrichter",
+      "title": "5. Sprechtrichter",
       "html": "<p>Der Sprechtrichter bildet gemeinsam mit der Hörmuschel die Sprecheinrichtung. Über diese kann die Telefonistin je nach Position des Schalters sowohl den Gesprächswunsch entgegennehmen als auch den Anruf anmelden.</p>",
       "camera": "LookingAtPOI005",
       "sprite": "assets/sprite/5.svg"
     },
     {
-      "title": "Hörmuschel",
+      "title": "6. Hörmuschel",
       "html": "<p>Die Hörmuschel bildet gemeinsam mit dem Sprechtrichter die Sprecheinrichtung. Über diese kann die Telefonistin je nach Position des Schalters sowohl den Gesprächswunsch entgegennehmen als auch den Anruf anmelden.</p>",
       "camera": "LookingAtPOI006",
       "sprite": "assets/sprite/6.svg"
     },
     {
-      "title": "Schwarzer Verbindungsstöpsel",
+      "title": "7. Schwarzer Verbindungsstöpsel",
       "html": "<p>Die Telefonistin steckt den schwarzen Verbindungsstöpsel in den entsprechenden Klinkenanschluss des gewünschten Anschlusses im Stöpselbrett. Anschließend drückt sie den Schalter in Richtung Stöpselbrett in die hintere Position und betätigt mit der Kurbel den Induktorkasten. Dadurch klingelt der angerufene Telefonanschluss.</p>",
       "camera": "LookingAtPOI007",
       "sprite": "assets/sprite/7.svg"
     },
     {
-      "title": "Induktorkasten",
+      "title": "8. Induktorkasten",
       "html": "<p>Der mit einer Kurbel betriebene Induktor ist ein elektrischer Generator, mit dem die Telefonistin den angerufenen Telefonanschluss per Klingelzeichen über den Anrufwunsch informiert.</p>",
       "camera": "LookingAtPOI008",
       "sprite": "assets/sprite/8.svg"
     },
     {
-      "title": "Schalter",
+      "title": "9. Schalter",
       "html": "<p>Ein Schalter verfügt über drei Positionen. In der vorderen Position kann die Telefonistin mit den Anrufenden sprechen und die gewünschte Rufnummer erfragen. In der hinteren Position meldet sie den Anruf an. Steht der Schalter in der mittleren Position, ist die Verbindung hergestellt und Kommunikation möglich.</p>",
       "camera": "LookingAtPOI009",
       "sprite": "assets/sprite/9.svg"
     },
     {
-      "title": "Kontrollklappen",
+      "title": "10. Kontrollklappen",
       "html": "<p>Ist das Gespräch beendet, wird dies der Telefonistin angezeigt, indem die Kontrollklappe herunterfällt. Dies wird je nach Telefonmodell dadurch ausgelöst, dass der/die Anrufer:in den Kurbelinduktor erneut betätigt, oder den Telefonhörer auflegt. Anschließend werden die gesteckten Verbindungsstöpsel entfernt und von den Gewichten wieder in die Ausgangsstellung gezogen.</p>",
       "camera": "LookingAtPOI010",
       "sprite": "assets/sprite/10.svg"
     },
     {
-      "title": "Gewichte",
+      "title": "11. Gewichte",
       "html": "<p>Die Gewichte am Ende der Verbindungs- und Abfragestöpsel sorgen dafür, dass sich die Kabel nicht verheddern und die Verbindungsstöpsel wieder in die Ausgangsstellung gezogen werden.</p>",
       "camera": "LookingAtPOI011",
       "sprite": "assets/sprite/11.svg"
@@ -88,8 +85,7 @@
     {
       "title": "Gegenwartsbezug",
       "html": "<p>Vermittlungsstellen sind auch heute zum Telefonieren unerlässlich. Allerdings funktioniert die Vermittlung nicht mehr analog über Klappenschränke, sondern digital und voll automatisiert über Computer. Die Vermittlung läuft jedoch weiterhin über Kabelleitungen, zumeist Glasfasern, die vom Telefonanschluss bis zum Hauptverteiler laufen. Bei Smartphones dagegen werden die Funksignale verschlüsselt an antennenförmige Mobilfunkanlagen übertragen. Dort angekommen wird das Funksignal decodiert und über Kabel oder Radiowellen an Rechnerzentralen vermittelt. Anschließend wandert das Signal weiter und wird erneut über Mobilfunkanlagen an die Empfänger:innen ausgespielt. Diese unterschiedlichen Formen der Telefonie wirken sich auch auf die Alltagssprache aus. Bis zum Beginn des 21. Jh. wurde in der Regel schlicht vom „Telefonnetz“ gesprochen. Der Begriff „Festnetz“ hat sich erst als Abgrenzung zur kabellosen Mobiltelefonie etabliert.</p><div><img src='https://3d-objekte.museumsstiftung.de/app/images/klappschrank/3.Digitale_Fernsprechvermittlungsstelle.png' alt='3.Digitale_Fernsprechvermittlungsstelle.png'></div><p>Digitale Fernsprechvermittlungsstelle, SEL System 12, Alcatel SEL AG (1992 - 2006) © MSPT</p>",
-      "camera": "LookingAtPOIpresent001",
-      "sprite": "assets/sprite/1.svg"
+      "camera": "LookingAtPOIpresent001"
     }
   ],
   "chapters": [

@@ -4,53 +4,49 @@
     {
       "title": "Intro Text",
       "html": "<p>In Germany, inventor Paul Nipkow is regarded as the ‘father of television’. In 1884, he submitted a patent for his ‘electric telescope’ system to transmit moving images. His invention was based on the spiral-perforated disk named after him. The patent lapsed unused. It took another 40 years before the Nipkow disk transmitted moving pictures – as part of the Telehor, the first television system developed by Hungarian inventor Dénes von Mihály.</p><br/><p><strong>Accession number</strong>: 4.0.32565</p><p><strong>Manufacturer</strong>: Telehor AG, Berlin</p><p><strong>Year</strong>: 1928</p><p><strong>Measurements</strong>: 45 x 38 x 32.5 cm</p><p><strong>Weight</strong>: 10 kg</p>",
-      "camera": "LookingAtPOIhistory000",
-      "sprite": "assets/sprite/1.svg"
+      "camera": "LookingAtPOIhistory000"
     },
     {
       "title": "Erfindungs- und Nutzungsgeschichte???",
       "html": "<p>In 1883, Paul Nipkow was still a student when he had the ingenious idea of using a rotating perforated disk to divide a moving picture into a series of points, convert them into an electrical signal transmitted down a wire, and then reassemble the image in the receiver.</p><div><img src='https://3d-objekte.museumsstiftung.de/app/images/nipkow/1.Paul_Nipkow.png' alt='1.Paul_Nipkow.png'></div><p>Paul Nipkow © MSPT</p>",
-      "camera": "LookingAtPOIhistory001",
-      "sprite": "assets/sprite/2.svg"
+      "camera": "LookingAtPOIhistory001"
     },
     {
       "title": "",
       "html": "<p>In Berlin in 1928, Dénes von Mihály first presented his television to the public at the Fifth Great German Radio Exhibition. His Telehor applied the principle invented by Paul Nipkow in 1883. The image size was 2 x 3 cm, and even with a magnifying glass only 3 x 4.5 cm.</p><div><img src='https://3d-objekte.museumsstiftung.de/app/images/nipkow/2.Dénes_von_Mihály_vor_einem_Telehor-Empfänger.png' alt='2.Dénes_von_Mihály_vor_einem_Telehor-Empfänger.png'></div><p>Dénes von Mihály with a Telehor receiver at the Fifth Great German Radio Exhibition, 1928 © MSPT</p>",
-      "camera": "LookingAtPOIhistory002",
-      "sprite": "assets/sprite/3.svg"
+      "camera": "LookingAtPOIhistory002"
     },
     {
       "title": "",
       "html": "<p>In 1930, the TeKaDe company marketed a construction kit to build a ‘TELEHOR System’ receiver at home. The television could be connected to a radio set to receive test programmes broadcast by the Reichspost from the Funkturm Berlin transmitter or by the Baird Television Company in London.</p><div><img src='https://3d-objekte.museumsstiftung.de/app/images/nipkow/3.Fernsehbaukastensystem_Telehor.png' alt='3.Fernsehbaukastensystem_Telehor.png'></div><p>TeKaDe Telehor television construction kit © MSPT</p>",
-      "camera": "LookingAtPOIhistory003",
-      "sprite": "assets/sprite/4.svg"
+      "camera": "LookingAtPOIhistory003"
     },
     {
-      "title": "Nipkow disk ",
+      "title": "1. Nipkow disk ",
       "html": "<p>1. The TELEHOR television receiver could only show pictures recorded by a broadcaster also using a Nipkow disk system. As a rule, the pictures were produced and broadcast live from a television studio.</p><div><img src='https://3d-objekte.museumsstiftung.de/app/images/nipkow/4.Fernseh-Aufnahmeversuche_mit_Bildabtaster.png' alt='4.Fernseh-Aufnahmeversuche_mit_Bildabtaster.png'></div><p>Test television recording with an image dissector © MSPT</p><br/><p>2. The spiral-shaped holes in the rotating Nipkow disk dissected the original image into a series of individual horizontal lines comprising graduations of light and dark points.</p><div><img src='https://3d-objekte.museumsstiftung.de/app/images/nipkow/5.Zeitschriftenartikel_aus_dem_Jahr_1977.png' alt='5.Zeitschriftenartikel_aus_dem_Jahr_1977.png'></div><p>Newspaper article from 1977 showing the first television image broadcast in Germany © MSPT</p><br/><p>3. A photocell behind the disk transformed the lines of the image into electrical signals. The cells used such light-sensitive material as selenium, which created a varying electrical signal depending on the intensity of the light. These signals were then amplified and transmitted on a carrier wave.</p><br/><p>4. The signal was received by a radio connected to the TELEHOR. The lines of the image were reassembled using a neon glow lamp and a Nipkow disk. A picture consisted of 30 lines and the TELEHOR could show 12.5 pictures a second.</p>",
       "camera": "LookingAtPOI001",
       "sprite": "assets/sprite/1.svg"
     },
     {
-      "title": "Neon glow lamp",
+      "title": "2. Neon glow lamp",
       "html": "<p>The brightness of the neon glow lamp was regulated by the electrical strength of the signals received. The light was then projected through the perforations of the rotating Nipkow disk, reassembling the image line by line on the ground glass viewing lens.</p>",
       "camera": "LookingAtPOI002",
       "sprite": "assets/sprite/2.svg"
     },
     {
-      "title": "Neon lamp brightness control",
+      "title": "3. Neon lamp brightness control",
       "html": "<p>The brightness of the image could be regulated via a resistor.</p>",
       "camera": "LookingAtPOI003",
       "sprite": "assets/sprite/3.svg"
     },
     {
-      "title": "Phonic wheel",
+      "title": "4. Phonic wheel",
       "html": "<p>A phonic wheel unit made sure the Nipkow disk rotated at a constant speed. The two identically constructed phonic wheels in the transmitter and receiver rotated at exactly the same speed if they were in the same electrical grid, ensuring the stable transmission of the image. The disks needed to rotate so fast the eye could no longer distinguish the changes in the segments and lines.</p>",
       "camera": "LookingAtPOI004",
       "sprite": "assets/sprite/4.svg"
     },
     {
-      "title": "Phase synchronisation",
+      "title": "5. Phase synchronisation",
       "html": "<p>To show a clearly recognisable image, the same segment of a line had to be at the same place in both the transmitter and receiver at the same time. With this lever, you could synchronise the disk’s rotational phase and hence the segments.</p>",
       "camera": "LookingAtPOI005",
       "sprite": "assets/sprite/5.svg"
@@ -58,8 +54,7 @@
     {
       "title": "Communication today",
       "html": "<p>On the basis of such technical advances as the Telehor, television became one of the 20th century’s most important mass media, playing a major role in influencing social and political developments. At the time of Germany’s ‘economic miracle’ – the Wirtschaftswunder – in the 1950s and 1960s, the television’s popularity soared and it replaced radio as the leading medium. Thanks to its enormous reach, it had a significant influence on society. In the early 2000s, with the growth of streaming services and online media centres, traditional linear television with a fixed programme schedule steadily declined in importance. But rather than this development resulting in television forfeiting its role as a leading medium, it has gained in complexity and flexibility.</p>",
-      "camera": "LookingAtPOIpresent001",
-      "sprite": "assets/sprite/1.svg"
+      "camera": "LookingAtPOIpresent001"
     }
   ],
   "chapters": [

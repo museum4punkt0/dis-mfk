@@ -5,107 +5,101 @@
       "title": "Intro Text",
       "html": "<p>Die Rotor-Chiffriermaschine Enigma (von griech. „Rätsel“) M4 kam ab 1942 bei der deutschen Kriegsmarine zum Einsatz. Die Chiffriermaschine, die zur Kommunikation mit der U-Boot-Flotte eingesetzt wurde, war legendär und galt als unknackbar. Nach erheblichem Aufwand gelang es dem Team um den Briten Alan Turing schließlich, die Enigma M4 zu entschlüsseln. Dies hatte großen Einfluss auf den Ausgang des Zweiten Weltkriegs.</p><br/><p><strong>Jahr</strong>: 1944</p><p><strong>Maße</strong>: 28,5 x 35,5 x 16 cm</p><p><strong>Gewicht</strong>: 12 kg</p>",
       "camera": "LookingAtPOIhistory000",
-      "sprite": "assets/sprite/1.svg",
       "animations": ["All Animations_skeleton #12_1"]
     },
     {
       "title": "Erfindungs- und Nutzungsgeschichte",
       "html": "<p>Die Enigma wurde ab 1918 von dem Berliner Erfinder Arthur Scherbius entwickelt. Ab 1926 kam sie beim deutschen Militär zum Einsatz. Im Zweiten Weltkrieg wurden verschiedene Enigma-Modelle verwendet. Heer und Luftwaffe nutzten die Enigma I, die Marine zuerst die Enigma M3 und ab 1942 die Enigma M4. Sie galt als besonders sicher, da sie im Gegensatz zu den übrigen Enigma-Modellen über vier statt nur drei Rotoren verfügte. Dies erweiterte die Verschlüsselungskombinationen erheblich.</p><div><img src='https://3d-objekte.museumsstiftung.de/app/images/enigma/1.Generaloberst_Heinz_Wilhelm_Guderian.png' alt='1.Generaloberst_Heinz_Wilhelm_Guderian.png'></div><p>Generaloberst Heinz Wilhelm Guderian und Funker im Funkpanzerwagen mit der Enigma © MSPT</p>",
-      "camera": "LookingAtPOIhistory001",
-      "sprite": "assets/sprite/2.svg"
+      "camera": "LookingAtPOIhistory001"
     },
     {
       "title": "",
       "html": "<p>Seit Beginn des Krieges arbeitete der britische Geheimdienst an der Entschlüsselung der Enigma. Dabei kamen elektromechanische Maschinen zum Einsatz, die der Mathematiker Alan Turing nach Vorarbeit polnischer Experten entwickelte: die Turing-Bomben. Damit gelang es, die mit drei Walzen ausgestatteten Enigma-Modelle zu knacken, jedoch nicht die Enigma M4. Dies lag an der größeren Anzahl an Verschlüsselungskombinationen aufgrund der vier Walzen und der Verwendung spezieller Codebücher durch die deutsche Marine.</p><div><img src='https://3d-objekte.museumsstiftung.de/app/images/enigma/2.Fotografie_Reihe_von_Turing_Bomben_in_Bletchley_Park.png' alt='2.Fotografie_Reihe_von_Turing_Bomben_in_Bletchley_Park.png'></div><p>Fotografie einer Reihe von Turing-Bomben in Bletchley Park © MSPT</p>",
-      "camera": "LookingAtPOIhistory002",
-      "sprite": "assets/sprite/3.svg"
+      "camera": "LookingAtPOIhistory002"
     },
     {
       "title": "",
       "html": "<p>Erst als drei Soldaten der britischen Marine im Oktober 1942 Codebücher aus dem sinkenden deutschen U-Boot U 559 bargen und ab April 1943 zudem weiterentwickelte Hochgeschwindigkeitsvarianten der Turing-Bomben zum Einsatz kamen, machten die Entschlüsselungsbemühungen Fortschritte. Die letzten fehlenden Details kamen ans Licht, als das US-Militär im Juni 1944 ein deutsches U-Boot mitsamt Enigma M4 und geheimen Verfahrensanweisungen erbeutete.</p><div><img src='https://3d-objekte.museumsstiftung.de/app/images/enigma/3.Schlüsseltabelle_für_die_Enigma_Chiffrierung.png' alt='3.Schlüsseltabelle_für_die_Enigma_Chiffrierung.png'></div><p>Schlüsseltabelle für die Enigma-Chiffrierung © MSPT</p>",
-      "camera": "LookingAtPOIhistory003",
-      "sprite": "assets/sprite/4.svg"
+      "camera": "LookingAtPOIhistory003"
     },
     {
       "title": "",
       "html": "<p>Die Entschlüsselung der Enigma M4 war vor allem für die Optimierung der U-Boot-Abwehr der Alliierten relevant. Die Bedrohung durch eine der gefürchtetsten deutschen Waffen, die U-Boot-Flotte, wurde damit erheblich abgeschwächt.</p>",
-      "camera": "LookingAtPOIhistory004",
-      "sprite": "assets/sprite/5.svg"
+      "camera": "LookingAtPOIhistory004"
     },
     {
       "title": "",
       "html": "<p>Alan Turing, geboren 1912 in Großbritannien, gilt heute als einer der bedeutendsten Pioniere in der Computertechnik und Informatik. Im Zweiten Weltkrieg war er einer der führenden Köpfe, die für die streng geheime Station X des britischen Nachrichtendienstes G.C. & C.S. (Government Code and Cypher School) im englischen Bletchley Park die Chiffrierung deutscher Funksprüche entschlüsselten. Nach dem Krieg wurde Alan Turing aufgrund seiner damals in Großbritannien strafbaren Homosexualität zur chemischen Kastration verurteilt. Die aus dieser Behandlung resultierende Depression wird als Grund für seinen vermutlichen Selbstmord im Jahr 1954 angesehen. Erst 2009 hat sich der britische Premierminister Gordon Brown nach öffentlichem Druck erstmals offiziell im Namen der Regierung für die Verfolgung Turings entschuldigt und seinen Beitrag gewürdigt.</p><div><img src='https://3d-objekte.museumsstiftung.de/app/images/enigma/4.Fotografie_von_Alan_Turing_aus_dem_Jahr_1951.png' alt='4.Fotografie_von_Alan_Turing_aus_dem_Jahr_1951.png'></div><p>Fotografie von Alan Turing aus dem Jahr 1951 © MSPT</p>",
-      "camera": "LookingAtPOIhistory005",
-      "sprite": "assets/sprite/6.svg"
+      "camera": "LookingAtPOIhistory005"
     },
     {
-      "title": "Technische Funktionsweise (Tastatur)",
+      "title": "1. Tastatur",
       "html": "<p>Die Tastatur dient zur Eingabe des zu verschlüsselnden Klartextes. Das Drücken einer Taste löst einen Stromimpuls aus, der anschließend sowohl durch die Rotoren als auch das Steckerbrett läuft.</p>",
       "camera": "LookingAtPOI001",
       "sprite": "assets/sprite/1.svg"
     },
     {
-      "title": "Walzen",
+      "title": "2. Walzen",
       "html": "<p>1. Die rotierenden Walzen stellen das Kernelement der Enigma dar. Sie verfügen über eine komplexe innere Verdrahtung. Auf den Walzen befinden sich 26 sichtbare Buchstaben. Diese sind an den Längsseiten der Walzen elektrischen Kontakten zugeordnet.</p><br/><p>2. Die Grundeinstellung der verschiedenen Walzen ändert sich jeden Tag. Die Funker entnehmen diese Einstellung streng geheimen Codebüchern.</p><br/><p>3. Nachdem ein Buchstabe durch Betätigung der Tastatur verschlüsselt wurde, fließt Strom über die gedrückte Taste durch Steckerbrett und Walzensatz. Die Walzen rotieren automatisch. Da sich bei jedem Tastendruck die Walzen um ein Stück weiterdrehen, ändert sich das geheime Schlüsselalphabet nach jedem Buchstaben.</p>",
       "camera": "LookingAtPOI002",
       "sprite": "assets/sprite/2.svg"
     },
     {
-      "title": "Umkehrwalze",
+      "title": "3. Umkehrwalze",
       "html": "<p>Die Umkehrwalze ist nicht beweglich. In ihr wird der Strom, der durch die vier Walzen fließt, umgekehrt, sodass er die Walzen noch einmal durchläuft. Diese Funktion soll die Verschlüsselung der Enigma erhöhen, da so verhindert wird, dass ein Buchstabe mit sich selbst verschlüsselt wird. Tatsächlich reduziert sie aber die verfügbaren Verschlüsselungskombinationen und gilt heute als großer Schwachpunkt der Maschine.</p>",
       "camera": "LookingAtPOI003",
       "sprite": "assets/sprite/3.svg"
     },
     {
-      "title": "Steckerbrett",
+      "title": "4. Steckerbrett",
       "html": "<p>Das Steckerbrett soll durch eine zusätzliche Vertauschung der Buchstaben die kryptografische Sicherheit der Enigma erhöhen. Die Kabel werden gemäß den Anweisungen in den Codebüchern in den jeweiligen vorderen Anschluss gesteckt. Inspiriert sind diese Stecker von den Klappenschränken zur Handvermittlung von Telefonaten.</p>",
       "camera": "LookingAtPOI004",
       "sprite": "assets/sprite/4.svg"
     },
     {
-      "title": "Lampenfeld",
+      "title": "5. Lampenfeld",
       "html": "<p>Drückt man eine Buchstabentaste, so fließt Strom über die gedrückte Taste durch das Steckerbrett und lässt eine Anzeigelampe unter dem Buchstabenfeld aufleuchten. Der aufleuchtende Buchstabe entspricht der Verschlüsselung des gedrückten Buchstabens. Der Funker notiert diesen Buchstaben und gibt daraufhin den nächsten Buchstaben in die Tastatur ein.</p>",
       "camera": "LookingAtPOI005",
       "sprite": "assets/sprite/5.svg"
     },
     {
-      "title": "Batteriegehäuse",
+      "title": "6. Batteriegehäuse",
       "html": "<p>Den für die Chiffrierung der Enigma M4 erforderlichen Strom liefert eine Batterie, sodass das Gerät auch mobil nutzbar ist. Alternativ lässt sich eine externe Stromquelle anschließen.</p>",
       "camera": "LookingAtPOI006",
       "sprite": "assets/sprite/6.svg"
     },
     {
-      "title": "Anschluss für externe Stromversorgung",
+      "title": "7. Anschluss für externe Stromversorgung",
       "html": "<p>Bei stationärer Nutzung, zum Beispiel in einem U-Boot, erfolgt hier der Anschluss an eine externe Stromquelle.</p>",
       "camera": "LookingAtPOI007",
       "sprite": "assets/sprite/7.svg"
     },
     {
-      "title": "Typenschild",
+      "title": "8. Typenschild",
       "html": "<p>Auf dem Typenschild befinden sich die Fertigungszeichen der Enigma. Diese waren damals streng geheim, da es sich um ein militärisches Gerät handelte. Die ersten Ziffern „18311“ sind die Seriennummer. Das mittig zu sehende Kürzel „aye“ zeigt an, dass diese Maschine in der Olympia Büromaschinenwerke AG in Erfurt hergestellt wurde. Die letzten Ziffern „44“ geben das Produktionsjahr an.</p>",
       "camera": "LookingAtPOI008",
       "sprite": "assets/sprite/8.svg"
     },
     {
-      "title": "Anleitung",
+      "title": "9. Anleitung",
       "html": "<p>Die Anleitung enthält rudimentäre Hinweise zur Nutzung der Maschine.</p>",
       "camera": "LookingAtPOI009",
       "sprite": "assets/sprite/9.svg"
     },
     {
-      "title": "Ersatzkabel",
+      "title": "10.Ersatzkabel",
       "html": "<p>Aufbewahrung von Ersatzkabeln für das Steckerbrett.</p>",
       "camera": "LookingAtPOI010",
       "sprite": "assets/sprite/10.svg"
     },
     {
-      "title": "Kontrastfilter",
+      "title": "11. Kontrastfilter",
       "html": "<p>Bei hellem Tageslicht kann dieser Grünfilter über dem Lampenfeld platziert werden, um den Kontrast zu erhöhen und so die Sichtbarkeit zu verbessern.</p>",
       "camera": "LookingAtPOI011",
       "sprite": "assets/sprite/11.svg"
     },
     {
-      "title": "Marinestempel",
+      "title": "12. Marinestempel",
       "html": "<p>Stempel des deutschen Marineoberkommandos Norwegen.</p>",
       "camera": "LookingAtPOI012",
       "sprite": "assets/sprite/12.svg"
@@ -113,8 +107,7 @@
     {
       "title": "Gegenwartsbezug",
       "html": "<p>Damit die Turing-Bombe, die zum Knacken der Enigma eingesetzt wurde, rasch zu einem Ergebnis gelangte, wurden zuerst Wörter getestet, die das deutsche Militär häufig verwendete: „Oberkommando“ oder „Wetterbericht“. Sobald es gelungen war, eines dieser Wörter in einem Funkspruch zu entschlüsseln, ließen sich die dabei verwendeten Enigma-Einstellungen auf den Rest des Textes übertragen. Ähnlich arbeiten heute Hacker:innen: Sie sammeln Informationen über eine Person, zum Beispiel über deren Social-Media-Profil. Damit füttern sie Algorithmen und versuchen Passwörter zu knacken. Viele Menschen nutzen als Passwort immer noch Privates aus ihrem Alltag, sei es der Name des Fußballvereins, der Titel des Lieblingssongs oder der Hundename. Durch das Erraten dieser Passwortbestandteile können die Hacker:innen Passwörter schneller knacken.</p>",
-      "camera": "LookingAtPOIpresent001",
-      "sprite": "assets/sprite/1.svg"
+      "camera": "LookingAtPOIpresent001"
     }
   ],
   "chapters": [

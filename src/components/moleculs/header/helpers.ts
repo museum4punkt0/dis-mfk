@@ -1,8 +1,8 @@
 import { langType } from "types";
 
 export const langsData: { [key in langType]: string } = {
-  en: "English",
   de: "Deutsch",
+  en: "English",
   ge: "Einfache Sprache",
 };
 
