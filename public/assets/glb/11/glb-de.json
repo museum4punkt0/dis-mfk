@@ -4,7 +4,8 @@
     {
       "title": "Intro Text",
       "html": "<p>Die ersten Telefonapparate hatten keine Wählscheibe oder Tasten, sondern eine Kurbel. Mit ihr wurde die Vermittlungsstelle im Fernsprechamt angerufen, die die gewünschte Verbindung per Hand herstellte. Das entsprechende Verbindungsinstrument war der Klappenschrank.</p><br/><p><strong>Hersteller</strong>: Telephon-Apparate-Fabrik Franz Welles</p><p><strong>Jahr</strong>: 1886</p><p><strong>Maße</strong>: 58 x 175 x 54 cm</p><p><strong>Gewicht</strong>: 53 kg</p>",
-      "camera": "LookingAtPOIhistory000"
+      "camera": "LookingAtPOIhistory000",
+      "animations": ["Complete_animation_skeleton #12.003"]
     },
     {
       "title": "Erfindungs- und Nutzungsgeschichte",
@@ -20,25 +21,29 @@
       "title": "1. Anrufklappe",
       "html": "<p>Um eine Telefonverbindung herzustellen, nimmt der/die Anrufer:in den Hörer des Telefons ab und dreht die am Telefon befindliche Kurbel. Der dadurch ausgelöste Stromfluss aktiviert den hinter der Anrufklappe verbauten Elektromagneten, der wiederum den Haltehaken der geschlossenen Anrufklappe anhebt. Die Klappe fällt herunter und zeigt der Telefonistin die Telefonnummer des/der Anrufenden an.</p>",
       "camera": "LookingAtPOI001",
-      "sprite": "assets/sprite/1.svg"
+      "sprite": "assets/sprite/1.svg",
+      "animations": ["flap_open"]
     },
     {
       "title": "2. Wecker",
       "html": "<p>Der Wecker dient als akustische Ergänzung der Anrufklappe, um der Telefonistin einen Gesprächswunsch zu signalisieren.</p>",
       "camera": "LookingAtPOI002",
-      "sprite": "assets/sprite/2.svg"
+      "sprite": "assets/sprite/2.svg",
+      "animations": ["bellring"]
     },
     {
       "title": "3. Roter Abfragestöpsel",
       "html": "<p>Sobald die Telefonistin durch die heruntergefallene Anrufklappe den eingehenden Gesprächswunsch erkennt, stellt sie die Klappe wieder auf und verbindet den roten Abfragestöpsel mit dem Anschluss (der/des Anrufenden) im Stöpselbrett, der dieselbe Nummer hat wie die Anrufklappe. Nun zieht sie den Schalter zu sich in die vordere Position und kann über ihre Sprecheinrichtung nach dem Gesprächswunsch fragen.</p>",
       "camera": "LookingAtPOI003",
-      "sprite": "assets/sprite/3.svg"
+      "sprite": "assets/sprite/3.svg",
+      "animations": ["Red_wire_out"]
     },
     {
       "title": "4. Stöpselbrett",
       "html": "<p>Auf dem Stöpselbrett befinden sich die Klinkenanschlüsse für die mit dem Klappenschrank verbundenen Anschlüsse. Die Nummern über den Klinkenanschlüssen beziehen sich auf die Telefonnummern hinter den Anrufklappen.</p>",
       "camera": "LookingAtPOI004",
-      "sprite": "assets/sprite/4.svg"
+      "sprite": "assets/sprite/4.svg",
+      "animations": ["Red_wire_out"]
     },
     {
       "title": "5. Sprechtrichter",
@@ -50,37 +55,43 @@
       "title": "6. Hörmuschel",
       "html": "<p>Die Hörmuschel bildet gemeinsam mit dem Sprechtrichter die Sprecheinrichtung. Über diese kann die Telefonistin je nach Position des Schalters sowohl den Gesprächswunsch entgegennehmen als auch den Anruf anmelden.</p>",
       "camera": "LookingAtPOI006",
-      "sprite": "assets/sprite/6.svg"
+      "sprite": "assets/sprite/6.svg",
+      "animations": ["speaker_out"]
     },
     {
       "title": "7. Schwarzer Verbindungsstöpsel",
       "html": "<p>Die Telefonistin steckt den schwarzen Verbindungsstöpsel in den entsprechenden Klinkenanschluss des gewünschten Anschlusses im Stöpselbrett. Anschließend drückt sie den Schalter in Richtung Stöpselbrett in die hintere Position und betätigt mit der Kurbel den Induktorkasten. Dadurch klingelt der angerufene Telefonanschluss.</p>",
       "camera": "LookingAtPOI007",
-      "sprite": "assets/sprite/7.svg"
+      "sprite": "assets/sprite/7.svg",
+      "animations": ["black_wire_out"]
     },
     {
       "title": "8. Induktorkasten",
       "html": "<p>Der mit einer Kurbel betriebene Induktor ist ein elektrischer Generator, mit dem die Telefonistin den angerufenen Telefonanschluss per Klingelzeichen über den Anrufwunsch informiert.</p>",
       "camera": "LookingAtPOI008",
-      "sprite": "assets/sprite/8.svg"
+      "sprite": "assets/sprite/8.svg",
+      "animations": ["lever_rotate"]
     },
     {
       "title": "9. Schalter",
       "html": "<p>Ein Schalter verfügt über drei Positionen. In der vorderen Position kann die Telefonistin mit den Anrufenden sprechen und die gewünschte Rufnummer erfragen. In der hinteren Position meldet sie den Anruf an. Steht der Schalter in der mittleren Position, ist die Verbindung hergestellt und Kommunikation möglich.</p>",
       "camera": "LookingAtPOI009",
-      "sprite": "assets/sprite/9.svg"
+      "sprite": "assets/sprite/9.svg",
+      "animations": ["Complete_animation_switch1.002"]
     },
     {
       "title": "10. Kontrollklappen",
       "html": "<p>Ist das Gespräch beendet, wird dies der Telefonistin angezeigt, indem die Kontrollklappe herunterfällt. Dies wird je nach Telefonmodell dadurch ausgelöst, dass der/die Anrufer:in den Kurbelinduktor erneut betätigt, oder den Telefonhörer auflegt. Anschließend werden die gesteckten Verbindungsstöpsel entfernt und von den Gewichten wieder in die Ausgangsstellung gezogen.</p>",
       "camera": "LookingAtPOI010",
-      "sprite": "assets/sprite/10.svg"
+      "sprite": "assets/sprite/10.svg",
+      "animations": ["low_flap_open"]
     },
     {
       "title": "11. Gewichte",
       "html": "<p>Die Gewichte am Ende der Verbindungs- und Abfragestöpsel sorgen dafür, dass sich die Kabel nicht verheddern und die Verbindungsstöpsel wieder in die Ausgangsstellung gezogen werden.</p>",
       "camera": "LookingAtPOI011",
-      "sprite": "assets/sprite/11.svg"
+      "sprite": "assets/sprite/11.svg",
+      "animations": ["black_wire_out"]
     },
     {
       "title": "Gegenwartsbezug",

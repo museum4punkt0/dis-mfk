@@ -4,7 +4,8 @@
     {
       "title": "Intro Text",
       "html": "<p>Während das gedruckte oder geschriebene Wort immer wieder gelesen werden kann, ist das gesprochene Wort flüchtig. Um es aufzuzeichnen und wieder hörbar zu machen, brauchte es ein Gerät zur Speicherung von Schall und dessen Wiedergabe. Dies gelang Ende des 19. Jh. mit der Erfindung des Phonographen.</p><br/><p><strong>Hersteller</strong>: Alfred Költzow, Berlin</p><p><strong>Jahr</strong>: 1890</p><p><strong>Maße</strong>: 37 x 25 x 23 cm</p><p><strong>Gewicht</strong>: 9,7 kg</p>",
-      "camera": "LookingAtPOIhistory000"
+      "camera": "LookingAtPOIhistory000",
+      "animations": ["Complete_Animation"]
     },
     {
       "title": "Erfindungs- und Nutzungsgeschichte",
@@ -35,7 +36,8 @@
       "title": "1. Walze",
       "html": "<p>Speichermedium ist die mit Zinnfolie bezogene Walze. Wird sie über die Kurbel gedreht und zugleich in den Trichter gesprochen, erfolgt die Aufnahme der Tonspur als Tiefenschrift. Die Abspieldauer einer Walze betrug nur zwei Minuten, je nach Geschwindigkeit der Aufnahme. Oft wurden die Walzen mit persönlichen Grüßen als Geschenke an Verwandte und Freund:innen versendet. 1887 ersetzte Edison die Zinnfolien- durch eine Wachswalze. Dies verbesserte die Klangqualität erheblich und bewahrte die Walzen vor zu schneller Abnutzung.</p><div><img src='https://3d-objekte.museumsstiftung.de/app/images/zinngraphen/6.Zinnfolienphonograph_mit_Seitenansicht.png' alt='6.Zinnfolienphonograph_mit_Seitenansicht.png'></div><p>Zinnfolienphonograph mit Seitenansicht der Walze, nach Thomas Alva Edison, hergestellt von Edme Hardy, 1878, Paris © MSPT</p>",
       "camera": "LookingAtPOI001",
-      "sprite": "assets/sprite/1.svg"
+      "sprite": "assets/sprite/1.svg",
+      "animations": ["Complete_Animation"]
     },
     {
       "title": "2. Schalldose",

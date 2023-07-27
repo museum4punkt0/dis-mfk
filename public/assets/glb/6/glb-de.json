@@ -4,7 +4,12 @@
     {
       "title": "Intro Text",
       "html": "<p>Die Telegrafie nimmt in der Entwicklung der Kommunikationstechnologie einen besonderen Platz ein: Mit ihr wurde in der ersten Hälfte des 19. Jh. erstmals eine unkörperliche Kommunikation möglich. Statt wie bisher mit Boten oder Briefen wurden Nachrichten nun elektrisch übertragen. Basierend auf dem Morsecode erreichten Nachrichten ihre Empfänger:innen per Telegramm auf der ganzen Welt, und das innerhalb weniger Stunden.</p><br/><p><strong>Hersteller</strong>: Siemens & Halske oHG Telegraphenbauanstalt</p><p><strong>Jahr</strong>: 1850–1852</p><p><strong>Maße</strong>: 65 x 40 x 23,4 cm</p><p><strong>Gewicht</strong>: 10,96 kg</p><div><img src='https://3d-objekte.museumsstiftung.de/app/images/telegraph/1.1.Kupferstich_Bureau_du_télégraphe.png' alt='1.1.Kupferstich_Bureau_du_télégraphe.png'></div><p>Kupferstich „Bureau du télégraphe électrique; appareils de Morse“, um 1860 © MSPT</p>",
-      "camera": "LookingAtPOIhistory000"
+      "camera": "LookingAtPOIhistory000",
+      "animations": [
+        "keystroke",
+        "inkneedle-up-down",
+        "wheel-turn-paper-out_skeleton #8.002"
+      ]
     },
     {
       "title": "Erfindungs- und Nutzungsgeschichte",
@@ -30,25 +35,29 @@
       "title": "1. Morsetaster",
       "html": "<p>Mit dem Morsetaster lassen sich die in Kombinationen von langen und kurzen Signalen übersetzten Nachrichten per Druckausübung übertragen. Wird der Taster gedrückt, entsteht ein Stromkreis zwischen dem Gerät des Senders und dem des Empfängers. Je nach Dauer des Drückens entstehen so kurze oder lange Stromkreisverbindungen.</p><div><img src='https://3d-objekte.museumsstiftung.de/app/images/telegraph/6.In_einem_Telegraphenbüro_Holzstich.png' alt='6.In_einem_Telegraphenbüro_Holzstich.png'/></div><p>Holzstich „In einem Telegraphenbüro. Aufgabe der Depesche“, Verlag Otto Spamer, ca. 1848–1852 © MSPT</p>",
       "camera": "LookingAtPOI001",
-      "sprite": "assets/sprite/1.svg"
+      "sprite": "assets/sprite/1.svg",
+      "animations": ["keystroke"]
     },
     {
       "title": "2. Hebelanker",
       "html": "<p>Der durch Drücken des Morsetasters geschlossene Stromkreis erzeugt in dem Relais einen Stromimpuls. Dies führt zu einer magnetischen Anziehung der Eisenkerne (schwarze Zylinder am Ende des Hebelankers). Dadurch bewegt sich der Hebelanker im entsprechenden Rhythmus der eingehenden Signale des Senders auf und ab.</p>",
       "camera": "LookingAtPOI002",
-      "sprite": "assets/sprite/2.svg"
+      "sprite": "assets/sprite/2.svg",
+      "animations": ["inkneedle-up-down"]
     },
     {
       "title": "3. Prägestift",
       "html": "<p>Am anderen Ende des Hebelankers presst sich je nachdem, ob kurze oder lange Stromimpulse eingehen, der Prägestift auf den langsam durchlaufenden Papierstreifen und erzeugt so ein lesbares Relief, ähnlich einer Blindenschrift.</p>",
       "camera": "LookingAtPOI003",
-      "sprite": "assets/sprite/3.svg"
+      "sprite": "assets/sprite/3.svg",
+      "animations": ["inkneedle-up-down"]
     },
     {
       "title": "4. Papierstreifen",
       "html": "<p>Der Papierstreifen wird über ein Zahnrad durch ein fallendes Gewicht angetrieben, das an einer Kette befestigt ist, die über ein Kettenrad auf der Hauptantriebswelle läuft. Er bewegt sich gleichmäßig am Prägestift entlang. Wird der Stromkreis nur kurz geschlossen, entsteht hierauf ein Punkt. Ein Strich erscheint, wenn der Taster länger gedrückt wird.</p>",
       "camera": "LookingAtPOI004",
-      "sprite": "assets/sprite/4.svg"
+      "sprite": "assets/sprite/4.svg",
+      "animations": ["wheel-turn-paper-out_skeleton #8.002"]
     },
     {
       "title": "5. Flügelankerrelais",
