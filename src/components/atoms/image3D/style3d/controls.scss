@@ -33,8 +33,14 @@
       }
     }
     &:nth-child(3) {
-      background: url('./assets/eye.svg') no-repeat center/60%;
-      background-color: rgba(255,255,255, 0.9);
+      &.on {
+        background: url('./assets/eye.svg') no-repeat center/60%;
+        background-color: rgba(255,255,255, 0.9);
+      }
+      &.off {
+        background: url('./assets/eye-hide.svg') no-repeat center/60%;
+        background-color: rgba(255,255,255, 0.9);
+      }
     }
     &:last-child {
       background: url('./assets/restart.svg') no-repeat center/60%;
