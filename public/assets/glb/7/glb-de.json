@@ -4,7 +4,8 @@
     {
       "title": "Intro Text",
       "html": "<p>Auch wenn umstritten ist, wer letztlich als Erfinder des Telefons gelten darf, so hatte der deutsche Erfinder Philipp Reis (1834–1874) erheblichen Anteil an der Entwicklung. Ihm gelang es erstmals, eine funktionierende elektrische Fernsprechverbindung aufzubauen. Außerdem ist er der Schöpfer des Wortes „Telephon“ (griech. „ferne Stimme“, „ferner Klang“).</p><br/><p><strong>Hersteller</strong>: Philipp Reis</p><p><strong>Jahr</strong>: 1863</p><p><strong>Maße</strong>: 13 x 12 x 20 cm</p><p><strong>Gewicht</strong>: 0,25 kg</p>",
-      "camera": "LookingAtPOIhistory000"
+      "camera": "LookingAtPOIhistory000",
+      "animations": ["All Animations_skeleton #1"]
     },
     {
       "title": "Erfindungs- und Nutzungsgeschichte",
@@ -34,15 +35,15 @@
       "sprite": "assets/sprite/2.svg"
     },
     {
-      "title": "3. Platinkontakte",
-      "html": "<p>Das mittig auf der Membran befindliche Platinplättchen gerät durch deren Schwingungen in Bewegung und berührt dabei wiederholt den darüberliegenden Messingwinkel. Mittels eines Platinstreifens ist dieser Winkel mit einer Klemmschraube verbunden. Über diese besteht ein Stromkreis mit einer angeschlossenen Batterie, sodass die Platinkontakte die Vibrationen in Stromimpulse umwandeln, die je nach Druck der Schallwellen variieren. Die elektrischen Schwingungen werden über eine Leitung an den Empfänger weitergeleitet.</p>",
-      "camera": "LookingAtPOI003",
+      "title": "3. Empfänger mit Drahtspule",
+      "html": "<p>Der Empfänger wandelt die vom Geber eingehenden Stromimpulse in akustisch wahrnehmbare Signale um. Reis bezeichnete ihn daher als „Reproductionsapparat“ (Reproduktion = Wiederherstellung). Die unregelmäßigen Stromimpulse des Gebers fließen in die Spule. Das dabei entstehende Magnetfeld wirkt sich auf die in der Spule befindliche eiserne Stricknadel aus.</p>",
+      "camera": "LookingAtPOI004",
       "sprite": "assets/sprite/3.svg"
     },
     {
-      "title": "4. Empfänger mit Drahtspule",
-      "html": "<p>Der Empfänger wandelt die vom Geber eingehenden Stromimpulse in akustisch wahrnehmbare Signale um. Reis bezeichnete ihn daher als „Reproductionsapparat“ (Reproduktion = Wiederherstellung). Die unregelmäßigen Stromimpulse des Gebers fließen in die Spule. Das dabei entstehende Magnetfeld wirkt sich auf die in der Spule befindliche eiserne Stricknadel aus.</p>",
-      "camera": "LookingAtPOI004",
+      "title": "4. Platinkontakte",
+      "html": "<p>Das mittig auf der Membran befindliche Platinplättchen gerät durch deren Schwingungen in Bewegung und berührt dabei wiederholt den darüberliegenden Messingwinkel. Mittels eines Platinstreifens ist dieser Winkel mit einer Klemmschraube verbunden. Über diese besteht ein Stromkreis mit einer angeschlossenen Batterie, sodass die Platinkontakte die Vibrationen in Stromimpulse umwandeln, die je nach Druck der Schallwellen variieren. Die elektrischen Schwingungen werden über eine Leitung an den Empfänger weitergeleitet.</p>",
+      "camera": "LookingAtPOI003",
       "sprite": "assets/sprite/4.svg"
     },
     {

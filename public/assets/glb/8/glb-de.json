@@ -35,7 +35,8 @@
       "title": "1. Trichter",
       "html": "<p>Das Bell-Telefon dient gleichzeitig als Empfänger und Sender. Der Trichter ist also sowohl zum Sprechen als auch zum Hören. Das Gerät muss beim Gespräch zwischen Mund und Ohr hin- und hergewechselt werden.</p>",
       "camera": "LookingAtPOI001",
-      "sprite": "assets/sprite/1.svg"
+      "sprite": "assets/sprite/1.svg",
+      "animations": ["CurveAction", "Curve.002Action.001"]
     },
     {
       "title": "2. Eisenmembran",
@@ -44,15 +45,15 @@
       "sprite": "assets/sprite/2.svg"
     },
     {
-      "title": "3. Elektromagnet",
-      "html": "<p>Der Elektromagnet erzeugt ein Magnetfeld. Die Vibrationen der Eisenmembran beeinflussen dieses Magnetfeld und erzeugen so elektrische Schwingungen in der Spule.</p>",
-      "camera": "LookingAtPOI003",
+      "title": "3. Spule",
+      "html": "<p>Durch das veränderte Magnetfeld entstehen in der Spule elektrische Schwingungen. Diese werden über angeschlossene Kupferdrähte zu den Klemmschrauben weitergeleitet.</p>",
+      "camera": "LookingAtPOI004",
       "sprite": "assets/sprite/3.svg"
     },
     {
-      "title": "4. Spule",
-      "html": "<p>Durch das veränderte Magnetfeld entstehen in der Spule elektrische Schwingungen. Diese werden über angeschlossene Kupferdrähte zu den Klemmschrauben weitergeleitet.</p>",
-      "camera": "LookingAtPOI004",
+      "title": "4. Elektromagnet",
+      "html": "<p>Der Elektromagnet erzeugt ein Magnetfeld. Die Vibrationen der Eisenmembran beeinflussen dieses Magnetfeld und erzeugen so elektrische Schwingungen in der Spule.</p>",
+      "camera": "LookingAtPOI003",
       "sprite": "assets/sprite/4.svg"
     },
     {

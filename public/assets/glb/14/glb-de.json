@@ -4,7 +4,8 @@
     {
       "title": "Intro Text",
       "html": "<p>Der Erfinder Paul Nipkow gilt in Deutschland als „Vater des Fernsehens“. 1884 reichte er ein Patent auf ein System zur Übertragung bewegter Bilder ein, sein elektrisches Teleskop. Basis seiner Erfindung ist die nach ihm benannte spiralförmig gelochte Scheibe. Das Patent verfiel ungenutzt. Erst 40 Jahre später kam die Nipkow-Scheibe zur Anwendung: beim ersten Fernsehverfahren, dem Telehor, entwickelt von Dénes von Mihály.</p><br/><p><strong>Hersteller</strong>: Telehor AG, Berlin</p><p><strong>Jahr</strong>: 1928</p><p><strong>Maße</strong>: 45 x 38 x 32,5 cm</p><p><strong>Gewicht</strong>: 10 kg</p>",
-      "camera": "LookingAtPOIhistory000"
+      "camera": "LookingAtPOIhistory000",
+      "animations": ["lever_up", "disk_rotation"]
     },
     {
       "title": "Erfindungs- und Nutzungsgeschichte",
@@ -25,7 +26,8 @@
       "title": "1. Nipkow-Scheibe",
       "html": "<p>1. Damit der Fernsehempfänger „System TELEHOR“ Bilder zeigen kann, müssen diese zuvor von einem Sender, der ebenfalls über eine Nipkow-Scheibe verfügt, aufgenommen werden. In der Regel werden die Bilder live in einem Fernsehstudio produziert und gesendet.</p><div><img src='https://3d-objekte.museumsstiftung.de/app/images/nipkow/4.Fernseh-Aufnahmeversuche_mit_Bildabtaster.png' alt='4.Fernseh-Aufnahmeversuche_mit_Bildabtaster.png'></div><p>Fernseh-Aufnahmeversuche mit Bildabtaster © MSPT</p><br/><p>2. Durch die spiralförmigen Löcher der sich drehenden Nipkow-Scheibe wird das Ursprungsbild in einzelne horizontale Bildzeilen zerlegt, die aus hellen und dunklen Bildpunkten bestehen.</p><div><img src='https://3d-objekte.museumsstiftung.de/app/images/nipkow/5.Zeitschriftenartikel_aus_dem_Jahr_1977.png' alt='5.Zeitschriftenartikel_aus_dem_Jahr_1977.png'></div><p>Zeitschriftenartikel aus dem Jahr 1977 mit dem ersten Fernsehbild, das in Deutschland gesendet wurde © MSPT</p><br/><p>3. Eine Fotozelle hinter der Scheibe wandelt die Bildzeilen in elektrische Signale um. Dazu dienen lichtempfindliche Materialien wie Selen, die je nach Beleuchtung unterschiedliche elektrische Spannungen erzeugen. Diese Signale werden verstärkt und auf einer Trägerwelle ausgestrahlt.</p><br/><p>4. Ein an den TELEHOR angeschlossener Rundfunkempfänger empfängt die Signale. Mithilfe einer Flächenglimmlampe und einer Nipkow-Scheibe werden die Bildzeilen wieder zusammengesetzt. Ein Bild bestand aus 30 Zeilen, der TELEHOR zeigt 12,5 Bilder pro Sekunde.</p>",
       "camera": "LookingAtPOI001",
-      "sprite": "assets/sprite/1.svg"
+      "sprite": "assets/sprite/1.svg",
+      "animations": ["lever_up", "disk_rotation"]
     },
     {
       "title": "2. Flächenglimmlampe",
