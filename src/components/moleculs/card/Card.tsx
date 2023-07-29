@@ -22,7 +22,9 @@ export const Card = (props: CardType) => {
     >
       <div className="mfk-card--content">
         <div style={{ flex: 1 }}>
-          <Text type="caption">{date}</Text>
+          <Text type="caption" additionalClass="mfk-card--date">
+            {date}
+          </Text>
           <Text type="subtitle1" additionalClass="mfk-card--title">
             {title}
           </Text>

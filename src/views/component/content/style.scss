@@ -63,20 +63,20 @@ $date-spacing: -$date-size - 10px;
       direction: rtl;
       .mfk-card--wrapper {
         margin-right: -8px;
-        .mfk-card--title {
-          direction: ltr;
-          text-align: right;
-        }
         @media screen and (min-width: (var.$mobile + 1)) {
+          .mfk-card {
+            &--title,
+            &--date,
+            &--description {
+              direction: ltr;
+              text-align: right;
+            }
+          }
           &.mfk-type-text {
             .mfk-card--title {
               padding-right: 0;
               padding-left: var.$spacing * 2.5;
             }
-          }
-          .mfk-card--description {
-            direction: ltr;
-            text-align: right;
           }
         }
       }
