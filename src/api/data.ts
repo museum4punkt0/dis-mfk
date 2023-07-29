@@ -1,6 +1,6 @@
-import { mockDataType } from "types";
+import { apiDataType } from "types";
 
-const mockData: mockDataType = [
+const apiData: apiDataType = [
   {
     id: "1",
     type: 2,
@@ -11,10 +11,9 @@ const mockData: mockDataType = [
       ge: "Sotzmann-Globus",
     },
     description: {
-      en: `Sotzmann Globe shows the voyages of discovery complementing the European view of the
-        world.`,
-      de: `Sotzmann-Globus und die Vervollständigung des europäischen Weltbilds durch Schifffahrten`,
-      ge: `Sotzmann-Globus und die Vervollständigung des europäischen Weltbilds durch Schifffahrten`,
+      en: ``,
+      de: ``,
+      ge: ``,
     },
     glbJson: true,
   },
@@ -89,9 +88,9 @@ const mockData: mockDataType = [
       ge: "Telegrafenstation mit Stiftschreiber und Morsetaste",
     },
     description: {
-      en: `Telegraph station with Morse key and ink writer`,
-      de: `Telegrafenstation mit Stiftschreiber und Morsetaste`,
-      ge: `Telegrafenstation mit Stiftschreiber und Morsetaste`,
+      en: ``,
+      de: ``,
+      ge: ``,
     },
     glbJson: true,
   },
@@ -105,9 +104,9 @@ const mockData: mockDataType = [
       ge: "Telefon von Philipp Reis",
     },
     description: {
-      en: `Philipp Reis’s telephone`,
-      de: `Telefon von Philipp Reis`,
-      ge: `Telefon von Philipp Reis`,
+      en: ``,
+      de: ``,
+      ge: ``,
     },
     glbJson: true,
   },
@@ -121,9 +120,9 @@ const mockData: mockDataType = [
       ge: "Telefon von Alexander Graham Bell",
     },
     description: {
-      en: `Alexander Graham Bell’s telephone`,
-      de: `Telefon von Alexander Graham Bell`,
-      ge: `Telefon von Alexander Graham Bell`,
+      en: ``,
+      de: ``,
+      ge: ``,
     },
     glbJson: true,
   },
@@ -167,9 +166,9 @@ const mockData: mockDataType = [
       ge: "Klappenschrank für 100 Telefonanschlüsse",
     },
     description: {
-      en: `Switchboard for 100 telephone lines`,
-      de: `Klappenschrank für 100 Telefonanschlüsse`,
-      ge: `Klappenschrank für 100 Telefonanschlüsse`,
+      en: ``,
+      de: ``,
+      ge: ``,
     },
     glbJson: true,
   },
@@ -183,9 +182,9 @@ const mockData: mockDataType = [
       ge: "Zinnfolienphonograph nach Thomas Alva Edison",
     },
     description: {
-      en: `Tinfoil phonograph after Thomas Alva Edison`,
-      de: `Zinnfolienphonograph nach Thomas Alva Edison`,
-      ge: `Zinnfolienphonograph nach Thomas Alva Edison`,
+      en: ``,
+      de: ``,
+      ge: ``,
     },
     glbJson: true,
   },
@@ -199,9 +198,9 @@ const mockData: mockDataType = [
       ge: "Kabeldampfer „Stephan“",
     },
     description: {
-      en: `The Cable Steamship Stephan`,
-      de: `Kabeldampfer „Stephan“`,
-      ge: `Kabeldampfer „Stephan“`,
+      en: ``,
+      de: ``,
+      ge: ``,
     },
     glbJson: true,
   },
@@ -215,9 +214,9 @@ const mockData: mockDataType = [
       ge: "Fernsehempfänger mit Nipkow-Scheibe „Telehor“",
     },
     description: {
-      en: `Telehor television receiver with a Nipkow disc`,
-      de: `Fernsehempfänger mit Nipkow-Scheibe „Telehor“`,
-      ge: `Fernsehempfänger mit Nipkow-Scheibe „Telehor“`,
+      en: ``,
+      de: ``,
+      ge: ``,
     },
     glbJson: true,
   },
@@ -241,9 +240,9 @@ const mockData: mockDataType = [
     type: 1,
     startDate: "1941",
     title: {
-      en: "First computer.",
-      de: "Erster Computer.",
-      ge: "Erster Computer.",
+      en: "First computer",
+      de: "Erster Computer",
+      ge: "Erster Computer",
     },
     description: {
       en: `Konrad Zuse builds the first computer.`,
@@ -261,9 +260,9 @@ const mockData: mockDataType = [
       ge: "Rotor-Chiffriermaschine Enigma M4",
     },
     description: {
-      en: `Enigma M4 rotor cipher machine`,
-      de: `Rotor-Chiffriermaschine Enigma M4`,
-      ge: `Rotor-Chiffriermaschine Enigma M4`,
+      en: ``,
+      de: ``,
+      ge: ``,
     },
     glbJson: true,
   },
@@ -273,8 +272,8 @@ const mockData: mockDataType = [
     startDate: "1962",
     title: {
       en: "Communications satellites",
-      de: "Kommunikationssatteliten",
-      ge: "Kommunikationssatteliten",
+      de: "Kommunikationssatelliten",
+      ge: "Kommunikationssatelliten",
     },
     description: {
       en: `Die USA bringen den ersten Kommunikationssatelliten, mit dem Telefongespräche und
@@ -305,9 +304,9 @@ const mockData: mockDataType = [
     type: 1,
     startDate: "1971",
     title: {
-      en: "First email.",
-      de: "Erste E-Mail.",
-      ge: "Erste E-Mail.",
+      en: "First email",
+      de: "Erste E-Mail",
+      ge: "Erste E-Mail",
     },
     description: {
       en: `Ray Tomlinson sends the first email.`,
@@ -393,11 +392,11 @@ const mockData: mockDataType = [
   },
 ];
 
-export const getData = (): Promise<mockDataType> => {
+export const getData = (): Promise<apiDataType> => {
   return new Promise((resolve, reject) => {
     setTimeout(() => {
-      if (mockData) {
-        resolve(mockData);
+      if (apiData) {
+        resolve(apiData);
       } else {
         reject({ message: "Error" });
       }

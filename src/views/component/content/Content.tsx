@@ -2,7 +2,7 @@ import { useRef, useEffect } from "react";
 
 import { Card } from "components/moleculs";
 
-import { mockDataType, langType, ComponentProps } from "types";
+import { apiDataType, langType, ComponentProps } from "types";
 
 import { setDate } from "./helper";
 
@@ -12,7 +12,7 @@ type Props = {
   /**
    * data for timeline items
    */
-  data: mockDataType;
+  data: apiDataType;
   /**
    * current language
    */
@@ -69,7 +69,7 @@ export const Content = (props: Props) => {
                 onClickAction(true, {
                   data: item.glbJson
                     ? //each .glb file with information in related json should be located in separate folder.
-                      //folder name is the id of current object from mockData
+                      //folder name is the id of current object from apiData
                       `${item.id}/glb-${currentLang as langType}.json`
                     : undefined,
                   title: `${item.title[currentLang as langType]} (${setDate(

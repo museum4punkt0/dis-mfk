@@ -1,6 +1,6 @@
 export type langType = "en" | "de" | "ge";
 
-export type mockDataType = {
+export type apiDataType = {
   id: string;
   type: number;
   startDate: string;

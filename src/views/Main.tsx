@@ -6,8 +6,8 @@ import { Loader, Text } from "components/atoms";
 import { Header, Modal } from "components/moleculs";
 import { Landing, Content } from "./component";
 
-import { getData } from "api/mockData";
-import { mockDataType, langType } from "types";
+import { getData } from "api/data";
+import { apiDataType, langType } from "types";
 
 import "./style.scss";
 
@@ -15,7 +15,7 @@ export default function Main() {
   const { t } = useTranslation();
 
   const [currentLang, setCurrentLang] = useState(i18n.language as langType);
-  const [exhiditsData, setExhiditsData] = useState<mockDataType | null>(null);
+  const [exhiditsData, setExhiditsData] = useState<apiDataType | null>(null);
   const [showModal, setShowModal] = useState<boolean>(false);
   const [hideLanding, setHideLanding] = useState<boolean>(
     JSON.parse(localStorage.getItem("mfkVisit") || "false")
