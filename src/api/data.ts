@@ -225,9 +225,9 @@ const apiData: apiDataType = [
     type: 1,
     startDate: "1940",
     title: {
-      en: "Prototype colour television.",
-      de: "Prototyp des Farbfernsehers.",
-      ge: "Prototyp des Farbfernsehers.",
+      en: "Prototype colour television",
+      de: "Prototyp des Farbfernsehers",
+      ge: "Prototyp des Farbfernsehers",
     },
     description: {
       en: `Peter Goldmark develops a prototype colour television.`,
@@ -289,9 +289,9 @@ const apiData: apiDataType = [
     type: 1,
     startDate: "1970",
     title: {
-      en: "The first commercial pocket calculator appears on the market.",
-      de: "Der erste Taschenrechner kommt auf den Markt.",
-      ge: "Der erste Taschenrechner kommt auf den Markt.",
+      en: "The first commercial pocket calculator appears on the market",
+      de: "Der erste Taschenrechner kommt auf den Markt",
+      ge: "Der erste Taschenrechner kommt auf den Markt",
     },
     description: {
       en: `The first commercial pocket calculator appears on the market.`,
