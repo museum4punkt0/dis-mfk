@@ -67,10 +67,12 @@ die Objektspezifika berücksichtigt und aus dem Entwicklungsprozess heraus
 dokumentiert.
 
 ## Förderung
+Diese native Anwendung ist entstanden im Verbundprojekt museum4punkt0 – Digitale Strategien für das Museum der Zukunft,
+Teilprojekt "(De-)Coding Culture extended. Digitale Kompetenz in kulturellen Räumen". Das Projekt museum4punkt0 wird gefördert durch die Beauftragte der Bundesregierung für Kultur
+und Medien aufgrund eines Beschlusses des Deutschen Bundestages. Weitere Informationen:\
+www.museum4punkt0.de
 
-Das Projekt museum4punkt0 wird gefördert durch die Beauftragte der
-Bundesregierung für Kultur und Medien aufgrund eines Beschlusses des
-Deutschen Bundestages.
+![alt text](https://github.com/museum4punkt0/media_storage/blob/2c46af6cb625a2560f39b01ecb8c4c360733811c/BKM_Fz_2017_Web_de.gif) ![alt text](https://github.com/museum4punkt0/media_storage/blob/e87f37973c3d91e2762d74d51bed81de5026e06e/BKM_Neustart_Kultur_Wortmarke_pos_RGB_RZ_web.jpg)
 
 ## Credits
 
